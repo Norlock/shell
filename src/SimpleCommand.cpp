@@ -33,6 +33,27 @@ void SimpleCommand::execute() {
 	}
 	parmList[argumentsArraySize - 1] = NULL; 
 
+	for(std::vector<int>::size_type i = 0; i != redirects.size(); i++) {
+		int redirectType = redirects[i].getType();
+		std::string filePath = redirects[i].getNewFile();
+
+		std::cout << filePath << std::endl;
+
+		if(redirectType == IORedirect::OUTPUT) {
+			std::cout << "Is output" << std::endl; 
+
+		}
+		else if (redirectType == IORedirect::INPUT) {
+			std::cout << "Is output" << std::endl; 
+
+		}
+		else if (redirectType == IORedirect::APPEND) {
+			std::cout << "Is output" << std::endl; 
+
+		}
+		
+	}
+
 	pid_t pid;
 	if ((pid = fork()) == -1)
 		perror("fork() error");
