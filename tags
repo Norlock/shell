@@ -4,7 +4,7 @@
 !_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
 !_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
 !_TAG_PROGRAM_URL	https://ctags.io/	/official site/
-!_TAG_PROGRAM_VERSION	0.0.0	/30ce6ee7/
+!_TAG_PROGRAM_VERSION	0.0.0	/5010e849/
 $(VERBOSE).SILENT	Makefile	/^$(VERBOSE).SILENT:$/;"	t
 %.o	runtime/src/atn/Makefile	/^%.o: %.cpp$/;"	t
 ACTION	runtime/src/atn/Transition.h	/^      ACTION = 6,$/;"	e	enum:antlr4::atn::Transition::SerializationType

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/norlock/Projects/Shell
+CMAKE_SOURCE_DIR = /home/norlock/Projects/shell
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/norlock/Projects/Shell
+CMAKE_BINARY_DIR = /home/norlock/Projects/shell
 
 # Include any dependencies generated for this target.
 include CMakeFiles/shell.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/shell.dir/flags.make
 
 CMakeFiles/shell.dir/gen/ShellGrammarBaseVisitor.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/gen/ShellGrammarBaseVisitor.cpp.o: gen/ShellGrammarBaseVisitor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/shell.dir/gen/ShellGrammarBaseVisitor.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/gen/ShellGrammarBaseVisitor.cpp.o -c /home/norlock/Projects/Shell/gen/ShellGrammarBaseVisitor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/shell.dir/gen/ShellGrammarBaseVisitor.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/gen/ShellGrammarBaseVisitor.cpp.o -c /home/norlock/Projects/shell/gen/ShellGrammarBaseVisitor.cpp
 
 CMakeFiles/shell.dir/gen/ShellGrammarBaseVisitor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/gen/ShellGrammarBaseVisitor.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/gen/ShellGrammarBaseVisitor.cpp > CMakeFiles/shell.dir/gen/ShellGrammarBaseVisitor.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/gen/ShellGrammarBaseVisitor.cpp > CMakeFiles/shell.dir/gen/ShellGrammarBaseVisitor.cpp.i
 
 CMakeFiles/shell.dir/gen/ShellGrammarBaseVisitor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/gen/ShellGrammarBaseVisitor.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/gen/ShellGrammarBaseVisitor.cpp -o CMakeFiles/shell.dir/gen/ShellGrammarBaseVisitor.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/gen/ShellGrammarBaseVisitor.cpp -o CMakeFiles/shell.dir/gen/ShellGrammarBaseVisitor.cpp.s
 
 CMakeFiles/shell.dir/gen/ShellGrammarBaseVisitor.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/shell.dir/gen/ShellGrammarBaseVisitor.cpp.o.provides.build: CMakeFile
 
 CMakeFiles/shell.dir/gen/ShellGrammarLexer.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/gen/ShellGrammarLexer.cpp.o: gen/ShellGrammarLexer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/shell.dir/gen/ShellGrammarLexer.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/gen/ShellGrammarLexer.cpp.o -c /home/norlock/Projects/Shell/gen/ShellGrammarLexer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/shell.dir/gen/ShellGrammarLexer.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/gen/ShellGrammarLexer.cpp.o -c /home/norlock/Projects/shell/gen/ShellGrammarLexer.cpp
 
 CMakeFiles/shell.dir/gen/ShellGrammarLexer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/gen/ShellGrammarLexer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/gen/ShellGrammarLexer.cpp > CMakeFiles/shell.dir/gen/ShellGrammarLexer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/gen/ShellGrammarLexer.cpp > CMakeFiles/shell.dir/gen/ShellGrammarLexer.cpp.i
 
 CMakeFiles/shell.dir/gen/ShellGrammarLexer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/gen/ShellGrammarLexer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/gen/ShellGrammarLexer.cpp -o CMakeFiles/shell.dir/gen/ShellGrammarLexer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/gen/ShellGrammarLexer.cpp -o CMakeFiles/shell.dir/gen/ShellGrammarLexer.cpp.s
 
 CMakeFiles/shell.dir/gen/ShellGrammarLexer.cpp.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/shell.dir/gen/ShellGrammarLexer.cpp.o.provides.build: CMakeFiles/shel
 
 CMakeFiles/shell.dir/gen/ShellGrammarParser.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/gen/ShellGrammarParser.cpp.o: gen/ShellGrammarParser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/shell.dir/gen/ShellGrammarParser.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/gen/ShellGrammarParser.cpp.o -c /home/norlock/Projects/Shell/gen/ShellGrammarParser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/shell.dir/gen/ShellGrammarParser.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/gen/ShellGrammarParser.cpp.o -c /home/norlock/Projects/shell/gen/ShellGrammarParser.cpp
 
 CMakeFiles/shell.dir/gen/ShellGrammarParser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/gen/ShellGrammarParser.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/gen/ShellGrammarParser.cpp > CMakeFiles/shell.dir/gen/ShellGrammarParser.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/gen/ShellGrammarParser.cpp > CMakeFiles/shell.dir/gen/ShellGrammarParser.cpp.i
 
 CMakeFiles/shell.dir/gen/ShellGrammarParser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/gen/ShellGrammarParser.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/gen/ShellGrammarParser.cpp -o CMakeFiles/shell.dir/gen/ShellGrammarParser.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/gen/ShellGrammarParser.cpp -o CMakeFiles/shell.dir/gen/ShellGrammarParser.cpp.s
 
 CMakeFiles/shell.dir/gen/ShellGrammarParser.cpp.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/shell.dir/gen/ShellGrammarParser.cpp.o.provides.build: CMakeFiles/she
 
 CMakeFiles/shell.dir/gen/ShellGrammarVisitor.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/gen/ShellGrammarVisitor.cpp.o: gen/ShellGrammarVisitor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/shell.dir/gen/ShellGrammarVisitor.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/gen/ShellGrammarVisitor.cpp.o -c /home/norlock/Projects/Shell/gen/ShellGrammarVisitor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/shell.dir/gen/ShellGrammarVisitor.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/gen/ShellGrammarVisitor.cpp.o -c /home/norlock/Projects/shell/gen/ShellGrammarVisitor.cpp
 
 CMakeFiles/shell.dir/gen/ShellGrammarVisitor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/gen/ShellGrammarVisitor.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/gen/ShellGrammarVisitor.cpp > CMakeFiles/shell.dir/gen/ShellGrammarVisitor.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/gen/ShellGrammarVisitor.cpp > CMakeFiles/shell.dir/gen/ShellGrammarVisitor.cpp.i
 
 CMakeFiles/shell.dir/gen/ShellGrammarVisitor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/gen/ShellGrammarVisitor.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/gen/ShellGrammarVisitor.cpp -o CMakeFiles/shell.dir/gen/ShellGrammarVisitor.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/gen/ShellGrammarVisitor.cpp -o CMakeFiles/shell.dir/gen/ShellGrammarVisitor.cpp.s
 
 CMakeFiles/shell.dir/gen/ShellGrammarVisitor.cpp.o.requires:
 
@@ -155,16 +155,16 @@ CMakeFiles/shell.dir/gen/ShellGrammarVisitor.cpp.o.provides.build: CMakeFiles/sh
 
 CMakeFiles/shell.dir/src/main.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/src/main.cpp.o: src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/shell.dir/src/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/src/main.cpp.o -c /home/norlock/Projects/Shell/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/shell.dir/src/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/src/main.cpp.o -c /home/norlock/Projects/shell/src/main.cpp
 
 CMakeFiles/shell.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/src/main.cpp > CMakeFiles/shell.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/src/main.cpp > CMakeFiles/shell.dir/src/main.cpp.i
 
 CMakeFiles/shell.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/src/main.cpp -o CMakeFiles/shell.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/src/main.cpp -o CMakeFiles/shell.dir/src/main.cpp.s
 
 CMakeFiles/shell.dir/src/main.cpp.o.requires:
 
@@ -179,16 +179,16 @@ CMakeFiles/shell.dir/src/main.cpp.o.provides.build: CMakeFiles/shell.dir/src/mai
 
 CMakeFiles/shell.dir/src/CommandVisitor.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/src/CommandVisitor.cpp.o: src/CommandVisitor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/shell.dir/src/CommandVisitor.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/src/CommandVisitor.cpp.o -c /home/norlock/Projects/Shell/src/CommandVisitor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/shell.dir/src/CommandVisitor.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/src/CommandVisitor.cpp.o -c /home/norlock/Projects/shell/src/CommandVisitor.cpp
 
 CMakeFiles/shell.dir/src/CommandVisitor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/src/CommandVisitor.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/src/CommandVisitor.cpp > CMakeFiles/shell.dir/src/CommandVisitor.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/src/CommandVisitor.cpp > CMakeFiles/shell.dir/src/CommandVisitor.cpp.i
 
 CMakeFiles/shell.dir/src/CommandVisitor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/src/CommandVisitor.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/src/CommandVisitor.cpp -o CMakeFiles/shell.dir/src/CommandVisitor.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/src/CommandVisitor.cpp -o CMakeFiles/shell.dir/src/CommandVisitor.cpp.s
 
 CMakeFiles/shell.dir/src/CommandVisitor.cpp.o.requires:
 
@@ -203,16 +203,16 @@ CMakeFiles/shell.dir/src/CommandVisitor.cpp.o.provides.build: CMakeFiles/shell.d
 
 CMakeFiles/shell.dir/src/SimpleCommand.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/src/SimpleCommand.cpp.o: src/SimpleCommand.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/shell.dir/src/SimpleCommand.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/src/SimpleCommand.cpp.o -c /home/norlock/Projects/Shell/src/SimpleCommand.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/shell.dir/src/SimpleCommand.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/src/SimpleCommand.cpp.o -c /home/norlock/Projects/shell/src/SimpleCommand.cpp
 
 CMakeFiles/shell.dir/src/SimpleCommand.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/src/SimpleCommand.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/src/SimpleCommand.cpp > CMakeFiles/shell.dir/src/SimpleCommand.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/src/SimpleCommand.cpp > CMakeFiles/shell.dir/src/SimpleCommand.cpp.i
 
 CMakeFiles/shell.dir/src/SimpleCommand.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/src/SimpleCommand.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/src/SimpleCommand.cpp -o CMakeFiles/shell.dir/src/SimpleCommand.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/src/SimpleCommand.cpp -o CMakeFiles/shell.dir/src/SimpleCommand.cpp.s
 
 CMakeFiles/shell.dir/src/SimpleCommand.cpp.o.requires:
 
@@ -227,16 +227,16 @@ CMakeFiles/shell.dir/src/SimpleCommand.cpp.o.provides.build: CMakeFiles/shell.di
 
 CMakeFiles/shell.dir/src/Pipeline.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/src/Pipeline.cpp.o: src/Pipeline.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/shell.dir/src/Pipeline.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/src/Pipeline.cpp.o -c /home/norlock/Projects/Shell/src/Pipeline.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/shell.dir/src/Pipeline.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/src/Pipeline.cpp.o -c /home/norlock/Projects/shell/src/Pipeline.cpp
 
 CMakeFiles/shell.dir/src/Pipeline.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/src/Pipeline.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/src/Pipeline.cpp > CMakeFiles/shell.dir/src/Pipeline.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/src/Pipeline.cpp > CMakeFiles/shell.dir/src/Pipeline.cpp.i
 
 CMakeFiles/shell.dir/src/Pipeline.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/src/Pipeline.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/src/Pipeline.cpp -o CMakeFiles/shell.dir/src/Pipeline.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/src/Pipeline.cpp -o CMakeFiles/shell.dir/src/Pipeline.cpp.s
 
 CMakeFiles/shell.dir/src/Pipeline.cpp.o.requires:
 
@@ -251,16 +251,16 @@ CMakeFiles/shell.dir/src/Pipeline.cpp.o.provides.build: CMakeFiles/shell.dir/src
 
 CMakeFiles/shell.dir/src/Sequence.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/src/Sequence.cpp.o: src/Sequence.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/shell.dir/src/Sequence.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/src/Sequence.cpp.o -c /home/norlock/Projects/Shell/src/Sequence.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/shell.dir/src/Sequence.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/src/Sequence.cpp.o -c /home/norlock/Projects/shell/src/Sequence.cpp
 
 CMakeFiles/shell.dir/src/Sequence.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/src/Sequence.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/src/Sequence.cpp > CMakeFiles/shell.dir/src/Sequence.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/src/Sequence.cpp > CMakeFiles/shell.dir/src/Sequence.cpp.i
 
 CMakeFiles/shell.dir/src/Sequence.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/src/Sequence.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/src/Sequence.cpp -o CMakeFiles/shell.dir/src/Sequence.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/src/Sequence.cpp -o CMakeFiles/shell.dir/src/Sequence.cpp.s
 
 CMakeFiles/shell.dir/src/Sequence.cpp.o.requires:
 
@@ -275,16 +275,16 @@ CMakeFiles/shell.dir/src/Sequence.cpp.o.provides.build: CMakeFiles/shell.dir/src
 
 CMakeFiles/shell.dir/runtime/src/atn/AbstractPredicateTransition.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/atn/AbstractPredicateTransition.cpp.o: runtime/src/atn/AbstractPredicateTransition.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/AbstractPredicateTransition.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/AbstractPredicateTransition.cpp.o -c /home/norlock/Projects/Shell/runtime/src/atn/AbstractPredicateTransition.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/AbstractPredicateTransition.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/AbstractPredicateTransition.cpp.o -c /home/norlock/Projects/shell/runtime/src/atn/AbstractPredicateTransition.cpp
 
 CMakeFiles/shell.dir/runtime/src/atn/AbstractPredicateTransition.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/atn/AbstractPredicateTransition.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/atn/AbstractPredicateTransition.cpp > CMakeFiles/shell.dir/runtime/src/atn/AbstractPredicateTransition.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/atn/AbstractPredicateTransition.cpp > CMakeFiles/shell.dir/runtime/src/atn/AbstractPredicateTransition.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/atn/AbstractPredicateTransition.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/atn/AbstractPredicateTransition.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/atn/AbstractPredicateTransition.cpp -o CMakeFiles/shell.dir/runtime/src/atn/AbstractPredicateTransition.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/atn/AbstractPredicateTransition.cpp -o CMakeFiles/shell.dir/runtime/src/atn/AbstractPredicateTransition.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/atn/AbstractPredicateTransition.cpp.o.requires:
 
@@ -299,16 +299,16 @@ CMakeFiles/shell.dir/runtime/src/atn/AbstractPredicateTransition.cpp.o.provides.
 
 CMakeFiles/shell.dir/runtime/src/atn/ActionTransition.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/atn/ActionTransition.cpp.o: runtime/src/atn/ActionTransition.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/ActionTransition.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/ActionTransition.cpp.o -c /home/norlock/Projects/Shell/runtime/src/atn/ActionTransition.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/ActionTransition.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/ActionTransition.cpp.o -c /home/norlock/Projects/shell/runtime/src/atn/ActionTransition.cpp
 
 CMakeFiles/shell.dir/runtime/src/atn/ActionTransition.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/atn/ActionTransition.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/atn/ActionTransition.cpp > CMakeFiles/shell.dir/runtime/src/atn/ActionTransition.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/atn/ActionTransition.cpp > CMakeFiles/shell.dir/runtime/src/atn/ActionTransition.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/atn/ActionTransition.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/atn/ActionTransition.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/atn/ActionTransition.cpp -o CMakeFiles/shell.dir/runtime/src/atn/ActionTransition.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/atn/ActionTransition.cpp -o CMakeFiles/shell.dir/runtime/src/atn/ActionTransition.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/atn/ActionTransition.cpp.o.requires:
 
@@ -323,16 +323,16 @@ CMakeFiles/shell.dir/runtime/src/atn/ActionTransition.cpp.o.provides.build: CMak
 
 CMakeFiles/shell.dir/runtime/src/atn/AmbiguityInfo.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/atn/AmbiguityInfo.cpp.o: runtime/src/atn/AmbiguityInfo.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/AmbiguityInfo.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/AmbiguityInfo.cpp.o -c /home/norlock/Projects/Shell/runtime/src/atn/AmbiguityInfo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/AmbiguityInfo.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/AmbiguityInfo.cpp.o -c /home/norlock/Projects/shell/runtime/src/atn/AmbiguityInfo.cpp
 
 CMakeFiles/shell.dir/runtime/src/atn/AmbiguityInfo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/atn/AmbiguityInfo.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/atn/AmbiguityInfo.cpp > CMakeFiles/shell.dir/runtime/src/atn/AmbiguityInfo.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/atn/AmbiguityInfo.cpp > CMakeFiles/shell.dir/runtime/src/atn/AmbiguityInfo.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/atn/AmbiguityInfo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/atn/AmbiguityInfo.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/atn/AmbiguityInfo.cpp -o CMakeFiles/shell.dir/runtime/src/atn/AmbiguityInfo.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/atn/AmbiguityInfo.cpp -o CMakeFiles/shell.dir/runtime/src/atn/AmbiguityInfo.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/atn/AmbiguityInfo.cpp.o.requires:
 
@@ -347,16 +347,16 @@ CMakeFiles/shell.dir/runtime/src/atn/AmbiguityInfo.cpp.o.provides.build: CMakeFi
 
 CMakeFiles/shell.dir/runtime/src/atn/ArrayPredictionContext.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/atn/ArrayPredictionContext.cpp.o: runtime/src/atn/ArrayPredictionContext.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/ArrayPredictionContext.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/ArrayPredictionContext.cpp.o -c /home/norlock/Projects/Shell/runtime/src/atn/ArrayPredictionContext.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/ArrayPredictionContext.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/ArrayPredictionContext.cpp.o -c /home/norlock/Projects/shell/runtime/src/atn/ArrayPredictionContext.cpp
 
 CMakeFiles/shell.dir/runtime/src/atn/ArrayPredictionContext.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/atn/ArrayPredictionContext.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/atn/ArrayPredictionContext.cpp > CMakeFiles/shell.dir/runtime/src/atn/ArrayPredictionContext.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/atn/ArrayPredictionContext.cpp > CMakeFiles/shell.dir/runtime/src/atn/ArrayPredictionContext.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/atn/ArrayPredictionContext.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/atn/ArrayPredictionContext.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/atn/ArrayPredictionContext.cpp -o CMakeFiles/shell.dir/runtime/src/atn/ArrayPredictionContext.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/atn/ArrayPredictionContext.cpp -o CMakeFiles/shell.dir/runtime/src/atn/ArrayPredictionContext.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/atn/ArrayPredictionContext.cpp.o.requires:
 
@@ -371,16 +371,16 @@ CMakeFiles/shell.dir/runtime/src/atn/ArrayPredictionContext.cpp.o.provides.build
 
 CMakeFiles/shell.dir/runtime/src/atn/ATN.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/atn/ATN.cpp.o: runtime/src/atn/ATN.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/ATN.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/ATN.cpp.o -c /home/norlock/Projects/Shell/runtime/src/atn/ATN.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/ATN.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/ATN.cpp.o -c /home/norlock/Projects/shell/runtime/src/atn/ATN.cpp
 
 CMakeFiles/shell.dir/runtime/src/atn/ATN.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/atn/ATN.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/atn/ATN.cpp > CMakeFiles/shell.dir/runtime/src/atn/ATN.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/atn/ATN.cpp > CMakeFiles/shell.dir/runtime/src/atn/ATN.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/atn/ATN.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/atn/ATN.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/atn/ATN.cpp -o CMakeFiles/shell.dir/runtime/src/atn/ATN.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/atn/ATN.cpp -o CMakeFiles/shell.dir/runtime/src/atn/ATN.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/atn/ATN.cpp.o.requires:
 
@@ -395,16 +395,16 @@ CMakeFiles/shell.dir/runtime/src/atn/ATN.cpp.o.provides.build: CMakeFiles/shell.
 
 CMakeFiles/shell.dir/runtime/src/atn/ATNConfig.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/atn/ATNConfig.cpp.o: runtime/src/atn/ATNConfig.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/ATNConfig.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/ATNConfig.cpp.o -c /home/norlock/Projects/Shell/runtime/src/atn/ATNConfig.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/ATNConfig.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/ATNConfig.cpp.o -c /home/norlock/Projects/shell/runtime/src/atn/ATNConfig.cpp
 
 CMakeFiles/shell.dir/runtime/src/atn/ATNConfig.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/atn/ATNConfig.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/atn/ATNConfig.cpp > CMakeFiles/shell.dir/runtime/src/atn/ATNConfig.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/atn/ATNConfig.cpp > CMakeFiles/shell.dir/runtime/src/atn/ATNConfig.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/atn/ATNConfig.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/atn/ATNConfig.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/atn/ATNConfig.cpp -o CMakeFiles/shell.dir/runtime/src/atn/ATNConfig.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/atn/ATNConfig.cpp -o CMakeFiles/shell.dir/runtime/src/atn/ATNConfig.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/atn/ATNConfig.cpp.o.requires:
 
@@ -419,16 +419,16 @@ CMakeFiles/shell.dir/runtime/src/atn/ATNConfig.cpp.o.provides.build: CMakeFiles/
 
 CMakeFiles/shell.dir/runtime/src/atn/ATNConfigSet.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/atn/ATNConfigSet.cpp.o: runtime/src/atn/ATNConfigSet.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/ATNConfigSet.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/ATNConfigSet.cpp.o -c /home/norlock/Projects/Shell/runtime/src/atn/ATNConfigSet.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/ATNConfigSet.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/ATNConfigSet.cpp.o -c /home/norlock/Projects/shell/runtime/src/atn/ATNConfigSet.cpp
 
 CMakeFiles/shell.dir/runtime/src/atn/ATNConfigSet.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/atn/ATNConfigSet.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/atn/ATNConfigSet.cpp > CMakeFiles/shell.dir/runtime/src/atn/ATNConfigSet.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/atn/ATNConfigSet.cpp > CMakeFiles/shell.dir/runtime/src/atn/ATNConfigSet.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/atn/ATNConfigSet.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/atn/ATNConfigSet.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/atn/ATNConfigSet.cpp -o CMakeFiles/shell.dir/runtime/src/atn/ATNConfigSet.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/atn/ATNConfigSet.cpp -o CMakeFiles/shell.dir/runtime/src/atn/ATNConfigSet.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/atn/ATNConfigSet.cpp.o.requires:
 
@@ -443,16 +443,16 @@ CMakeFiles/shell.dir/runtime/src/atn/ATNConfigSet.cpp.o.provides.build: CMakeFil
 
 CMakeFiles/shell.dir/runtime/src/atn/ATNDeserializationOptions.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/atn/ATNDeserializationOptions.cpp.o: runtime/src/atn/ATNDeserializationOptions.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/ATNDeserializationOptions.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/ATNDeserializationOptions.cpp.o -c /home/norlock/Projects/Shell/runtime/src/atn/ATNDeserializationOptions.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/ATNDeserializationOptions.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/ATNDeserializationOptions.cpp.o -c /home/norlock/Projects/shell/runtime/src/atn/ATNDeserializationOptions.cpp
 
 CMakeFiles/shell.dir/runtime/src/atn/ATNDeserializationOptions.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/atn/ATNDeserializationOptions.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/atn/ATNDeserializationOptions.cpp > CMakeFiles/shell.dir/runtime/src/atn/ATNDeserializationOptions.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/atn/ATNDeserializationOptions.cpp > CMakeFiles/shell.dir/runtime/src/atn/ATNDeserializationOptions.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/atn/ATNDeserializationOptions.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/atn/ATNDeserializationOptions.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/atn/ATNDeserializationOptions.cpp -o CMakeFiles/shell.dir/runtime/src/atn/ATNDeserializationOptions.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/atn/ATNDeserializationOptions.cpp -o CMakeFiles/shell.dir/runtime/src/atn/ATNDeserializationOptions.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/atn/ATNDeserializationOptions.cpp.o.requires:
 
@@ -467,16 +467,16 @@ CMakeFiles/shell.dir/runtime/src/atn/ATNDeserializationOptions.cpp.o.provides.bu
 
 CMakeFiles/shell.dir/runtime/src/atn/ATNDeserializer.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/atn/ATNDeserializer.cpp.o: runtime/src/atn/ATNDeserializer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/ATNDeserializer.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/ATNDeserializer.cpp.o -c /home/norlock/Projects/Shell/runtime/src/atn/ATNDeserializer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/ATNDeserializer.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/ATNDeserializer.cpp.o -c /home/norlock/Projects/shell/runtime/src/atn/ATNDeserializer.cpp
 
 CMakeFiles/shell.dir/runtime/src/atn/ATNDeserializer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/atn/ATNDeserializer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/atn/ATNDeserializer.cpp > CMakeFiles/shell.dir/runtime/src/atn/ATNDeserializer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/atn/ATNDeserializer.cpp > CMakeFiles/shell.dir/runtime/src/atn/ATNDeserializer.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/atn/ATNDeserializer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/atn/ATNDeserializer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/atn/ATNDeserializer.cpp -o CMakeFiles/shell.dir/runtime/src/atn/ATNDeserializer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/atn/ATNDeserializer.cpp -o CMakeFiles/shell.dir/runtime/src/atn/ATNDeserializer.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/atn/ATNDeserializer.cpp.o.requires:
 
@@ -491,16 +491,16 @@ CMakeFiles/shell.dir/runtime/src/atn/ATNDeserializer.cpp.o.provides.build: CMake
 
 CMakeFiles/shell.dir/runtime/src/atn/ATNSerializer.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/atn/ATNSerializer.cpp.o: runtime/src/atn/ATNSerializer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/ATNSerializer.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/ATNSerializer.cpp.o -c /home/norlock/Projects/Shell/runtime/src/atn/ATNSerializer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/ATNSerializer.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/ATNSerializer.cpp.o -c /home/norlock/Projects/shell/runtime/src/atn/ATNSerializer.cpp
 
 CMakeFiles/shell.dir/runtime/src/atn/ATNSerializer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/atn/ATNSerializer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/atn/ATNSerializer.cpp > CMakeFiles/shell.dir/runtime/src/atn/ATNSerializer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/atn/ATNSerializer.cpp > CMakeFiles/shell.dir/runtime/src/atn/ATNSerializer.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/atn/ATNSerializer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/atn/ATNSerializer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/atn/ATNSerializer.cpp -o CMakeFiles/shell.dir/runtime/src/atn/ATNSerializer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/atn/ATNSerializer.cpp -o CMakeFiles/shell.dir/runtime/src/atn/ATNSerializer.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/atn/ATNSerializer.cpp.o.requires:
 
@@ -515,16 +515,16 @@ CMakeFiles/shell.dir/runtime/src/atn/ATNSerializer.cpp.o.provides.build: CMakeFi
 
 CMakeFiles/shell.dir/runtime/src/atn/ATNSimulator.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/atn/ATNSimulator.cpp.o: runtime/src/atn/ATNSimulator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/ATNSimulator.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/ATNSimulator.cpp.o -c /home/norlock/Projects/Shell/runtime/src/atn/ATNSimulator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/ATNSimulator.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/ATNSimulator.cpp.o -c /home/norlock/Projects/shell/runtime/src/atn/ATNSimulator.cpp
 
 CMakeFiles/shell.dir/runtime/src/atn/ATNSimulator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/atn/ATNSimulator.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/atn/ATNSimulator.cpp > CMakeFiles/shell.dir/runtime/src/atn/ATNSimulator.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/atn/ATNSimulator.cpp > CMakeFiles/shell.dir/runtime/src/atn/ATNSimulator.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/atn/ATNSimulator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/atn/ATNSimulator.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/atn/ATNSimulator.cpp -o CMakeFiles/shell.dir/runtime/src/atn/ATNSimulator.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/atn/ATNSimulator.cpp -o CMakeFiles/shell.dir/runtime/src/atn/ATNSimulator.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/atn/ATNSimulator.cpp.o.requires:
 
@@ -539,16 +539,16 @@ CMakeFiles/shell.dir/runtime/src/atn/ATNSimulator.cpp.o.provides.build: CMakeFil
 
 CMakeFiles/shell.dir/runtime/src/atn/ATNState.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/atn/ATNState.cpp.o: runtime/src/atn/ATNState.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/ATNState.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/ATNState.cpp.o -c /home/norlock/Projects/Shell/runtime/src/atn/ATNState.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/ATNState.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/ATNState.cpp.o -c /home/norlock/Projects/shell/runtime/src/atn/ATNState.cpp
 
 CMakeFiles/shell.dir/runtime/src/atn/ATNState.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/atn/ATNState.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/atn/ATNState.cpp > CMakeFiles/shell.dir/runtime/src/atn/ATNState.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/atn/ATNState.cpp > CMakeFiles/shell.dir/runtime/src/atn/ATNState.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/atn/ATNState.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/atn/ATNState.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/atn/ATNState.cpp -o CMakeFiles/shell.dir/runtime/src/atn/ATNState.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/atn/ATNState.cpp -o CMakeFiles/shell.dir/runtime/src/atn/ATNState.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/atn/ATNState.cpp.o.requires:
 
@@ -563,16 +563,16 @@ CMakeFiles/shell.dir/runtime/src/atn/ATNState.cpp.o.provides.build: CMakeFiles/s
 
 CMakeFiles/shell.dir/runtime/src/atn/AtomTransition.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/atn/AtomTransition.cpp.o: runtime/src/atn/AtomTransition.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/AtomTransition.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/AtomTransition.cpp.o -c /home/norlock/Projects/Shell/runtime/src/atn/AtomTransition.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/AtomTransition.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/AtomTransition.cpp.o -c /home/norlock/Projects/shell/runtime/src/atn/AtomTransition.cpp
 
 CMakeFiles/shell.dir/runtime/src/atn/AtomTransition.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/atn/AtomTransition.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/atn/AtomTransition.cpp > CMakeFiles/shell.dir/runtime/src/atn/AtomTransition.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/atn/AtomTransition.cpp > CMakeFiles/shell.dir/runtime/src/atn/AtomTransition.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/atn/AtomTransition.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/atn/AtomTransition.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/atn/AtomTransition.cpp -o CMakeFiles/shell.dir/runtime/src/atn/AtomTransition.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/atn/AtomTransition.cpp -o CMakeFiles/shell.dir/runtime/src/atn/AtomTransition.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/atn/AtomTransition.cpp.o.requires:
 
@@ -587,16 +587,16 @@ CMakeFiles/shell.dir/runtime/src/atn/AtomTransition.cpp.o.provides.build: CMakeF
 
 CMakeFiles/shell.dir/runtime/src/atn/BasicBlockStartState.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/atn/BasicBlockStartState.cpp.o: runtime/src/atn/BasicBlockStartState.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/BasicBlockStartState.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/BasicBlockStartState.cpp.o -c /home/norlock/Projects/Shell/runtime/src/atn/BasicBlockStartState.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/BasicBlockStartState.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/BasicBlockStartState.cpp.o -c /home/norlock/Projects/shell/runtime/src/atn/BasicBlockStartState.cpp
 
 CMakeFiles/shell.dir/runtime/src/atn/BasicBlockStartState.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/atn/BasicBlockStartState.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/atn/BasicBlockStartState.cpp > CMakeFiles/shell.dir/runtime/src/atn/BasicBlockStartState.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/atn/BasicBlockStartState.cpp > CMakeFiles/shell.dir/runtime/src/atn/BasicBlockStartState.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/atn/BasicBlockStartState.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/atn/BasicBlockStartState.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/atn/BasicBlockStartState.cpp -o CMakeFiles/shell.dir/runtime/src/atn/BasicBlockStartState.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/atn/BasicBlockStartState.cpp -o CMakeFiles/shell.dir/runtime/src/atn/BasicBlockStartState.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/atn/BasicBlockStartState.cpp.o.requires:
 
@@ -611,16 +611,16 @@ CMakeFiles/shell.dir/runtime/src/atn/BasicBlockStartState.cpp.o.provides.build: 
 
 CMakeFiles/shell.dir/runtime/src/atn/BasicState.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/atn/BasicState.cpp.o: runtime/src/atn/BasicState.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/BasicState.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/BasicState.cpp.o -c /home/norlock/Projects/Shell/runtime/src/atn/BasicState.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/BasicState.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/BasicState.cpp.o -c /home/norlock/Projects/shell/runtime/src/atn/BasicState.cpp
 
 CMakeFiles/shell.dir/runtime/src/atn/BasicState.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/atn/BasicState.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/atn/BasicState.cpp > CMakeFiles/shell.dir/runtime/src/atn/BasicState.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/atn/BasicState.cpp > CMakeFiles/shell.dir/runtime/src/atn/BasicState.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/atn/BasicState.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/atn/BasicState.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/atn/BasicState.cpp -o CMakeFiles/shell.dir/runtime/src/atn/BasicState.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/atn/BasicState.cpp -o CMakeFiles/shell.dir/runtime/src/atn/BasicState.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/atn/BasicState.cpp.o.requires:
 
@@ -635,16 +635,16 @@ CMakeFiles/shell.dir/runtime/src/atn/BasicState.cpp.o.provides.build: CMakeFiles
 
 CMakeFiles/shell.dir/runtime/src/atn/BlockEndState.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/atn/BlockEndState.cpp.o: runtime/src/atn/BlockEndState.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/BlockEndState.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/BlockEndState.cpp.o -c /home/norlock/Projects/Shell/runtime/src/atn/BlockEndState.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/BlockEndState.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/BlockEndState.cpp.o -c /home/norlock/Projects/shell/runtime/src/atn/BlockEndState.cpp
 
 CMakeFiles/shell.dir/runtime/src/atn/BlockEndState.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/atn/BlockEndState.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/atn/BlockEndState.cpp > CMakeFiles/shell.dir/runtime/src/atn/BlockEndState.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/atn/BlockEndState.cpp > CMakeFiles/shell.dir/runtime/src/atn/BlockEndState.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/atn/BlockEndState.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/atn/BlockEndState.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/atn/BlockEndState.cpp -o CMakeFiles/shell.dir/runtime/src/atn/BlockEndState.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/atn/BlockEndState.cpp -o CMakeFiles/shell.dir/runtime/src/atn/BlockEndState.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/atn/BlockEndState.cpp.o.requires:
 
@@ -659,16 +659,16 @@ CMakeFiles/shell.dir/runtime/src/atn/BlockEndState.cpp.o.provides.build: CMakeFi
 
 CMakeFiles/shell.dir/runtime/src/atn/BlockStartState.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/atn/BlockStartState.cpp.o: runtime/src/atn/BlockStartState.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/BlockStartState.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/BlockStartState.cpp.o -c /home/norlock/Projects/Shell/runtime/src/atn/BlockStartState.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/BlockStartState.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/BlockStartState.cpp.o -c /home/norlock/Projects/shell/runtime/src/atn/BlockStartState.cpp
 
 CMakeFiles/shell.dir/runtime/src/atn/BlockStartState.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/atn/BlockStartState.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/atn/BlockStartState.cpp > CMakeFiles/shell.dir/runtime/src/atn/BlockStartState.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/atn/BlockStartState.cpp > CMakeFiles/shell.dir/runtime/src/atn/BlockStartState.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/atn/BlockStartState.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/atn/BlockStartState.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/atn/BlockStartState.cpp -o CMakeFiles/shell.dir/runtime/src/atn/BlockStartState.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/atn/BlockStartState.cpp -o CMakeFiles/shell.dir/runtime/src/atn/BlockStartState.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/atn/BlockStartState.cpp.o.requires:
 
@@ -683,16 +683,16 @@ CMakeFiles/shell.dir/runtime/src/atn/BlockStartState.cpp.o.provides.build: CMake
 
 CMakeFiles/shell.dir/runtime/src/atn/ContextSensitivityInfo.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/atn/ContextSensitivityInfo.cpp.o: runtime/src/atn/ContextSensitivityInfo.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/ContextSensitivityInfo.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/ContextSensitivityInfo.cpp.o -c /home/norlock/Projects/Shell/runtime/src/atn/ContextSensitivityInfo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/ContextSensitivityInfo.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/ContextSensitivityInfo.cpp.o -c /home/norlock/Projects/shell/runtime/src/atn/ContextSensitivityInfo.cpp
 
 CMakeFiles/shell.dir/runtime/src/atn/ContextSensitivityInfo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/atn/ContextSensitivityInfo.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/atn/ContextSensitivityInfo.cpp > CMakeFiles/shell.dir/runtime/src/atn/ContextSensitivityInfo.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/atn/ContextSensitivityInfo.cpp > CMakeFiles/shell.dir/runtime/src/atn/ContextSensitivityInfo.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/atn/ContextSensitivityInfo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/atn/ContextSensitivityInfo.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/atn/ContextSensitivityInfo.cpp -o CMakeFiles/shell.dir/runtime/src/atn/ContextSensitivityInfo.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/atn/ContextSensitivityInfo.cpp -o CMakeFiles/shell.dir/runtime/src/atn/ContextSensitivityInfo.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/atn/ContextSensitivityInfo.cpp.o.requires:
 
@@ -707,16 +707,16 @@ CMakeFiles/shell.dir/runtime/src/atn/ContextSensitivityInfo.cpp.o.provides.build
 
 CMakeFiles/shell.dir/runtime/src/atn/DecisionEventInfo.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/atn/DecisionEventInfo.cpp.o: runtime/src/atn/DecisionEventInfo.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/DecisionEventInfo.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/DecisionEventInfo.cpp.o -c /home/norlock/Projects/Shell/runtime/src/atn/DecisionEventInfo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/DecisionEventInfo.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/DecisionEventInfo.cpp.o -c /home/norlock/Projects/shell/runtime/src/atn/DecisionEventInfo.cpp
 
 CMakeFiles/shell.dir/runtime/src/atn/DecisionEventInfo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/atn/DecisionEventInfo.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/atn/DecisionEventInfo.cpp > CMakeFiles/shell.dir/runtime/src/atn/DecisionEventInfo.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/atn/DecisionEventInfo.cpp > CMakeFiles/shell.dir/runtime/src/atn/DecisionEventInfo.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/atn/DecisionEventInfo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/atn/DecisionEventInfo.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/atn/DecisionEventInfo.cpp -o CMakeFiles/shell.dir/runtime/src/atn/DecisionEventInfo.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/atn/DecisionEventInfo.cpp -o CMakeFiles/shell.dir/runtime/src/atn/DecisionEventInfo.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/atn/DecisionEventInfo.cpp.o.requires:
 
@@ -731,16 +731,16 @@ CMakeFiles/shell.dir/runtime/src/atn/DecisionEventInfo.cpp.o.provides.build: CMa
 
 CMakeFiles/shell.dir/runtime/src/atn/DecisionInfo.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/atn/DecisionInfo.cpp.o: runtime/src/atn/DecisionInfo.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/DecisionInfo.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/DecisionInfo.cpp.o -c /home/norlock/Projects/Shell/runtime/src/atn/DecisionInfo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/DecisionInfo.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/DecisionInfo.cpp.o -c /home/norlock/Projects/shell/runtime/src/atn/DecisionInfo.cpp
 
 CMakeFiles/shell.dir/runtime/src/atn/DecisionInfo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/atn/DecisionInfo.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/atn/DecisionInfo.cpp > CMakeFiles/shell.dir/runtime/src/atn/DecisionInfo.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/atn/DecisionInfo.cpp > CMakeFiles/shell.dir/runtime/src/atn/DecisionInfo.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/atn/DecisionInfo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/atn/DecisionInfo.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/atn/DecisionInfo.cpp -o CMakeFiles/shell.dir/runtime/src/atn/DecisionInfo.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/atn/DecisionInfo.cpp -o CMakeFiles/shell.dir/runtime/src/atn/DecisionInfo.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/atn/DecisionInfo.cpp.o.requires:
 
@@ -755,16 +755,16 @@ CMakeFiles/shell.dir/runtime/src/atn/DecisionInfo.cpp.o.provides.build: CMakeFil
 
 CMakeFiles/shell.dir/runtime/src/atn/DecisionState.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/atn/DecisionState.cpp.o: runtime/src/atn/DecisionState.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/DecisionState.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/DecisionState.cpp.o -c /home/norlock/Projects/Shell/runtime/src/atn/DecisionState.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/DecisionState.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/DecisionState.cpp.o -c /home/norlock/Projects/shell/runtime/src/atn/DecisionState.cpp
 
 CMakeFiles/shell.dir/runtime/src/atn/DecisionState.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/atn/DecisionState.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/atn/DecisionState.cpp > CMakeFiles/shell.dir/runtime/src/atn/DecisionState.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/atn/DecisionState.cpp > CMakeFiles/shell.dir/runtime/src/atn/DecisionState.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/atn/DecisionState.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/atn/DecisionState.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/atn/DecisionState.cpp -o CMakeFiles/shell.dir/runtime/src/atn/DecisionState.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/atn/DecisionState.cpp -o CMakeFiles/shell.dir/runtime/src/atn/DecisionState.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/atn/DecisionState.cpp.o.requires:
 
@@ -779,16 +779,16 @@ CMakeFiles/shell.dir/runtime/src/atn/DecisionState.cpp.o.provides.build: CMakeFi
 
 CMakeFiles/shell.dir/runtime/src/atn/EmptyPredictionContext.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/atn/EmptyPredictionContext.cpp.o: runtime/src/atn/EmptyPredictionContext.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/EmptyPredictionContext.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/EmptyPredictionContext.cpp.o -c /home/norlock/Projects/Shell/runtime/src/atn/EmptyPredictionContext.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/EmptyPredictionContext.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/EmptyPredictionContext.cpp.o -c /home/norlock/Projects/shell/runtime/src/atn/EmptyPredictionContext.cpp
 
 CMakeFiles/shell.dir/runtime/src/atn/EmptyPredictionContext.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/atn/EmptyPredictionContext.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/atn/EmptyPredictionContext.cpp > CMakeFiles/shell.dir/runtime/src/atn/EmptyPredictionContext.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/atn/EmptyPredictionContext.cpp > CMakeFiles/shell.dir/runtime/src/atn/EmptyPredictionContext.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/atn/EmptyPredictionContext.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/atn/EmptyPredictionContext.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/atn/EmptyPredictionContext.cpp -o CMakeFiles/shell.dir/runtime/src/atn/EmptyPredictionContext.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/atn/EmptyPredictionContext.cpp -o CMakeFiles/shell.dir/runtime/src/atn/EmptyPredictionContext.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/atn/EmptyPredictionContext.cpp.o.requires:
 
@@ -803,16 +803,16 @@ CMakeFiles/shell.dir/runtime/src/atn/EmptyPredictionContext.cpp.o.provides.build
 
 CMakeFiles/shell.dir/runtime/src/atn/EpsilonTransition.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/atn/EpsilonTransition.cpp.o: runtime/src/atn/EpsilonTransition.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/EpsilonTransition.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/EpsilonTransition.cpp.o -c /home/norlock/Projects/Shell/runtime/src/atn/EpsilonTransition.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/EpsilonTransition.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/EpsilonTransition.cpp.o -c /home/norlock/Projects/shell/runtime/src/atn/EpsilonTransition.cpp
 
 CMakeFiles/shell.dir/runtime/src/atn/EpsilonTransition.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/atn/EpsilonTransition.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/atn/EpsilonTransition.cpp > CMakeFiles/shell.dir/runtime/src/atn/EpsilonTransition.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/atn/EpsilonTransition.cpp > CMakeFiles/shell.dir/runtime/src/atn/EpsilonTransition.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/atn/EpsilonTransition.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/atn/EpsilonTransition.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/atn/EpsilonTransition.cpp -o CMakeFiles/shell.dir/runtime/src/atn/EpsilonTransition.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/atn/EpsilonTransition.cpp -o CMakeFiles/shell.dir/runtime/src/atn/EpsilonTransition.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/atn/EpsilonTransition.cpp.o.requires:
 
@@ -827,16 +827,16 @@ CMakeFiles/shell.dir/runtime/src/atn/EpsilonTransition.cpp.o.provides.build: CMa
 
 CMakeFiles/shell.dir/runtime/src/atn/ErrorInfo.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/atn/ErrorInfo.cpp.o: runtime/src/atn/ErrorInfo.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/ErrorInfo.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/ErrorInfo.cpp.o -c /home/norlock/Projects/Shell/runtime/src/atn/ErrorInfo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/ErrorInfo.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/ErrorInfo.cpp.o -c /home/norlock/Projects/shell/runtime/src/atn/ErrorInfo.cpp
 
 CMakeFiles/shell.dir/runtime/src/atn/ErrorInfo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/atn/ErrorInfo.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/atn/ErrorInfo.cpp > CMakeFiles/shell.dir/runtime/src/atn/ErrorInfo.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/atn/ErrorInfo.cpp > CMakeFiles/shell.dir/runtime/src/atn/ErrorInfo.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/atn/ErrorInfo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/atn/ErrorInfo.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/atn/ErrorInfo.cpp -o CMakeFiles/shell.dir/runtime/src/atn/ErrorInfo.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/atn/ErrorInfo.cpp -o CMakeFiles/shell.dir/runtime/src/atn/ErrorInfo.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/atn/ErrorInfo.cpp.o.requires:
 
@@ -851,16 +851,16 @@ CMakeFiles/shell.dir/runtime/src/atn/ErrorInfo.cpp.o.provides.build: CMakeFiles/
 
 CMakeFiles/shell.dir/runtime/src/atn/LexerAction.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/atn/LexerAction.cpp.o: runtime/src/atn/LexerAction.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/LexerAction.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/LexerAction.cpp.o -c /home/norlock/Projects/Shell/runtime/src/atn/LexerAction.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/LexerAction.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/LexerAction.cpp.o -c /home/norlock/Projects/shell/runtime/src/atn/LexerAction.cpp
 
 CMakeFiles/shell.dir/runtime/src/atn/LexerAction.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/atn/LexerAction.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/atn/LexerAction.cpp > CMakeFiles/shell.dir/runtime/src/atn/LexerAction.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/atn/LexerAction.cpp > CMakeFiles/shell.dir/runtime/src/atn/LexerAction.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/atn/LexerAction.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/atn/LexerAction.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/atn/LexerAction.cpp -o CMakeFiles/shell.dir/runtime/src/atn/LexerAction.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/atn/LexerAction.cpp -o CMakeFiles/shell.dir/runtime/src/atn/LexerAction.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/atn/LexerAction.cpp.o.requires:
 
@@ -875,16 +875,16 @@ CMakeFiles/shell.dir/runtime/src/atn/LexerAction.cpp.o.provides.build: CMakeFile
 
 CMakeFiles/shell.dir/runtime/src/atn/LexerActionExecutor.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/atn/LexerActionExecutor.cpp.o: runtime/src/atn/LexerActionExecutor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/LexerActionExecutor.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/LexerActionExecutor.cpp.o -c /home/norlock/Projects/Shell/runtime/src/atn/LexerActionExecutor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/LexerActionExecutor.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/LexerActionExecutor.cpp.o -c /home/norlock/Projects/shell/runtime/src/atn/LexerActionExecutor.cpp
 
 CMakeFiles/shell.dir/runtime/src/atn/LexerActionExecutor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/atn/LexerActionExecutor.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/atn/LexerActionExecutor.cpp > CMakeFiles/shell.dir/runtime/src/atn/LexerActionExecutor.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/atn/LexerActionExecutor.cpp > CMakeFiles/shell.dir/runtime/src/atn/LexerActionExecutor.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/atn/LexerActionExecutor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/atn/LexerActionExecutor.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/atn/LexerActionExecutor.cpp -o CMakeFiles/shell.dir/runtime/src/atn/LexerActionExecutor.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/atn/LexerActionExecutor.cpp -o CMakeFiles/shell.dir/runtime/src/atn/LexerActionExecutor.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/atn/LexerActionExecutor.cpp.o.requires:
 
@@ -899,16 +899,16 @@ CMakeFiles/shell.dir/runtime/src/atn/LexerActionExecutor.cpp.o.provides.build: C
 
 CMakeFiles/shell.dir/runtime/src/atn/LexerATNConfig.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/atn/LexerATNConfig.cpp.o: runtime/src/atn/LexerATNConfig.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/LexerATNConfig.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/LexerATNConfig.cpp.o -c /home/norlock/Projects/Shell/runtime/src/atn/LexerATNConfig.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/LexerATNConfig.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/LexerATNConfig.cpp.o -c /home/norlock/Projects/shell/runtime/src/atn/LexerATNConfig.cpp
 
 CMakeFiles/shell.dir/runtime/src/atn/LexerATNConfig.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/atn/LexerATNConfig.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/atn/LexerATNConfig.cpp > CMakeFiles/shell.dir/runtime/src/atn/LexerATNConfig.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/atn/LexerATNConfig.cpp > CMakeFiles/shell.dir/runtime/src/atn/LexerATNConfig.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/atn/LexerATNConfig.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/atn/LexerATNConfig.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/atn/LexerATNConfig.cpp -o CMakeFiles/shell.dir/runtime/src/atn/LexerATNConfig.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/atn/LexerATNConfig.cpp -o CMakeFiles/shell.dir/runtime/src/atn/LexerATNConfig.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/atn/LexerATNConfig.cpp.o.requires:
 
@@ -923,16 +923,16 @@ CMakeFiles/shell.dir/runtime/src/atn/LexerATNConfig.cpp.o.provides.build: CMakeF
 
 CMakeFiles/shell.dir/runtime/src/atn/LexerATNSimulator.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/atn/LexerATNSimulator.cpp.o: runtime/src/atn/LexerATNSimulator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/LexerATNSimulator.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/LexerATNSimulator.cpp.o -c /home/norlock/Projects/Shell/runtime/src/atn/LexerATNSimulator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/LexerATNSimulator.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/LexerATNSimulator.cpp.o -c /home/norlock/Projects/shell/runtime/src/atn/LexerATNSimulator.cpp
 
 CMakeFiles/shell.dir/runtime/src/atn/LexerATNSimulator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/atn/LexerATNSimulator.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/atn/LexerATNSimulator.cpp > CMakeFiles/shell.dir/runtime/src/atn/LexerATNSimulator.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/atn/LexerATNSimulator.cpp > CMakeFiles/shell.dir/runtime/src/atn/LexerATNSimulator.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/atn/LexerATNSimulator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/atn/LexerATNSimulator.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/atn/LexerATNSimulator.cpp -o CMakeFiles/shell.dir/runtime/src/atn/LexerATNSimulator.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/atn/LexerATNSimulator.cpp -o CMakeFiles/shell.dir/runtime/src/atn/LexerATNSimulator.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/atn/LexerATNSimulator.cpp.o.requires:
 
@@ -947,16 +947,16 @@ CMakeFiles/shell.dir/runtime/src/atn/LexerATNSimulator.cpp.o.provides.build: CMa
 
 CMakeFiles/shell.dir/runtime/src/atn/LexerChannelAction.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/atn/LexerChannelAction.cpp.o: runtime/src/atn/LexerChannelAction.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/LexerChannelAction.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/LexerChannelAction.cpp.o -c /home/norlock/Projects/Shell/runtime/src/atn/LexerChannelAction.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/LexerChannelAction.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/LexerChannelAction.cpp.o -c /home/norlock/Projects/shell/runtime/src/atn/LexerChannelAction.cpp
 
 CMakeFiles/shell.dir/runtime/src/atn/LexerChannelAction.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/atn/LexerChannelAction.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/atn/LexerChannelAction.cpp > CMakeFiles/shell.dir/runtime/src/atn/LexerChannelAction.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/atn/LexerChannelAction.cpp > CMakeFiles/shell.dir/runtime/src/atn/LexerChannelAction.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/atn/LexerChannelAction.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/atn/LexerChannelAction.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/atn/LexerChannelAction.cpp -o CMakeFiles/shell.dir/runtime/src/atn/LexerChannelAction.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/atn/LexerChannelAction.cpp -o CMakeFiles/shell.dir/runtime/src/atn/LexerChannelAction.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/atn/LexerChannelAction.cpp.o.requires:
 
@@ -971,16 +971,16 @@ CMakeFiles/shell.dir/runtime/src/atn/LexerChannelAction.cpp.o.provides.build: CM
 
 CMakeFiles/shell.dir/runtime/src/atn/LexerCustomAction.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/atn/LexerCustomAction.cpp.o: runtime/src/atn/LexerCustomAction.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/LexerCustomAction.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/LexerCustomAction.cpp.o -c /home/norlock/Projects/Shell/runtime/src/atn/LexerCustomAction.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/LexerCustomAction.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/LexerCustomAction.cpp.o -c /home/norlock/Projects/shell/runtime/src/atn/LexerCustomAction.cpp
 
 CMakeFiles/shell.dir/runtime/src/atn/LexerCustomAction.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/atn/LexerCustomAction.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/atn/LexerCustomAction.cpp > CMakeFiles/shell.dir/runtime/src/atn/LexerCustomAction.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/atn/LexerCustomAction.cpp > CMakeFiles/shell.dir/runtime/src/atn/LexerCustomAction.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/atn/LexerCustomAction.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/atn/LexerCustomAction.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/atn/LexerCustomAction.cpp -o CMakeFiles/shell.dir/runtime/src/atn/LexerCustomAction.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/atn/LexerCustomAction.cpp -o CMakeFiles/shell.dir/runtime/src/atn/LexerCustomAction.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/atn/LexerCustomAction.cpp.o.requires:
 
@@ -995,16 +995,16 @@ CMakeFiles/shell.dir/runtime/src/atn/LexerCustomAction.cpp.o.provides.build: CMa
 
 CMakeFiles/shell.dir/runtime/src/atn/LexerIndexedCustomAction.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/atn/LexerIndexedCustomAction.cpp.o: runtime/src/atn/LexerIndexedCustomAction.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/LexerIndexedCustomAction.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/LexerIndexedCustomAction.cpp.o -c /home/norlock/Projects/Shell/runtime/src/atn/LexerIndexedCustomAction.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/LexerIndexedCustomAction.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/LexerIndexedCustomAction.cpp.o -c /home/norlock/Projects/shell/runtime/src/atn/LexerIndexedCustomAction.cpp
 
 CMakeFiles/shell.dir/runtime/src/atn/LexerIndexedCustomAction.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/atn/LexerIndexedCustomAction.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/atn/LexerIndexedCustomAction.cpp > CMakeFiles/shell.dir/runtime/src/atn/LexerIndexedCustomAction.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/atn/LexerIndexedCustomAction.cpp > CMakeFiles/shell.dir/runtime/src/atn/LexerIndexedCustomAction.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/atn/LexerIndexedCustomAction.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/atn/LexerIndexedCustomAction.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/atn/LexerIndexedCustomAction.cpp -o CMakeFiles/shell.dir/runtime/src/atn/LexerIndexedCustomAction.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/atn/LexerIndexedCustomAction.cpp -o CMakeFiles/shell.dir/runtime/src/atn/LexerIndexedCustomAction.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/atn/LexerIndexedCustomAction.cpp.o.requires:
 
@@ -1019,16 +1019,16 @@ CMakeFiles/shell.dir/runtime/src/atn/LexerIndexedCustomAction.cpp.o.provides.bui
 
 CMakeFiles/shell.dir/runtime/src/atn/LexerModeAction.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/atn/LexerModeAction.cpp.o: runtime/src/atn/LexerModeAction.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/LexerModeAction.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/LexerModeAction.cpp.o -c /home/norlock/Projects/Shell/runtime/src/atn/LexerModeAction.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/LexerModeAction.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/LexerModeAction.cpp.o -c /home/norlock/Projects/shell/runtime/src/atn/LexerModeAction.cpp
 
 CMakeFiles/shell.dir/runtime/src/atn/LexerModeAction.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/atn/LexerModeAction.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/atn/LexerModeAction.cpp > CMakeFiles/shell.dir/runtime/src/atn/LexerModeAction.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/atn/LexerModeAction.cpp > CMakeFiles/shell.dir/runtime/src/atn/LexerModeAction.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/atn/LexerModeAction.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/atn/LexerModeAction.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/atn/LexerModeAction.cpp -o CMakeFiles/shell.dir/runtime/src/atn/LexerModeAction.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/atn/LexerModeAction.cpp -o CMakeFiles/shell.dir/runtime/src/atn/LexerModeAction.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/atn/LexerModeAction.cpp.o.requires:
 
@@ -1043,16 +1043,16 @@ CMakeFiles/shell.dir/runtime/src/atn/LexerModeAction.cpp.o.provides.build: CMake
 
 CMakeFiles/shell.dir/runtime/src/atn/LexerMoreAction.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/atn/LexerMoreAction.cpp.o: runtime/src/atn/LexerMoreAction.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/LexerMoreAction.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/LexerMoreAction.cpp.o -c /home/norlock/Projects/Shell/runtime/src/atn/LexerMoreAction.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/LexerMoreAction.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/LexerMoreAction.cpp.o -c /home/norlock/Projects/shell/runtime/src/atn/LexerMoreAction.cpp
 
 CMakeFiles/shell.dir/runtime/src/atn/LexerMoreAction.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/atn/LexerMoreAction.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/atn/LexerMoreAction.cpp > CMakeFiles/shell.dir/runtime/src/atn/LexerMoreAction.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/atn/LexerMoreAction.cpp > CMakeFiles/shell.dir/runtime/src/atn/LexerMoreAction.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/atn/LexerMoreAction.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/atn/LexerMoreAction.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/atn/LexerMoreAction.cpp -o CMakeFiles/shell.dir/runtime/src/atn/LexerMoreAction.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/atn/LexerMoreAction.cpp -o CMakeFiles/shell.dir/runtime/src/atn/LexerMoreAction.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/atn/LexerMoreAction.cpp.o.requires:
 
@@ -1067,16 +1067,16 @@ CMakeFiles/shell.dir/runtime/src/atn/LexerMoreAction.cpp.o.provides.build: CMake
 
 CMakeFiles/shell.dir/runtime/src/atn/LexerPopModeAction.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/atn/LexerPopModeAction.cpp.o: runtime/src/atn/LexerPopModeAction.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/LexerPopModeAction.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/LexerPopModeAction.cpp.o -c /home/norlock/Projects/Shell/runtime/src/atn/LexerPopModeAction.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/LexerPopModeAction.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/LexerPopModeAction.cpp.o -c /home/norlock/Projects/shell/runtime/src/atn/LexerPopModeAction.cpp
 
 CMakeFiles/shell.dir/runtime/src/atn/LexerPopModeAction.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/atn/LexerPopModeAction.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/atn/LexerPopModeAction.cpp > CMakeFiles/shell.dir/runtime/src/atn/LexerPopModeAction.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/atn/LexerPopModeAction.cpp > CMakeFiles/shell.dir/runtime/src/atn/LexerPopModeAction.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/atn/LexerPopModeAction.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/atn/LexerPopModeAction.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/atn/LexerPopModeAction.cpp -o CMakeFiles/shell.dir/runtime/src/atn/LexerPopModeAction.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/atn/LexerPopModeAction.cpp -o CMakeFiles/shell.dir/runtime/src/atn/LexerPopModeAction.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/atn/LexerPopModeAction.cpp.o.requires:
 
@@ -1091,16 +1091,16 @@ CMakeFiles/shell.dir/runtime/src/atn/LexerPopModeAction.cpp.o.provides.build: CM
 
 CMakeFiles/shell.dir/runtime/src/atn/LexerPushModeAction.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/atn/LexerPushModeAction.cpp.o: runtime/src/atn/LexerPushModeAction.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/LexerPushModeAction.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/LexerPushModeAction.cpp.o -c /home/norlock/Projects/Shell/runtime/src/atn/LexerPushModeAction.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/LexerPushModeAction.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/LexerPushModeAction.cpp.o -c /home/norlock/Projects/shell/runtime/src/atn/LexerPushModeAction.cpp
 
 CMakeFiles/shell.dir/runtime/src/atn/LexerPushModeAction.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/atn/LexerPushModeAction.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/atn/LexerPushModeAction.cpp > CMakeFiles/shell.dir/runtime/src/atn/LexerPushModeAction.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/atn/LexerPushModeAction.cpp > CMakeFiles/shell.dir/runtime/src/atn/LexerPushModeAction.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/atn/LexerPushModeAction.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/atn/LexerPushModeAction.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/atn/LexerPushModeAction.cpp -o CMakeFiles/shell.dir/runtime/src/atn/LexerPushModeAction.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/atn/LexerPushModeAction.cpp -o CMakeFiles/shell.dir/runtime/src/atn/LexerPushModeAction.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/atn/LexerPushModeAction.cpp.o.requires:
 
@@ -1115,16 +1115,16 @@ CMakeFiles/shell.dir/runtime/src/atn/LexerPushModeAction.cpp.o.provides.build: C
 
 CMakeFiles/shell.dir/runtime/src/atn/LexerSkipAction.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/atn/LexerSkipAction.cpp.o: runtime/src/atn/LexerSkipAction.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/LexerSkipAction.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/LexerSkipAction.cpp.o -c /home/norlock/Projects/Shell/runtime/src/atn/LexerSkipAction.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/LexerSkipAction.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/LexerSkipAction.cpp.o -c /home/norlock/Projects/shell/runtime/src/atn/LexerSkipAction.cpp
 
 CMakeFiles/shell.dir/runtime/src/atn/LexerSkipAction.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/atn/LexerSkipAction.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/atn/LexerSkipAction.cpp > CMakeFiles/shell.dir/runtime/src/atn/LexerSkipAction.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/atn/LexerSkipAction.cpp > CMakeFiles/shell.dir/runtime/src/atn/LexerSkipAction.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/atn/LexerSkipAction.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/atn/LexerSkipAction.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/atn/LexerSkipAction.cpp -o CMakeFiles/shell.dir/runtime/src/atn/LexerSkipAction.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/atn/LexerSkipAction.cpp -o CMakeFiles/shell.dir/runtime/src/atn/LexerSkipAction.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/atn/LexerSkipAction.cpp.o.requires:
 
@@ -1139,16 +1139,16 @@ CMakeFiles/shell.dir/runtime/src/atn/LexerSkipAction.cpp.o.provides.build: CMake
 
 CMakeFiles/shell.dir/runtime/src/atn/LexerTypeAction.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/atn/LexerTypeAction.cpp.o: runtime/src/atn/LexerTypeAction.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/LexerTypeAction.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/LexerTypeAction.cpp.o -c /home/norlock/Projects/Shell/runtime/src/atn/LexerTypeAction.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/LexerTypeAction.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/LexerTypeAction.cpp.o -c /home/norlock/Projects/shell/runtime/src/atn/LexerTypeAction.cpp
 
 CMakeFiles/shell.dir/runtime/src/atn/LexerTypeAction.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/atn/LexerTypeAction.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/atn/LexerTypeAction.cpp > CMakeFiles/shell.dir/runtime/src/atn/LexerTypeAction.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/atn/LexerTypeAction.cpp > CMakeFiles/shell.dir/runtime/src/atn/LexerTypeAction.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/atn/LexerTypeAction.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/atn/LexerTypeAction.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/atn/LexerTypeAction.cpp -o CMakeFiles/shell.dir/runtime/src/atn/LexerTypeAction.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/atn/LexerTypeAction.cpp -o CMakeFiles/shell.dir/runtime/src/atn/LexerTypeAction.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/atn/LexerTypeAction.cpp.o.requires:
 
@@ -1163,16 +1163,16 @@ CMakeFiles/shell.dir/runtime/src/atn/LexerTypeAction.cpp.o.provides.build: CMake
 
 CMakeFiles/shell.dir/runtime/src/atn/LL1Analyzer.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/atn/LL1Analyzer.cpp.o: runtime/src/atn/LL1Analyzer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/LL1Analyzer.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/LL1Analyzer.cpp.o -c /home/norlock/Projects/Shell/runtime/src/atn/LL1Analyzer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/LL1Analyzer.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/LL1Analyzer.cpp.o -c /home/norlock/Projects/shell/runtime/src/atn/LL1Analyzer.cpp
 
 CMakeFiles/shell.dir/runtime/src/atn/LL1Analyzer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/atn/LL1Analyzer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/atn/LL1Analyzer.cpp > CMakeFiles/shell.dir/runtime/src/atn/LL1Analyzer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/atn/LL1Analyzer.cpp > CMakeFiles/shell.dir/runtime/src/atn/LL1Analyzer.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/atn/LL1Analyzer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/atn/LL1Analyzer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/atn/LL1Analyzer.cpp -o CMakeFiles/shell.dir/runtime/src/atn/LL1Analyzer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/atn/LL1Analyzer.cpp -o CMakeFiles/shell.dir/runtime/src/atn/LL1Analyzer.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/atn/LL1Analyzer.cpp.o.requires:
 
@@ -1187,16 +1187,16 @@ CMakeFiles/shell.dir/runtime/src/atn/LL1Analyzer.cpp.o.provides.build: CMakeFile
 
 CMakeFiles/shell.dir/runtime/src/atn/LookaheadEventInfo.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/atn/LookaheadEventInfo.cpp.o: runtime/src/atn/LookaheadEventInfo.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/LookaheadEventInfo.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/LookaheadEventInfo.cpp.o -c /home/norlock/Projects/Shell/runtime/src/atn/LookaheadEventInfo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/LookaheadEventInfo.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/LookaheadEventInfo.cpp.o -c /home/norlock/Projects/shell/runtime/src/atn/LookaheadEventInfo.cpp
 
 CMakeFiles/shell.dir/runtime/src/atn/LookaheadEventInfo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/atn/LookaheadEventInfo.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/atn/LookaheadEventInfo.cpp > CMakeFiles/shell.dir/runtime/src/atn/LookaheadEventInfo.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/atn/LookaheadEventInfo.cpp > CMakeFiles/shell.dir/runtime/src/atn/LookaheadEventInfo.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/atn/LookaheadEventInfo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/atn/LookaheadEventInfo.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/atn/LookaheadEventInfo.cpp -o CMakeFiles/shell.dir/runtime/src/atn/LookaheadEventInfo.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/atn/LookaheadEventInfo.cpp -o CMakeFiles/shell.dir/runtime/src/atn/LookaheadEventInfo.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/atn/LookaheadEventInfo.cpp.o.requires:
 
@@ -1211,16 +1211,16 @@ CMakeFiles/shell.dir/runtime/src/atn/LookaheadEventInfo.cpp.o.provides.build: CM
 
 CMakeFiles/shell.dir/runtime/src/atn/LoopEndState.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/atn/LoopEndState.cpp.o: runtime/src/atn/LoopEndState.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/LoopEndState.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/LoopEndState.cpp.o -c /home/norlock/Projects/Shell/runtime/src/atn/LoopEndState.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/LoopEndState.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/LoopEndState.cpp.o -c /home/norlock/Projects/shell/runtime/src/atn/LoopEndState.cpp
 
 CMakeFiles/shell.dir/runtime/src/atn/LoopEndState.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/atn/LoopEndState.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/atn/LoopEndState.cpp > CMakeFiles/shell.dir/runtime/src/atn/LoopEndState.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/atn/LoopEndState.cpp > CMakeFiles/shell.dir/runtime/src/atn/LoopEndState.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/atn/LoopEndState.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/atn/LoopEndState.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/atn/LoopEndState.cpp -o CMakeFiles/shell.dir/runtime/src/atn/LoopEndState.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/atn/LoopEndState.cpp -o CMakeFiles/shell.dir/runtime/src/atn/LoopEndState.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/atn/LoopEndState.cpp.o.requires:
 
@@ -1235,16 +1235,16 @@ CMakeFiles/shell.dir/runtime/src/atn/LoopEndState.cpp.o.provides.build: CMakeFil
 
 CMakeFiles/shell.dir/runtime/src/atn/NotSetTransition.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/atn/NotSetTransition.cpp.o: runtime/src/atn/NotSetTransition.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/NotSetTransition.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/NotSetTransition.cpp.o -c /home/norlock/Projects/Shell/runtime/src/atn/NotSetTransition.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/NotSetTransition.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/NotSetTransition.cpp.o -c /home/norlock/Projects/shell/runtime/src/atn/NotSetTransition.cpp
 
 CMakeFiles/shell.dir/runtime/src/atn/NotSetTransition.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/atn/NotSetTransition.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/atn/NotSetTransition.cpp > CMakeFiles/shell.dir/runtime/src/atn/NotSetTransition.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/atn/NotSetTransition.cpp > CMakeFiles/shell.dir/runtime/src/atn/NotSetTransition.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/atn/NotSetTransition.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/atn/NotSetTransition.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/atn/NotSetTransition.cpp -o CMakeFiles/shell.dir/runtime/src/atn/NotSetTransition.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/atn/NotSetTransition.cpp -o CMakeFiles/shell.dir/runtime/src/atn/NotSetTransition.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/atn/NotSetTransition.cpp.o.requires:
 
@@ -1259,16 +1259,16 @@ CMakeFiles/shell.dir/runtime/src/atn/NotSetTransition.cpp.o.provides.build: CMak
 
 CMakeFiles/shell.dir/runtime/src/atn/OrderedATNConfigSet.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/atn/OrderedATNConfigSet.cpp.o: runtime/src/atn/OrderedATNConfigSet.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/OrderedATNConfigSet.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/OrderedATNConfigSet.cpp.o -c /home/norlock/Projects/Shell/runtime/src/atn/OrderedATNConfigSet.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/OrderedATNConfigSet.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/OrderedATNConfigSet.cpp.o -c /home/norlock/Projects/shell/runtime/src/atn/OrderedATNConfigSet.cpp
 
 CMakeFiles/shell.dir/runtime/src/atn/OrderedATNConfigSet.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/atn/OrderedATNConfigSet.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/atn/OrderedATNConfigSet.cpp > CMakeFiles/shell.dir/runtime/src/atn/OrderedATNConfigSet.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/atn/OrderedATNConfigSet.cpp > CMakeFiles/shell.dir/runtime/src/atn/OrderedATNConfigSet.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/atn/OrderedATNConfigSet.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/atn/OrderedATNConfigSet.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/atn/OrderedATNConfigSet.cpp -o CMakeFiles/shell.dir/runtime/src/atn/OrderedATNConfigSet.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/atn/OrderedATNConfigSet.cpp -o CMakeFiles/shell.dir/runtime/src/atn/OrderedATNConfigSet.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/atn/OrderedATNConfigSet.cpp.o.requires:
 
@@ -1283,16 +1283,16 @@ CMakeFiles/shell.dir/runtime/src/atn/OrderedATNConfigSet.cpp.o.provides.build: C
 
 CMakeFiles/shell.dir/runtime/src/atn/ParseInfo.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/atn/ParseInfo.cpp.o: runtime/src/atn/ParseInfo.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/ParseInfo.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/ParseInfo.cpp.o -c /home/norlock/Projects/Shell/runtime/src/atn/ParseInfo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/ParseInfo.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/ParseInfo.cpp.o -c /home/norlock/Projects/shell/runtime/src/atn/ParseInfo.cpp
 
 CMakeFiles/shell.dir/runtime/src/atn/ParseInfo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/atn/ParseInfo.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/atn/ParseInfo.cpp > CMakeFiles/shell.dir/runtime/src/atn/ParseInfo.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/atn/ParseInfo.cpp > CMakeFiles/shell.dir/runtime/src/atn/ParseInfo.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/atn/ParseInfo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/atn/ParseInfo.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/atn/ParseInfo.cpp -o CMakeFiles/shell.dir/runtime/src/atn/ParseInfo.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/atn/ParseInfo.cpp -o CMakeFiles/shell.dir/runtime/src/atn/ParseInfo.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/atn/ParseInfo.cpp.o.requires:
 
@@ -1307,16 +1307,16 @@ CMakeFiles/shell.dir/runtime/src/atn/ParseInfo.cpp.o.provides.build: CMakeFiles/
 
 CMakeFiles/shell.dir/runtime/src/atn/ParserATNSimulator.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/atn/ParserATNSimulator.cpp.o: runtime/src/atn/ParserATNSimulator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/ParserATNSimulator.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/ParserATNSimulator.cpp.o -c /home/norlock/Projects/Shell/runtime/src/atn/ParserATNSimulator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/ParserATNSimulator.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/ParserATNSimulator.cpp.o -c /home/norlock/Projects/shell/runtime/src/atn/ParserATNSimulator.cpp
 
 CMakeFiles/shell.dir/runtime/src/atn/ParserATNSimulator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/atn/ParserATNSimulator.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/atn/ParserATNSimulator.cpp > CMakeFiles/shell.dir/runtime/src/atn/ParserATNSimulator.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/atn/ParserATNSimulator.cpp > CMakeFiles/shell.dir/runtime/src/atn/ParserATNSimulator.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/atn/ParserATNSimulator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/atn/ParserATNSimulator.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/atn/ParserATNSimulator.cpp -o CMakeFiles/shell.dir/runtime/src/atn/ParserATNSimulator.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/atn/ParserATNSimulator.cpp -o CMakeFiles/shell.dir/runtime/src/atn/ParserATNSimulator.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/atn/ParserATNSimulator.cpp.o.requires:
 
@@ -1331,16 +1331,16 @@ CMakeFiles/shell.dir/runtime/src/atn/ParserATNSimulator.cpp.o.provides.build: CM
 
 CMakeFiles/shell.dir/runtime/src/atn/PlusBlockStartState.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/atn/PlusBlockStartState.cpp.o: runtime/src/atn/PlusBlockStartState.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/PlusBlockStartState.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/PlusBlockStartState.cpp.o -c /home/norlock/Projects/Shell/runtime/src/atn/PlusBlockStartState.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/PlusBlockStartState.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/PlusBlockStartState.cpp.o -c /home/norlock/Projects/shell/runtime/src/atn/PlusBlockStartState.cpp
 
 CMakeFiles/shell.dir/runtime/src/atn/PlusBlockStartState.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/atn/PlusBlockStartState.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/atn/PlusBlockStartState.cpp > CMakeFiles/shell.dir/runtime/src/atn/PlusBlockStartState.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/atn/PlusBlockStartState.cpp > CMakeFiles/shell.dir/runtime/src/atn/PlusBlockStartState.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/atn/PlusBlockStartState.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/atn/PlusBlockStartState.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/atn/PlusBlockStartState.cpp -o CMakeFiles/shell.dir/runtime/src/atn/PlusBlockStartState.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/atn/PlusBlockStartState.cpp -o CMakeFiles/shell.dir/runtime/src/atn/PlusBlockStartState.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/atn/PlusBlockStartState.cpp.o.requires:
 
@@ -1355,16 +1355,16 @@ CMakeFiles/shell.dir/runtime/src/atn/PlusBlockStartState.cpp.o.provides.build: C
 
 CMakeFiles/shell.dir/runtime/src/atn/PlusLoopbackState.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/atn/PlusLoopbackState.cpp.o: runtime/src/atn/PlusLoopbackState.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/PlusLoopbackState.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/PlusLoopbackState.cpp.o -c /home/norlock/Projects/Shell/runtime/src/atn/PlusLoopbackState.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/PlusLoopbackState.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/PlusLoopbackState.cpp.o -c /home/norlock/Projects/shell/runtime/src/atn/PlusLoopbackState.cpp
 
 CMakeFiles/shell.dir/runtime/src/atn/PlusLoopbackState.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/atn/PlusLoopbackState.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/atn/PlusLoopbackState.cpp > CMakeFiles/shell.dir/runtime/src/atn/PlusLoopbackState.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/atn/PlusLoopbackState.cpp > CMakeFiles/shell.dir/runtime/src/atn/PlusLoopbackState.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/atn/PlusLoopbackState.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/atn/PlusLoopbackState.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/atn/PlusLoopbackState.cpp -o CMakeFiles/shell.dir/runtime/src/atn/PlusLoopbackState.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/atn/PlusLoopbackState.cpp -o CMakeFiles/shell.dir/runtime/src/atn/PlusLoopbackState.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/atn/PlusLoopbackState.cpp.o.requires:
 
@@ -1379,16 +1379,16 @@ CMakeFiles/shell.dir/runtime/src/atn/PlusLoopbackState.cpp.o.provides.build: CMa
 
 CMakeFiles/shell.dir/runtime/src/atn/PrecedencePredicateTransition.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/atn/PrecedencePredicateTransition.cpp.o: runtime/src/atn/PrecedencePredicateTransition.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/PrecedencePredicateTransition.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/PrecedencePredicateTransition.cpp.o -c /home/norlock/Projects/Shell/runtime/src/atn/PrecedencePredicateTransition.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/PrecedencePredicateTransition.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/PrecedencePredicateTransition.cpp.o -c /home/norlock/Projects/shell/runtime/src/atn/PrecedencePredicateTransition.cpp
 
 CMakeFiles/shell.dir/runtime/src/atn/PrecedencePredicateTransition.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/atn/PrecedencePredicateTransition.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/atn/PrecedencePredicateTransition.cpp > CMakeFiles/shell.dir/runtime/src/atn/PrecedencePredicateTransition.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/atn/PrecedencePredicateTransition.cpp > CMakeFiles/shell.dir/runtime/src/atn/PrecedencePredicateTransition.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/atn/PrecedencePredicateTransition.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/atn/PrecedencePredicateTransition.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/atn/PrecedencePredicateTransition.cpp -o CMakeFiles/shell.dir/runtime/src/atn/PrecedencePredicateTransition.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/atn/PrecedencePredicateTransition.cpp -o CMakeFiles/shell.dir/runtime/src/atn/PrecedencePredicateTransition.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/atn/PrecedencePredicateTransition.cpp.o.requires:
 
@@ -1403,16 +1403,16 @@ CMakeFiles/shell.dir/runtime/src/atn/PrecedencePredicateTransition.cpp.o.provide
 
 CMakeFiles/shell.dir/runtime/src/atn/PredicateEvalInfo.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/atn/PredicateEvalInfo.cpp.o: runtime/src/atn/PredicateEvalInfo.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/PredicateEvalInfo.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/PredicateEvalInfo.cpp.o -c /home/norlock/Projects/Shell/runtime/src/atn/PredicateEvalInfo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/PredicateEvalInfo.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/PredicateEvalInfo.cpp.o -c /home/norlock/Projects/shell/runtime/src/atn/PredicateEvalInfo.cpp
 
 CMakeFiles/shell.dir/runtime/src/atn/PredicateEvalInfo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/atn/PredicateEvalInfo.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/atn/PredicateEvalInfo.cpp > CMakeFiles/shell.dir/runtime/src/atn/PredicateEvalInfo.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/atn/PredicateEvalInfo.cpp > CMakeFiles/shell.dir/runtime/src/atn/PredicateEvalInfo.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/atn/PredicateEvalInfo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/atn/PredicateEvalInfo.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/atn/PredicateEvalInfo.cpp -o CMakeFiles/shell.dir/runtime/src/atn/PredicateEvalInfo.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/atn/PredicateEvalInfo.cpp -o CMakeFiles/shell.dir/runtime/src/atn/PredicateEvalInfo.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/atn/PredicateEvalInfo.cpp.o.requires:
 
@@ -1427,16 +1427,16 @@ CMakeFiles/shell.dir/runtime/src/atn/PredicateEvalInfo.cpp.o.provides.build: CMa
 
 CMakeFiles/shell.dir/runtime/src/atn/PredicateTransition.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/atn/PredicateTransition.cpp.o: runtime/src/atn/PredicateTransition.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/PredicateTransition.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/PredicateTransition.cpp.o -c /home/norlock/Projects/Shell/runtime/src/atn/PredicateTransition.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/PredicateTransition.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/PredicateTransition.cpp.o -c /home/norlock/Projects/shell/runtime/src/atn/PredicateTransition.cpp
 
 CMakeFiles/shell.dir/runtime/src/atn/PredicateTransition.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/atn/PredicateTransition.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/atn/PredicateTransition.cpp > CMakeFiles/shell.dir/runtime/src/atn/PredicateTransition.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/atn/PredicateTransition.cpp > CMakeFiles/shell.dir/runtime/src/atn/PredicateTransition.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/atn/PredicateTransition.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/atn/PredicateTransition.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/atn/PredicateTransition.cpp -o CMakeFiles/shell.dir/runtime/src/atn/PredicateTransition.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/atn/PredicateTransition.cpp -o CMakeFiles/shell.dir/runtime/src/atn/PredicateTransition.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/atn/PredicateTransition.cpp.o.requires:
 
@@ -1451,16 +1451,16 @@ CMakeFiles/shell.dir/runtime/src/atn/PredicateTransition.cpp.o.provides.build: C
 
 CMakeFiles/shell.dir/runtime/src/atn/PredictionContext.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/atn/PredictionContext.cpp.o: runtime/src/atn/PredictionContext.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/PredictionContext.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/PredictionContext.cpp.o -c /home/norlock/Projects/Shell/runtime/src/atn/PredictionContext.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/PredictionContext.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/PredictionContext.cpp.o -c /home/norlock/Projects/shell/runtime/src/atn/PredictionContext.cpp
 
 CMakeFiles/shell.dir/runtime/src/atn/PredictionContext.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/atn/PredictionContext.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/atn/PredictionContext.cpp > CMakeFiles/shell.dir/runtime/src/atn/PredictionContext.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/atn/PredictionContext.cpp > CMakeFiles/shell.dir/runtime/src/atn/PredictionContext.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/atn/PredictionContext.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/atn/PredictionContext.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/atn/PredictionContext.cpp -o CMakeFiles/shell.dir/runtime/src/atn/PredictionContext.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/atn/PredictionContext.cpp -o CMakeFiles/shell.dir/runtime/src/atn/PredictionContext.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/atn/PredictionContext.cpp.o.requires:
 
@@ -1475,16 +1475,16 @@ CMakeFiles/shell.dir/runtime/src/atn/PredictionContext.cpp.o.provides.build: CMa
 
 CMakeFiles/shell.dir/runtime/src/atn/PredictionMode.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/atn/PredictionMode.cpp.o: runtime/src/atn/PredictionMode.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/PredictionMode.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/PredictionMode.cpp.o -c /home/norlock/Projects/Shell/runtime/src/atn/PredictionMode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/PredictionMode.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/PredictionMode.cpp.o -c /home/norlock/Projects/shell/runtime/src/atn/PredictionMode.cpp
 
 CMakeFiles/shell.dir/runtime/src/atn/PredictionMode.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/atn/PredictionMode.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/atn/PredictionMode.cpp > CMakeFiles/shell.dir/runtime/src/atn/PredictionMode.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/atn/PredictionMode.cpp > CMakeFiles/shell.dir/runtime/src/atn/PredictionMode.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/atn/PredictionMode.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/atn/PredictionMode.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/atn/PredictionMode.cpp -o CMakeFiles/shell.dir/runtime/src/atn/PredictionMode.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/atn/PredictionMode.cpp -o CMakeFiles/shell.dir/runtime/src/atn/PredictionMode.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/atn/PredictionMode.cpp.o.requires:
 
@@ -1499,16 +1499,16 @@ CMakeFiles/shell.dir/runtime/src/atn/PredictionMode.cpp.o.provides.build: CMakeF
 
 CMakeFiles/shell.dir/runtime/src/atn/ProfilingATNSimulator.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/atn/ProfilingATNSimulator.cpp.o: runtime/src/atn/ProfilingATNSimulator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/ProfilingATNSimulator.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/ProfilingATNSimulator.cpp.o -c /home/norlock/Projects/Shell/runtime/src/atn/ProfilingATNSimulator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/ProfilingATNSimulator.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/ProfilingATNSimulator.cpp.o -c /home/norlock/Projects/shell/runtime/src/atn/ProfilingATNSimulator.cpp
 
 CMakeFiles/shell.dir/runtime/src/atn/ProfilingATNSimulator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/atn/ProfilingATNSimulator.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/atn/ProfilingATNSimulator.cpp > CMakeFiles/shell.dir/runtime/src/atn/ProfilingATNSimulator.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/atn/ProfilingATNSimulator.cpp > CMakeFiles/shell.dir/runtime/src/atn/ProfilingATNSimulator.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/atn/ProfilingATNSimulator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/atn/ProfilingATNSimulator.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/atn/ProfilingATNSimulator.cpp -o CMakeFiles/shell.dir/runtime/src/atn/ProfilingATNSimulator.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/atn/ProfilingATNSimulator.cpp -o CMakeFiles/shell.dir/runtime/src/atn/ProfilingATNSimulator.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/atn/ProfilingATNSimulator.cpp.o.requires:
 
@@ -1523,16 +1523,16 @@ CMakeFiles/shell.dir/runtime/src/atn/ProfilingATNSimulator.cpp.o.provides.build:
 
 CMakeFiles/shell.dir/runtime/src/atn/RangeTransition.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/atn/RangeTransition.cpp.o: runtime/src/atn/RangeTransition.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/RangeTransition.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/RangeTransition.cpp.o -c /home/norlock/Projects/Shell/runtime/src/atn/RangeTransition.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/RangeTransition.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/RangeTransition.cpp.o -c /home/norlock/Projects/shell/runtime/src/atn/RangeTransition.cpp
 
 CMakeFiles/shell.dir/runtime/src/atn/RangeTransition.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/atn/RangeTransition.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/atn/RangeTransition.cpp > CMakeFiles/shell.dir/runtime/src/atn/RangeTransition.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/atn/RangeTransition.cpp > CMakeFiles/shell.dir/runtime/src/atn/RangeTransition.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/atn/RangeTransition.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/atn/RangeTransition.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/atn/RangeTransition.cpp -o CMakeFiles/shell.dir/runtime/src/atn/RangeTransition.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/atn/RangeTransition.cpp -o CMakeFiles/shell.dir/runtime/src/atn/RangeTransition.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/atn/RangeTransition.cpp.o.requires:
 
@@ -1547,16 +1547,16 @@ CMakeFiles/shell.dir/runtime/src/atn/RangeTransition.cpp.o.provides.build: CMake
 
 CMakeFiles/shell.dir/runtime/src/atn/RuleStartState.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/atn/RuleStartState.cpp.o: runtime/src/atn/RuleStartState.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/RuleStartState.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/RuleStartState.cpp.o -c /home/norlock/Projects/Shell/runtime/src/atn/RuleStartState.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/RuleStartState.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/RuleStartState.cpp.o -c /home/norlock/Projects/shell/runtime/src/atn/RuleStartState.cpp
 
 CMakeFiles/shell.dir/runtime/src/atn/RuleStartState.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/atn/RuleStartState.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/atn/RuleStartState.cpp > CMakeFiles/shell.dir/runtime/src/atn/RuleStartState.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/atn/RuleStartState.cpp > CMakeFiles/shell.dir/runtime/src/atn/RuleStartState.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/atn/RuleStartState.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/atn/RuleStartState.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/atn/RuleStartState.cpp -o CMakeFiles/shell.dir/runtime/src/atn/RuleStartState.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/atn/RuleStartState.cpp -o CMakeFiles/shell.dir/runtime/src/atn/RuleStartState.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/atn/RuleStartState.cpp.o.requires:
 
@@ -1571,16 +1571,16 @@ CMakeFiles/shell.dir/runtime/src/atn/RuleStartState.cpp.o.provides.build: CMakeF
 
 CMakeFiles/shell.dir/runtime/src/atn/RuleStopState.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/atn/RuleStopState.cpp.o: runtime/src/atn/RuleStopState.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/RuleStopState.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/RuleStopState.cpp.o -c /home/norlock/Projects/Shell/runtime/src/atn/RuleStopState.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/RuleStopState.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/RuleStopState.cpp.o -c /home/norlock/Projects/shell/runtime/src/atn/RuleStopState.cpp
 
 CMakeFiles/shell.dir/runtime/src/atn/RuleStopState.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/atn/RuleStopState.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/atn/RuleStopState.cpp > CMakeFiles/shell.dir/runtime/src/atn/RuleStopState.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/atn/RuleStopState.cpp > CMakeFiles/shell.dir/runtime/src/atn/RuleStopState.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/atn/RuleStopState.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/atn/RuleStopState.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/atn/RuleStopState.cpp -o CMakeFiles/shell.dir/runtime/src/atn/RuleStopState.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/atn/RuleStopState.cpp -o CMakeFiles/shell.dir/runtime/src/atn/RuleStopState.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/atn/RuleStopState.cpp.o.requires:
 
@@ -1595,16 +1595,16 @@ CMakeFiles/shell.dir/runtime/src/atn/RuleStopState.cpp.o.provides.build: CMakeFi
 
 CMakeFiles/shell.dir/runtime/src/atn/RuleTransition.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/atn/RuleTransition.cpp.o: runtime/src/atn/RuleTransition.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/RuleTransition.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/RuleTransition.cpp.o -c /home/norlock/Projects/Shell/runtime/src/atn/RuleTransition.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/RuleTransition.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/RuleTransition.cpp.o -c /home/norlock/Projects/shell/runtime/src/atn/RuleTransition.cpp
 
 CMakeFiles/shell.dir/runtime/src/atn/RuleTransition.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/atn/RuleTransition.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/atn/RuleTransition.cpp > CMakeFiles/shell.dir/runtime/src/atn/RuleTransition.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/atn/RuleTransition.cpp > CMakeFiles/shell.dir/runtime/src/atn/RuleTransition.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/atn/RuleTransition.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/atn/RuleTransition.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/atn/RuleTransition.cpp -o CMakeFiles/shell.dir/runtime/src/atn/RuleTransition.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/atn/RuleTransition.cpp -o CMakeFiles/shell.dir/runtime/src/atn/RuleTransition.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/atn/RuleTransition.cpp.o.requires:
 
@@ -1619,16 +1619,16 @@ CMakeFiles/shell.dir/runtime/src/atn/RuleTransition.cpp.o.provides.build: CMakeF
 
 CMakeFiles/shell.dir/runtime/src/atn/SemanticContext.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/atn/SemanticContext.cpp.o: runtime/src/atn/SemanticContext.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/SemanticContext.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/SemanticContext.cpp.o -c /home/norlock/Projects/Shell/runtime/src/atn/SemanticContext.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/SemanticContext.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/SemanticContext.cpp.o -c /home/norlock/Projects/shell/runtime/src/atn/SemanticContext.cpp
 
 CMakeFiles/shell.dir/runtime/src/atn/SemanticContext.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/atn/SemanticContext.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/atn/SemanticContext.cpp > CMakeFiles/shell.dir/runtime/src/atn/SemanticContext.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/atn/SemanticContext.cpp > CMakeFiles/shell.dir/runtime/src/atn/SemanticContext.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/atn/SemanticContext.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/atn/SemanticContext.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/atn/SemanticContext.cpp -o CMakeFiles/shell.dir/runtime/src/atn/SemanticContext.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/atn/SemanticContext.cpp -o CMakeFiles/shell.dir/runtime/src/atn/SemanticContext.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/atn/SemanticContext.cpp.o.requires:
 
@@ -1643,16 +1643,16 @@ CMakeFiles/shell.dir/runtime/src/atn/SemanticContext.cpp.o.provides.build: CMake
 
 CMakeFiles/shell.dir/runtime/src/atn/SetTransition.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/atn/SetTransition.cpp.o: runtime/src/atn/SetTransition.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/SetTransition.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/SetTransition.cpp.o -c /home/norlock/Projects/Shell/runtime/src/atn/SetTransition.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/SetTransition.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/SetTransition.cpp.o -c /home/norlock/Projects/shell/runtime/src/atn/SetTransition.cpp
 
 CMakeFiles/shell.dir/runtime/src/atn/SetTransition.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/atn/SetTransition.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/atn/SetTransition.cpp > CMakeFiles/shell.dir/runtime/src/atn/SetTransition.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/atn/SetTransition.cpp > CMakeFiles/shell.dir/runtime/src/atn/SetTransition.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/atn/SetTransition.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/atn/SetTransition.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/atn/SetTransition.cpp -o CMakeFiles/shell.dir/runtime/src/atn/SetTransition.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/atn/SetTransition.cpp -o CMakeFiles/shell.dir/runtime/src/atn/SetTransition.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/atn/SetTransition.cpp.o.requires:
 
@@ -1667,16 +1667,16 @@ CMakeFiles/shell.dir/runtime/src/atn/SetTransition.cpp.o.provides.build: CMakeFi
 
 CMakeFiles/shell.dir/runtime/src/atn/SingletonPredictionContext.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/atn/SingletonPredictionContext.cpp.o: runtime/src/atn/SingletonPredictionContext.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/SingletonPredictionContext.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/SingletonPredictionContext.cpp.o -c /home/norlock/Projects/Shell/runtime/src/atn/SingletonPredictionContext.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/SingletonPredictionContext.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/SingletonPredictionContext.cpp.o -c /home/norlock/Projects/shell/runtime/src/atn/SingletonPredictionContext.cpp
 
 CMakeFiles/shell.dir/runtime/src/atn/SingletonPredictionContext.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/atn/SingletonPredictionContext.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/atn/SingletonPredictionContext.cpp > CMakeFiles/shell.dir/runtime/src/atn/SingletonPredictionContext.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/atn/SingletonPredictionContext.cpp > CMakeFiles/shell.dir/runtime/src/atn/SingletonPredictionContext.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/atn/SingletonPredictionContext.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/atn/SingletonPredictionContext.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/atn/SingletonPredictionContext.cpp -o CMakeFiles/shell.dir/runtime/src/atn/SingletonPredictionContext.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/atn/SingletonPredictionContext.cpp -o CMakeFiles/shell.dir/runtime/src/atn/SingletonPredictionContext.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/atn/SingletonPredictionContext.cpp.o.requires:
 
@@ -1691,16 +1691,16 @@ CMakeFiles/shell.dir/runtime/src/atn/SingletonPredictionContext.cpp.o.provides.b
 
 CMakeFiles/shell.dir/runtime/src/atn/StarBlockStartState.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/atn/StarBlockStartState.cpp.o: runtime/src/atn/StarBlockStartState.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/StarBlockStartState.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/StarBlockStartState.cpp.o -c /home/norlock/Projects/Shell/runtime/src/atn/StarBlockStartState.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/StarBlockStartState.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/StarBlockStartState.cpp.o -c /home/norlock/Projects/shell/runtime/src/atn/StarBlockStartState.cpp
 
 CMakeFiles/shell.dir/runtime/src/atn/StarBlockStartState.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/atn/StarBlockStartState.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/atn/StarBlockStartState.cpp > CMakeFiles/shell.dir/runtime/src/atn/StarBlockStartState.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/atn/StarBlockStartState.cpp > CMakeFiles/shell.dir/runtime/src/atn/StarBlockStartState.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/atn/StarBlockStartState.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/atn/StarBlockStartState.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/atn/StarBlockStartState.cpp -o CMakeFiles/shell.dir/runtime/src/atn/StarBlockStartState.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/atn/StarBlockStartState.cpp -o CMakeFiles/shell.dir/runtime/src/atn/StarBlockStartState.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/atn/StarBlockStartState.cpp.o.requires:
 
@@ -1715,16 +1715,16 @@ CMakeFiles/shell.dir/runtime/src/atn/StarBlockStartState.cpp.o.provides.build: C
 
 CMakeFiles/shell.dir/runtime/src/atn/StarLoopbackState.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/atn/StarLoopbackState.cpp.o: runtime/src/atn/StarLoopbackState.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/StarLoopbackState.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/StarLoopbackState.cpp.o -c /home/norlock/Projects/Shell/runtime/src/atn/StarLoopbackState.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/StarLoopbackState.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/StarLoopbackState.cpp.o -c /home/norlock/Projects/shell/runtime/src/atn/StarLoopbackState.cpp
 
 CMakeFiles/shell.dir/runtime/src/atn/StarLoopbackState.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/atn/StarLoopbackState.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/atn/StarLoopbackState.cpp > CMakeFiles/shell.dir/runtime/src/atn/StarLoopbackState.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/atn/StarLoopbackState.cpp > CMakeFiles/shell.dir/runtime/src/atn/StarLoopbackState.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/atn/StarLoopbackState.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/atn/StarLoopbackState.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/atn/StarLoopbackState.cpp -o CMakeFiles/shell.dir/runtime/src/atn/StarLoopbackState.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/atn/StarLoopbackState.cpp -o CMakeFiles/shell.dir/runtime/src/atn/StarLoopbackState.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/atn/StarLoopbackState.cpp.o.requires:
 
@@ -1739,16 +1739,16 @@ CMakeFiles/shell.dir/runtime/src/atn/StarLoopbackState.cpp.o.provides.build: CMa
 
 CMakeFiles/shell.dir/runtime/src/atn/StarLoopEntryState.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/atn/StarLoopEntryState.cpp.o: runtime/src/atn/StarLoopEntryState.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/StarLoopEntryState.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/StarLoopEntryState.cpp.o -c /home/norlock/Projects/Shell/runtime/src/atn/StarLoopEntryState.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/StarLoopEntryState.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/StarLoopEntryState.cpp.o -c /home/norlock/Projects/shell/runtime/src/atn/StarLoopEntryState.cpp
 
 CMakeFiles/shell.dir/runtime/src/atn/StarLoopEntryState.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/atn/StarLoopEntryState.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/atn/StarLoopEntryState.cpp > CMakeFiles/shell.dir/runtime/src/atn/StarLoopEntryState.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/atn/StarLoopEntryState.cpp > CMakeFiles/shell.dir/runtime/src/atn/StarLoopEntryState.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/atn/StarLoopEntryState.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/atn/StarLoopEntryState.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/atn/StarLoopEntryState.cpp -o CMakeFiles/shell.dir/runtime/src/atn/StarLoopEntryState.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/atn/StarLoopEntryState.cpp -o CMakeFiles/shell.dir/runtime/src/atn/StarLoopEntryState.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/atn/StarLoopEntryState.cpp.o.requires:
 
@@ -1763,16 +1763,16 @@ CMakeFiles/shell.dir/runtime/src/atn/StarLoopEntryState.cpp.o.provides.build: CM
 
 CMakeFiles/shell.dir/runtime/src/atn/TokensStartState.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/atn/TokensStartState.cpp.o: runtime/src/atn/TokensStartState.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/TokensStartState.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/TokensStartState.cpp.o -c /home/norlock/Projects/Shell/runtime/src/atn/TokensStartState.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/TokensStartState.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/TokensStartState.cpp.o -c /home/norlock/Projects/shell/runtime/src/atn/TokensStartState.cpp
 
 CMakeFiles/shell.dir/runtime/src/atn/TokensStartState.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/atn/TokensStartState.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/atn/TokensStartState.cpp > CMakeFiles/shell.dir/runtime/src/atn/TokensStartState.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/atn/TokensStartState.cpp > CMakeFiles/shell.dir/runtime/src/atn/TokensStartState.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/atn/TokensStartState.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/atn/TokensStartState.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/atn/TokensStartState.cpp -o CMakeFiles/shell.dir/runtime/src/atn/TokensStartState.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/atn/TokensStartState.cpp -o CMakeFiles/shell.dir/runtime/src/atn/TokensStartState.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/atn/TokensStartState.cpp.o.requires:
 
@@ -1787,16 +1787,16 @@ CMakeFiles/shell.dir/runtime/src/atn/TokensStartState.cpp.o.provides.build: CMak
 
 CMakeFiles/shell.dir/runtime/src/atn/Transition.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/atn/Transition.cpp.o: runtime/src/atn/Transition.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/Transition.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/Transition.cpp.o -c /home/norlock/Projects/Shell/runtime/src/atn/Transition.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/Transition.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/Transition.cpp.o -c /home/norlock/Projects/shell/runtime/src/atn/Transition.cpp
 
 CMakeFiles/shell.dir/runtime/src/atn/Transition.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/atn/Transition.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/atn/Transition.cpp > CMakeFiles/shell.dir/runtime/src/atn/Transition.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/atn/Transition.cpp > CMakeFiles/shell.dir/runtime/src/atn/Transition.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/atn/Transition.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/atn/Transition.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/atn/Transition.cpp -o CMakeFiles/shell.dir/runtime/src/atn/Transition.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/atn/Transition.cpp -o CMakeFiles/shell.dir/runtime/src/atn/Transition.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/atn/Transition.cpp.o.requires:
 
@@ -1811,16 +1811,16 @@ CMakeFiles/shell.dir/runtime/src/atn/Transition.cpp.o.provides.build: CMakeFiles
 
 CMakeFiles/shell.dir/runtime/src/atn/WildcardTransition.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/atn/WildcardTransition.cpp.o: runtime/src/atn/WildcardTransition.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/WildcardTransition.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/WildcardTransition.cpp.o -c /home/norlock/Projects/Shell/runtime/src/atn/WildcardTransition.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building CXX object CMakeFiles/shell.dir/runtime/src/atn/WildcardTransition.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/atn/WildcardTransition.cpp.o -c /home/norlock/Projects/shell/runtime/src/atn/WildcardTransition.cpp
 
 CMakeFiles/shell.dir/runtime/src/atn/WildcardTransition.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/atn/WildcardTransition.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/atn/WildcardTransition.cpp > CMakeFiles/shell.dir/runtime/src/atn/WildcardTransition.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/atn/WildcardTransition.cpp > CMakeFiles/shell.dir/runtime/src/atn/WildcardTransition.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/atn/WildcardTransition.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/atn/WildcardTransition.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/atn/WildcardTransition.cpp -o CMakeFiles/shell.dir/runtime/src/atn/WildcardTransition.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/atn/WildcardTransition.cpp -o CMakeFiles/shell.dir/runtime/src/atn/WildcardTransition.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/atn/WildcardTransition.cpp.o.requires:
 
@@ -1835,16 +1835,16 @@ CMakeFiles/shell.dir/runtime/src/atn/WildcardTransition.cpp.o.provides.build: CM
 
 CMakeFiles/shell.dir/runtime/src/dfa/DFA.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/dfa/DFA.cpp.o: runtime/src/dfa/DFA.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building CXX object CMakeFiles/shell.dir/runtime/src/dfa/DFA.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/dfa/DFA.cpp.o -c /home/norlock/Projects/Shell/runtime/src/dfa/DFA.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building CXX object CMakeFiles/shell.dir/runtime/src/dfa/DFA.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/dfa/DFA.cpp.o -c /home/norlock/Projects/shell/runtime/src/dfa/DFA.cpp
 
 CMakeFiles/shell.dir/runtime/src/dfa/DFA.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/dfa/DFA.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/dfa/DFA.cpp > CMakeFiles/shell.dir/runtime/src/dfa/DFA.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/dfa/DFA.cpp > CMakeFiles/shell.dir/runtime/src/dfa/DFA.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/dfa/DFA.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/dfa/DFA.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/dfa/DFA.cpp -o CMakeFiles/shell.dir/runtime/src/dfa/DFA.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/dfa/DFA.cpp -o CMakeFiles/shell.dir/runtime/src/dfa/DFA.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/dfa/DFA.cpp.o.requires:
 
@@ -1859,16 +1859,16 @@ CMakeFiles/shell.dir/runtime/src/dfa/DFA.cpp.o.provides.build: CMakeFiles/shell.
 
 CMakeFiles/shell.dir/runtime/src/dfa/DFASerializer.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/dfa/DFASerializer.cpp.o: runtime/src/dfa/DFASerializer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building CXX object CMakeFiles/shell.dir/runtime/src/dfa/DFASerializer.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/dfa/DFASerializer.cpp.o -c /home/norlock/Projects/Shell/runtime/src/dfa/DFASerializer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building CXX object CMakeFiles/shell.dir/runtime/src/dfa/DFASerializer.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/dfa/DFASerializer.cpp.o -c /home/norlock/Projects/shell/runtime/src/dfa/DFASerializer.cpp
 
 CMakeFiles/shell.dir/runtime/src/dfa/DFASerializer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/dfa/DFASerializer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/dfa/DFASerializer.cpp > CMakeFiles/shell.dir/runtime/src/dfa/DFASerializer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/dfa/DFASerializer.cpp > CMakeFiles/shell.dir/runtime/src/dfa/DFASerializer.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/dfa/DFASerializer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/dfa/DFASerializer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/dfa/DFASerializer.cpp -o CMakeFiles/shell.dir/runtime/src/dfa/DFASerializer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/dfa/DFASerializer.cpp -o CMakeFiles/shell.dir/runtime/src/dfa/DFASerializer.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/dfa/DFASerializer.cpp.o.requires:
 
@@ -1883,16 +1883,16 @@ CMakeFiles/shell.dir/runtime/src/dfa/DFASerializer.cpp.o.provides.build: CMakeFi
 
 CMakeFiles/shell.dir/runtime/src/dfa/DFAState.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/dfa/DFAState.cpp.o: runtime/src/dfa/DFAState.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building CXX object CMakeFiles/shell.dir/runtime/src/dfa/DFAState.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/dfa/DFAState.cpp.o -c /home/norlock/Projects/Shell/runtime/src/dfa/DFAState.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building CXX object CMakeFiles/shell.dir/runtime/src/dfa/DFAState.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/dfa/DFAState.cpp.o -c /home/norlock/Projects/shell/runtime/src/dfa/DFAState.cpp
 
 CMakeFiles/shell.dir/runtime/src/dfa/DFAState.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/dfa/DFAState.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/dfa/DFAState.cpp > CMakeFiles/shell.dir/runtime/src/dfa/DFAState.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/dfa/DFAState.cpp > CMakeFiles/shell.dir/runtime/src/dfa/DFAState.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/dfa/DFAState.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/dfa/DFAState.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/dfa/DFAState.cpp -o CMakeFiles/shell.dir/runtime/src/dfa/DFAState.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/dfa/DFAState.cpp -o CMakeFiles/shell.dir/runtime/src/dfa/DFAState.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/dfa/DFAState.cpp.o.requires:
 
@@ -1907,16 +1907,16 @@ CMakeFiles/shell.dir/runtime/src/dfa/DFAState.cpp.o.provides.build: CMakeFiles/s
 
 CMakeFiles/shell.dir/runtime/src/dfa/LexerDFASerializer.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/dfa/LexerDFASerializer.cpp.o: runtime/src/dfa/LexerDFASerializer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building CXX object CMakeFiles/shell.dir/runtime/src/dfa/LexerDFASerializer.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/dfa/LexerDFASerializer.cpp.o -c /home/norlock/Projects/Shell/runtime/src/dfa/LexerDFASerializer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building CXX object CMakeFiles/shell.dir/runtime/src/dfa/LexerDFASerializer.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/dfa/LexerDFASerializer.cpp.o -c /home/norlock/Projects/shell/runtime/src/dfa/LexerDFASerializer.cpp
 
 CMakeFiles/shell.dir/runtime/src/dfa/LexerDFASerializer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/dfa/LexerDFASerializer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/dfa/LexerDFASerializer.cpp > CMakeFiles/shell.dir/runtime/src/dfa/LexerDFASerializer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/dfa/LexerDFASerializer.cpp > CMakeFiles/shell.dir/runtime/src/dfa/LexerDFASerializer.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/dfa/LexerDFASerializer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/dfa/LexerDFASerializer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/dfa/LexerDFASerializer.cpp -o CMakeFiles/shell.dir/runtime/src/dfa/LexerDFASerializer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/dfa/LexerDFASerializer.cpp -o CMakeFiles/shell.dir/runtime/src/dfa/LexerDFASerializer.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/dfa/LexerDFASerializer.cpp.o.requires:
 
@@ -1931,16 +1931,16 @@ CMakeFiles/shell.dir/runtime/src/dfa/LexerDFASerializer.cpp.o.provides.build: CM
 
 CMakeFiles/shell.dir/runtime/src/misc/InterpreterDataReader.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/misc/InterpreterDataReader.cpp.o: runtime/src/misc/InterpreterDataReader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building CXX object CMakeFiles/shell.dir/runtime/src/misc/InterpreterDataReader.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/misc/InterpreterDataReader.cpp.o -c /home/norlock/Projects/Shell/runtime/src/misc/InterpreterDataReader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building CXX object CMakeFiles/shell.dir/runtime/src/misc/InterpreterDataReader.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/misc/InterpreterDataReader.cpp.o -c /home/norlock/Projects/shell/runtime/src/misc/InterpreterDataReader.cpp
 
 CMakeFiles/shell.dir/runtime/src/misc/InterpreterDataReader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/misc/InterpreterDataReader.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/misc/InterpreterDataReader.cpp > CMakeFiles/shell.dir/runtime/src/misc/InterpreterDataReader.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/misc/InterpreterDataReader.cpp > CMakeFiles/shell.dir/runtime/src/misc/InterpreterDataReader.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/misc/InterpreterDataReader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/misc/InterpreterDataReader.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/misc/InterpreterDataReader.cpp -o CMakeFiles/shell.dir/runtime/src/misc/InterpreterDataReader.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/misc/InterpreterDataReader.cpp -o CMakeFiles/shell.dir/runtime/src/misc/InterpreterDataReader.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/misc/InterpreterDataReader.cpp.o.requires:
 
@@ -1955,16 +1955,16 @@ CMakeFiles/shell.dir/runtime/src/misc/InterpreterDataReader.cpp.o.provides.build
 
 CMakeFiles/shell.dir/runtime/src/misc/Interval.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/misc/Interval.cpp.o: runtime/src/misc/Interval.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building CXX object CMakeFiles/shell.dir/runtime/src/misc/Interval.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/misc/Interval.cpp.o -c /home/norlock/Projects/Shell/runtime/src/misc/Interval.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building CXX object CMakeFiles/shell.dir/runtime/src/misc/Interval.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/misc/Interval.cpp.o -c /home/norlock/Projects/shell/runtime/src/misc/Interval.cpp
 
 CMakeFiles/shell.dir/runtime/src/misc/Interval.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/misc/Interval.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/misc/Interval.cpp > CMakeFiles/shell.dir/runtime/src/misc/Interval.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/misc/Interval.cpp > CMakeFiles/shell.dir/runtime/src/misc/Interval.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/misc/Interval.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/misc/Interval.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/misc/Interval.cpp -o CMakeFiles/shell.dir/runtime/src/misc/Interval.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/misc/Interval.cpp -o CMakeFiles/shell.dir/runtime/src/misc/Interval.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/misc/Interval.cpp.o.requires:
 
@@ -1979,16 +1979,16 @@ CMakeFiles/shell.dir/runtime/src/misc/Interval.cpp.o.provides.build: CMakeFiles/
 
 CMakeFiles/shell.dir/runtime/src/misc/IntervalSet.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/misc/IntervalSet.cpp.o: runtime/src/misc/IntervalSet.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building CXX object CMakeFiles/shell.dir/runtime/src/misc/IntervalSet.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/misc/IntervalSet.cpp.o -c /home/norlock/Projects/Shell/runtime/src/misc/IntervalSet.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building CXX object CMakeFiles/shell.dir/runtime/src/misc/IntervalSet.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/misc/IntervalSet.cpp.o -c /home/norlock/Projects/shell/runtime/src/misc/IntervalSet.cpp
 
 CMakeFiles/shell.dir/runtime/src/misc/IntervalSet.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/misc/IntervalSet.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/misc/IntervalSet.cpp > CMakeFiles/shell.dir/runtime/src/misc/IntervalSet.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/misc/IntervalSet.cpp > CMakeFiles/shell.dir/runtime/src/misc/IntervalSet.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/misc/IntervalSet.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/misc/IntervalSet.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/misc/IntervalSet.cpp -o CMakeFiles/shell.dir/runtime/src/misc/IntervalSet.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/misc/IntervalSet.cpp -o CMakeFiles/shell.dir/runtime/src/misc/IntervalSet.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/misc/IntervalSet.cpp.o.requires:
 
@@ -2003,16 +2003,16 @@ CMakeFiles/shell.dir/runtime/src/misc/IntervalSet.cpp.o.provides.build: CMakeFil
 
 CMakeFiles/shell.dir/runtime/src/misc/MurmurHash.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/misc/MurmurHash.cpp.o: runtime/src/misc/MurmurHash.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building CXX object CMakeFiles/shell.dir/runtime/src/misc/MurmurHash.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/misc/MurmurHash.cpp.o -c /home/norlock/Projects/Shell/runtime/src/misc/MurmurHash.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building CXX object CMakeFiles/shell.dir/runtime/src/misc/MurmurHash.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/misc/MurmurHash.cpp.o -c /home/norlock/Projects/shell/runtime/src/misc/MurmurHash.cpp
 
 CMakeFiles/shell.dir/runtime/src/misc/MurmurHash.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/misc/MurmurHash.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/misc/MurmurHash.cpp > CMakeFiles/shell.dir/runtime/src/misc/MurmurHash.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/misc/MurmurHash.cpp > CMakeFiles/shell.dir/runtime/src/misc/MurmurHash.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/misc/MurmurHash.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/misc/MurmurHash.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/misc/MurmurHash.cpp -o CMakeFiles/shell.dir/runtime/src/misc/MurmurHash.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/misc/MurmurHash.cpp -o CMakeFiles/shell.dir/runtime/src/misc/MurmurHash.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/misc/MurmurHash.cpp.o.requires:
 
@@ -2027,16 +2027,16 @@ CMakeFiles/shell.dir/runtime/src/misc/MurmurHash.cpp.o.provides.build: CMakeFile
 
 CMakeFiles/shell.dir/runtime/src/misc/Predicate.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/misc/Predicate.cpp.o: runtime/src/misc/Predicate.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building CXX object CMakeFiles/shell.dir/runtime/src/misc/Predicate.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/misc/Predicate.cpp.o -c /home/norlock/Projects/Shell/runtime/src/misc/Predicate.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building CXX object CMakeFiles/shell.dir/runtime/src/misc/Predicate.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/misc/Predicate.cpp.o -c /home/norlock/Projects/shell/runtime/src/misc/Predicate.cpp
 
 CMakeFiles/shell.dir/runtime/src/misc/Predicate.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/misc/Predicate.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/misc/Predicate.cpp > CMakeFiles/shell.dir/runtime/src/misc/Predicate.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/misc/Predicate.cpp > CMakeFiles/shell.dir/runtime/src/misc/Predicate.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/misc/Predicate.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/misc/Predicate.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/misc/Predicate.cpp -o CMakeFiles/shell.dir/runtime/src/misc/Predicate.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/misc/Predicate.cpp -o CMakeFiles/shell.dir/runtime/src/misc/Predicate.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/misc/Predicate.cpp.o.requires:
 
@@ -2051,16 +2051,16 @@ CMakeFiles/shell.dir/runtime/src/misc/Predicate.cpp.o.provides.build: CMakeFiles
 
 CMakeFiles/shell.dir/runtime/src/support/Any.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/support/Any.cpp.o: runtime/src/support/Any.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building CXX object CMakeFiles/shell.dir/runtime/src/support/Any.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/support/Any.cpp.o -c /home/norlock/Projects/Shell/runtime/src/support/Any.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building CXX object CMakeFiles/shell.dir/runtime/src/support/Any.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/support/Any.cpp.o -c /home/norlock/Projects/shell/runtime/src/support/Any.cpp
 
 CMakeFiles/shell.dir/runtime/src/support/Any.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/support/Any.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/support/Any.cpp > CMakeFiles/shell.dir/runtime/src/support/Any.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/support/Any.cpp > CMakeFiles/shell.dir/runtime/src/support/Any.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/support/Any.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/support/Any.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/support/Any.cpp -o CMakeFiles/shell.dir/runtime/src/support/Any.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/support/Any.cpp -o CMakeFiles/shell.dir/runtime/src/support/Any.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/support/Any.cpp.o.requires:
 
@@ -2075,16 +2075,16 @@ CMakeFiles/shell.dir/runtime/src/support/Any.cpp.o.provides.build: CMakeFiles/sh
 
 CMakeFiles/shell.dir/runtime/src/support/Arrays.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/support/Arrays.cpp.o: runtime/src/support/Arrays.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building CXX object CMakeFiles/shell.dir/runtime/src/support/Arrays.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/support/Arrays.cpp.o -c /home/norlock/Projects/Shell/runtime/src/support/Arrays.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building CXX object CMakeFiles/shell.dir/runtime/src/support/Arrays.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/support/Arrays.cpp.o -c /home/norlock/Projects/shell/runtime/src/support/Arrays.cpp
 
 CMakeFiles/shell.dir/runtime/src/support/Arrays.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/support/Arrays.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/support/Arrays.cpp > CMakeFiles/shell.dir/runtime/src/support/Arrays.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/support/Arrays.cpp > CMakeFiles/shell.dir/runtime/src/support/Arrays.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/support/Arrays.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/support/Arrays.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/support/Arrays.cpp -o CMakeFiles/shell.dir/runtime/src/support/Arrays.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/support/Arrays.cpp -o CMakeFiles/shell.dir/runtime/src/support/Arrays.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/support/Arrays.cpp.o.requires:
 
@@ -2099,16 +2099,16 @@ CMakeFiles/shell.dir/runtime/src/support/Arrays.cpp.o.provides.build: CMakeFiles
 
 CMakeFiles/shell.dir/runtime/src/support/CPPUtils.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/support/CPPUtils.cpp.o: runtime/src/support/CPPUtils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building CXX object CMakeFiles/shell.dir/runtime/src/support/CPPUtils.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/support/CPPUtils.cpp.o -c /home/norlock/Projects/Shell/runtime/src/support/CPPUtils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building CXX object CMakeFiles/shell.dir/runtime/src/support/CPPUtils.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/support/CPPUtils.cpp.o -c /home/norlock/Projects/shell/runtime/src/support/CPPUtils.cpp
 
 CMakeFiles/shell.dir/runtime/src/support/CPPUtils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/support/CPPUtils.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/support/CPPUtils.cpp > CMakeFiles/shell.dir/runtime/src/support/CPPUtils.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/support/CPPUtils.cpp > CMakeFiles/shell.dir/runtime/src/support/CPPUtils.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/support/CPPUtils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/support/CPPUtils.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/support/CPPUtils.cpp -o CMakeFiles/shell.dir/runtime/src/support/CPPUtils.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/support/CPPUtils.cpp -o CMakeFiles/shell.dir/runtime/src/support/CPPUtils.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/support/CPPUtils.cpp.o.requires:
 
@@ -2123,16 +2123,16 @@ CMakeFiles/shell.dir/runtime/src/support/CPPUtils.cpp.o.provides.build: CMakeFil
 
 CMakeFiles/shell.dir/runtime/src/support/guid.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/support/guid.cpp.o: runtime/src/support/guid.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building CXX object CMakeFiles/shell.dir/runtime/src/support/guid.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/support/guid.cpp.o -c /home/norlock/Projects/Shell/runtime/src/support/guid.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building CXX object CMakeFiles/shell.dir/runtime/src/support/guid.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/support/guid.cpp.o -c /home/norlock/Projects/shell/runtime/src/support/guid.cpp
 
 CMakeFiles/shell.dir/runtime/src/support/guid.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/support/guid.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/support/guid.cpp > CMakeFiles/shell.dir/runtime/src/support/guid.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/support/guid.cpp > CMakeFiles/shell.dir/runtime/src/support/guid.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/support/guid.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/support/guid.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/support/guid.cpp -o CMakeFiles/shell.dir/runtime/src/support/guid.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/support/guid.cpp -o CMakeFiles/shell.dir/runtime/src/support/guid.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/support/guid.cpp.o.requires:
 
@@ -2147,16 +2147,16 @@ CMakeFiles/shell.dir/runtime/src/support/guid.cpp.o.provides.build: CMakeFiles/s
 
 CMakeFiles/shell.dir/runtime/src/support/StringUtils.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/support/StringUtils.cpp.o: runtime/src/support/StringUtils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building CXX object CMakeFiles/shell.dir/runtime/src/support/StringUtils.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/support/StringUtils.cpp.o -c /home/norlock/Projects/Shell/runtime/src/support/StringUtils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building CXX object CMakeFiles/shell.dir/runtime/src/support/StringUtils.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/support/StringUtils.cpp.o -c /home/norlock/Projects/shell/runtime/src/support/StringUtils.cpp
 
 CMakeFiles/shell.dir/runtime/src/support/StringUtils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/support/StringUtils.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/support/StringUtils.cpp > CMakeFiles/shell.dir/runtime/src/support/StringUtils.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/support/StringUtils.cpp > CMakeFiles/shell.dir/runtime/src/support/StringUtils.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/support/StringUtils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/support/StringUtils.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/support/StringUtils.cpp -o CMakeFiles/shell.dir/runtime/src/support/StringUtils.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/support/StringUtils.cpp -o CMakeFiles/shell.dir/runtime/src/support/StringUtils.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/support/StringUtils.cpp.o.requires:
 
@@ -2171,16 +2171,16 @@ CMakeFiles/shell.dir/runtime/src/support/StringUtils.cpp.o.provides.build: CMake
 
 CMakeFiles/shell.dir/runtime/src/tree/pattern/Chunk.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/tree/pattern/Chunk.cpp.o: runtime/src/tree/pattern/Chunk.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building CXX object CMakeFiles/shell.dir/runtime/src/tree/pattern/Chunk.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/tree/pattern/Chunk.cpp.o -c /home/norlock/Projects/Shell/runtime/src/tree/pattern/Chunk.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building CXX object CMakeFiles/shell.dir/runtime/src/tree/pattern/Chunk.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/tree/pattern/Chunk.cpp.o -c /home/norlock/Projects/shell/runtime/src/tree/pattern/Chunk.cpp
 
 CMakeFiles/shell.dir/runtime/src/tree/pattern/Chunk.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/tree/pattern/Chunk.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/tree/pattern/Chunk.cpp > CMakeFiles/shell.dir/runtime/src/tree/pattern/Chunk.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/tree/pattern/Chunk.cpp > CMakeFiles/shell.dir/runtime/src/tree/pattern/Chunk.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/tree/pattern/Chunk.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/tree/pattern/Chunk.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/tree/pattern/Chunk.cpp -o CMakeFiles/shell.dir/runtime/src/tree/pattern/Chunk.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/tree/pattern/Chunk.cpp -o CMakeFiles/shell.dir/runtime/src/tree/pattern/Chunk.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/tree/pattern/Chunk.cpp.o.requires:
 
@@ -2195,16 +2195,16 @@ CMakeFiles/shell.dir/runtime/src/tree/pattern/Chunk.cpp.o.provides.build: CMakeF
 
 CMakeFiles/shell.dir/runtime/src/tree/pattern/ParseTreeMatch.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/tree/pattern/ParseTreeMatch.cpp.o: runtime/src/tree/pattern/ParseTreeMatch.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building CXX object CMakeFiles/shell.dir/runtime/src/tree/pattern/ParseTreeMatch.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/tree/pattern/ParseTreeMatch.cpp.o -c /home/norlock/Projects/Shell/runtime/src/tree/pattern/ParseTreeMatch.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building CXX object CMakeFiles/shell.dir/runtime/src/tree/pattern/ParseTreeMatch.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/tree/pattern/ParseTreeMatch.cpp.o -c /home/norlock/Projects/shell/runtime/src/tree/pattern/ParseTreeMatch.cpp
 
 CMakeFiles/shell.dir/runtime/src/tree/pattern/ParseTreeMatch.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/tree/pattern/ParseTreeMatch.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/tree/pattern/ParseTreeMatch.cpp > CMakeFiles/shell.dir/runtime/src/tree/pattern/ParseTreeMatch.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/tree/pattern/ParseTreeMatch.cpp > CMakeFiles/shell.dir/runtime/src/tree/pattern/ParseTreeMatch.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/tree/pattern/ParseTreeMatch.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/tree/pattern/ParseTreeMatch.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/tree/pattern/ParseTreeMatch.cpp -o CMakeFiles/shell.dir/runtime/src/tree/pattern/ParseTreeMatch.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/tree/pattern/ParseTreeMatch.cpp -o CMakeFiles/shell.dir/runtime/src/tree/pattern/ParseTreeMatch.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/tree/pattern/ParseTreeMatch.cpp.o.requires:
 
@@ -2219,16 +2219,16 @@ CMakeFiles/shell.dir/runtime/src/tree/pattern/ParseTreeMatch.cpp.o.provides.buil
 
 CMakeFiles/shell.dir/runtime/src/tree/pattern/ParseTreePattern.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/tree/pattern/ParseTreePattern.cpp.o: runtime/src/tree/pattern/ParseTreePattern.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building CXX object CMakeFiles/shell.dir/runtime/src/tree/pattern/ParseTreePattern.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/tree/pattern/ParseTreePattern.cpp.o -c /home/norlock/Projects/Shell/runtime/src/tree/pattern/ParseTreePattern.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building CXX object CMakeFiles/shell.dir/runtime/src/tree/pattern/ParseTreePattern.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/tree/pattern/ParseTreePattern.cpp.o -c /home/norlock/Projects/shell/runtime/src/tree/pattern/ParseTreePattern.cpp
 
 CMakeFiles/shell.dir/runtime/src/tree/pattern/ParseTreePattern.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/tree/pattern/ParseTreePattern.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/tree/pattern/ParseTreePattern.cpp > CMakeFiles/shell.dir/runtime/src/tree/pattern/ParseTreePattern.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/tree/pattern/ParseTreePattern.cpp > CMakeFiles/shell.dir/runtime/src/tree/pattern/ParseTreePattern.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/tree/pattern/ParseTreePattern.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/tree/pattern/ParseTreePattern.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/tree/pattern/ParseTreePattern.cpp -o CMakeFiles/shell.dir/runtime/src/tree/pattern/ParseTreePattern.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/tree/pattern/ParseTreePattern.cpp -o CMakeFiles/shell.dir/runtime/src/tree/pattern/ParseTreePattern.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/tree/pattern/ParseTreePattern.cpp.o.requires:
 
@@ -2243,16 +2243,16 @@ CMakeFiles/shell.dir/runtime/src/tree/pattern/ParseTreePattern.cpp.o.provides.bu
 
 CMakeFiles/shell.dir/runtime/src/tree/pattern/ParseTreePatternMatcher.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/tree/pattern/ParseTreePatternMatcher.cpp.o: runtime/src/tree/pattern/ParseTreePatternMatcher.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building CXX object CMakeFiles/shell.dir/runtime/src/tree/pattern/ParseTreePatternMatcher.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/tree/pattern/ParseTreePatternMatcher.cpp.o -c /home/norlock/Projects/Shell/runtime/src/tree/pattern/ParseTreePatternMatcher.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building CXX object CMakeFiles/shell.dir/runtime/src/tree/pattern/ParseTreePatternMatcher.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/tree/pattern/ParseTreePatternMatcher.cpp.o -c /home/norlock/Projects/shell/runtime/src/tree/pattern/ParseTreePatternMatcher.cpp
 
 CMakeFiles/shell.dir/runtime/src/tree/pattern/ParseTreePatternMatcher.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/tree/pattern/ParseTreePatternMatcher.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/tree/pattern/ParseTreePatternMatcher.cpp > CMakeFiles/shell.dir/runtime/src/tree/pattern/ParseTreePatternMatcher.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/tree/pattern/ParseTreePatternMatcher.cpp > CMakeFiles/shell.dir/runtime/src/tree/pattern/ParseTreePatternMatcher.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/tree/pattern/ParseTreePatternMatcher.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/tree/pattern/ParseTreePatternMatcher.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/tree/pattern/ParseTreePatternMatcher.cpp -o CMakeFiles/shell.dir/runtime/src/tree/pattern/ParseTreePatternMatcher.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/tree/pattern/ParseTreePatternMatcher.cpp -o CMakeFiles/shell.dir/runtime/src/tree/pattern/ParseTreePatternMatcher.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/tree/pattern/ParseTreePatternMatcher.cpp.o.requires:
 
@@ -2267,16 +2267,16 @@ CMakeFiles/shell.dir/runtime/src/tree/pattern/ParseTreePatternMatcher.cpp.o.prov
 
 CMakeFiles/shell.dir/runtime/src/tree/pattern/RuleTagToken.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/tree/pattern/RuleTagToken.cpp.o: runtime/src/tree/pattern/RuleTagToken.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building CXX object CMakeFiles/shell.dir/runtime/src/tree/pattern/RuleTagToken.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/tree/pattern/RuleTagToken.cpp.o -c /home/norlock/Projects/Shell/runtime/src/tree/pattern/RuleTagToken.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building CXX object CMakeFiles/shell.dir/runtime/src/tree/pattern/RuleTagToken.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/tree/pattern/RuleTagToken.cpp.o -c /home/norlock/Projects/shell/runtime/src/tree/pattern/RuleTagToken.cpp
 
 CMakeFiles/shell.dir/runtime/src/tree/pattern/RuleTagToken.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/tree/pattern/RuleTagToken.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/tree/pattern/RuleTagToken.cpp > CMakeFiles/shell.dir/runtime/src/tree/pattern/RuleTagToken.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/tree/pattern/RuleTagToken.cpp > CMakeFiles/shell.dir/runtime/src/tree/pattern/RuleTagToken.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/tree/pattern/RuleTagToken.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/tree/pattern/RuleTagToken.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/tree/pattern/RuleTagToken.cpp -o CMakeFiles/shell.dir/runtime/src/tree/pattern/RuleTagToken.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/tree/pattern/RuleTagToken.cpp -o CMakeFiles/shell.dir/runtime/src/tree/pattern/RuleTagToken.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/tree/pattern/RuleTagToken.cpp.o.requires:
 
@@ -2291,16 +2291,16 @@ CMakeFiles/shell.dir/runtime/src/tree/pattern/RuleTagToken.cpp.o.provides.build:
 
 CMakeFiles/shell.dir/runtime/src/tree/pattern/TagChunk.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/tree/pattern/TagChunk.cpp.o: runtime/src/tree/pattern/TagChunk.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building CXX object CMakeFiles/shell.dir/runtime/src/tree/pattern/TagChunk.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/tree/pattern/TagChunk.cpp.o -c /home/norlock/Projects/Shell/runtime/src/tree/pattern/TagChunk.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building CXX object CMakeFiles/shell.dir/runtime/src/tree/pattern/TagChunk.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/tree/pattern/TagChunk.cpp.o -c /home/norlock/Projects/shell/runtime/src/tree/pattern/TagChunk.cpp
 
 CMakeFiles/shell.dir/runtime/src/tree/pattern/TagChunk.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/tree/pattern/TagChunk.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/tree/pattern/TagChunk.cpp > CMakeFiles/shell.dir/runtime/src/tree/pattern/TagChunk.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/tree/pattern/TagChunk.cpp > CMakeFiles/shell.dir/runtime/src/tree/pattern/TagChunk.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/tree/pattern/TagChunk.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/tree/pattern/TagChunk.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/tree/pattern/TagChunk.cpp -o CMakeFiles/shell.dir/runtime/src/tree/pattern/TagChunk.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/tree/pattern/TagChunk.cpp -o CMakeFiles/shell.dir/runtime/src/tree/pattern/TagChunk.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/tree/pattern/TagChunk.cpp.o.requires:
 
@@ -2315,16 +2315,16 @@ CMakeFiles/shell.dir/runtime/src/tree/pattern/TagChunk.cpp.o.provides.build: CMa
 
 CMakeFiles/shell.dir/runtime/src/tree/pattern/TextChunk.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/tree/pattern/TextChunk.cpp.o: runtime/src/tree/pattern/TextChunk.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building CXX object CMakeFiles/shell.dir/runtime/src/tree/pattern/TextChunk.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/tree/pattern/TextChunk.cpp.o -c /home/norlock/Projects/Shell/runtime/src/tree/pattern/TextChunk.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building CXX object CMakeFiles/shell.dir/runtime/src/tree/pattern/TextChunk.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/tree/pattern/TextChunk.cpp.o -c /home/norlock/Projects/shell/runtime/src/tree/pattern/TextChunk.cpp
 
 CMakeFiles/shell.dir/runtime/src/tree/pattern/TextChunk.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/tree/pattern/TextChunk.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/tree/pattern/TextChunk.cpp > CMakeFiles/shell.dir/runtime/src/tree/pattern/TextChunk.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/tree/pattern/TextChunk.cpp > CMakeFiles/shell.dir/runtime/src/tree/pattern/TextChunk.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/tree/pattern/TextChunk.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/tree/pattern/TextChunk.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/tree/pattern/TextChunk.cpp -o CMakeFiles/shell.dir/runtime/src/tree/pattern/TextChunk.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/tree/pattern/TextChunk.cpp -o CMakeFiles/shell.dir/runtime/src/tree/pattern/TextChunk.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/tree/pattern/TextChunk.cpp.o.requires:
 
@@ -2339,16 +2339,16 @@ CMakeFiles/shell.dir/runtime/src/tree/pattern/TextChunk.cpp.o.provides.build: CM
 
 CMakeFiles/shell.dir/runtime/src/tree/pattern/TokenTagToken.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/tree/pattern/TokenTagToken.cpp.o: runtime/src/tree/pattern/TokenTagToken.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building CXX object CMakeFiles/shell.dir/runtime/src/tree/pattern/TokenTagToken.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/tree/pattern/TokenTagToken.cpp.o -c /home/norlock/Projects/Shell/runtime/src/tree/pattern/TokenTagToken.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building CXX object CMakeFiles/shell.dir/runtime/src/tree/pattern/TokenTagToken.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/tree/pattern/TokenTagToken.cpp.o -c /home/norlock/Projects/shell/runtime/src/tree/pattern/TokenTagToken.cpp
 
 CMakeFiles/shell.dir/runtime/src/tree/pattern/TokenTagToken.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/tree/pattern/TokenTagToken.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/tree/pattern/TokenTagToken.cpp > CMakeFiles/shell.dir/runtime/src/tree/pattern/TokenTagToken.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/tree/pattern/TokenTagToken.cpp > CMakeFiles/shell.dir/runtime/src/tree/pattern/TokenTagToken.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/tree/pattern/TokenTagToken.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/tree/pattern/TokenTagToken.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/tree/pattern/TokenTagToken.cpp -o CMakeFiles/shell.dir/runtime/src/tree/pattern/TokenTagToken.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/tree/pattern/TokenTagToken.cpp -o CMakeFiles/shell.dir/runtime/src/tree/pattern/TokenTagToken.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/tree/pattern/TokenTagToken.cpp.o.requires:
 
@@ -2363,16 +2363,16 @@ CMakeFiles/shell.dir/runtime/src/tree/pattern/TokenTagToken.cpp.o.provides.build
 
 CMakeFiles/shell.dir/runtime/src/tree/xpath/XPath.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/tree/xpath/XPath.cpp.o: runtime/src/tree/xpath/XPath.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building CXX object CMakeFiles/shell.dir/runtime/src/tree/xpath/XPath.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/tree/xpath/XPath.cpp.o -c /home/norlock/Projects/Shell/runtime/src/tree/xpath/XPath.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building CXX object CMakeFiles/shell.dir/runtime/src/tree/xpath/XPath.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/tree/xpath/XPath.cpp.o -c /home/norlock/Projects/shell/runtime/src/tree/xpath/XPath.cpp
 
 CMakeFiles/shell.dir/runtime/src/tree/xpath/XPath.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/tree/xpath/XPath.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/tree/xpath/XPath.cpp > CMakeFiles/shell.dir/runtime/src/tree/xpath/XPath.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/tree/xpath/XPath.cpp > CMakeFiles/shell.dir/runtime/src/tree/xpath/XPath.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/tree/xpath/XPath.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/tree/xpath/XPath.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/tree/xpath/XPath.cpp -o CMakeFiles/shell.dir/runtime/src/tree/xpath/XPath.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/tree/xpath/XPath.cpp -o CMakeFiles/shell.dir/runtime/src/tree/xpath/XPath.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/tree/xpath/XPath.cpp.o.requires:
 
@@ -2387,16 +2387,16 @@ CMakeFiles/shell.dir/runtime/src/tree/xpath/XPath.cpp.o.provides.build: CMakeFil
 
 CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathElement.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathElement.cpp.o: runtime/src/tree/xpath/XPathElement.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building CXX object CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathElement.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathElement.cpp.o -c /home/norlock/Projects/Shell/runtime/src/tree/xpath/XPathElement.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building CXX object CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathElement.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathElement.cpp.o -c /home/norlock/Projects/shell/runtime/src/tree/xpath/XPathElement.cpp
 
 CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathElement.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathElement.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/tree/xpath/XPathElement.cpp > CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathElement.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/tree/xpath/XPathElement.cpp > CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathElement.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathElement.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathElement.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/tree/xpath/XPathElement.cpp -o CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathElement.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/tree/xpath/XPathElement.cpp -o CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathElement.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathElement.cpp.o.requires:
 
@@ -2411,16 +2411,16 @@ CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathElement.cpp.o.provides.build: C
 
 CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathLexer.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathLexer.cpp.o: runtime/src/tree/xpath/XPathLexer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building CXX object CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathLexer.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathLexer.cpp.o -c /home/norlock/Projects/Shell/runtime/src/tree/xpath/XPathLexer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building CXX object CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathLexer.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathLexer.cpp.o -c /home/norlock/Projects/shell/runtime/src/tree/xpath/XPathLexer.cpp
 
 CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathLexer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathLexer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/tree/xpath/XPathLexer.cpp > CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathLexer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/tree/xpath/XPathLexer.cpp > CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathLexer.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathLexer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathLexer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/tree/xpath/XPathLexer.cpp -o CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathLexer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/tree/xpath/XPathLexer.cpp -o CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathLexer.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathLexer.cpp.o.requires:
 
@@ -2435,16 +2435,16 @@ CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathLexer.cpp.o.provides.build: CMa
 
 CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathLexerErrorListener.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathLexerErrorListener.cpp.o: runtime/src/tree/xpath/XPathLexerErrorListener.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building CXX object CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathLexerErrorListener.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathLexerErrorListener.cpp.o -c /home/norlock/Projects/Shell/runtime/src/tree/xpath/XPathLexerErrorListener.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building CXX object CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathLexerErrorListener.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathLexerErrorListener.cpp.o -c /home/norlock/Projects/shell/runtime/src/tree/xpath/XPathLexerErrorListener.cpp
 
 CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathLexerErrorListener.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathLexerErrorListener.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/tree/xpath/XPathLexerErrorListener.cpp > CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathLexerErrorListener.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/tree/xpath/XPathLexerErrorListener.cpp > CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathLexerErrorListener.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathLexerErrorListener.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathLexerErrorListener.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/tree/xpath/XPathLexerErrorListener.cpp -o CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathLexerErrorListener.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/tree/xpath/XPathLexerErrorListener.cpp -o CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathLexerErrorListener.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathLexerErrorListener.cpp.o.requires:
 
@@ -2459,16 +2459,16 @@ CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathLexerErrorListener.cpp.o.provid
 
 CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathRuleAnywhereElement.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathRuleAnywhereElement.cpp.o: runtime/src/tree/xpath/XPathRuleAnywhereElement.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building CXX object CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathRuleAnywhereElement.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathRuleAnywhereElement.cpp.o -c /home/norlock/Projects/Shell/runtime/src/tree/xpath/XPathRuleAnywhereElement.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building CXX object CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathRuleAnywhereElement.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathRuleAnywhereElement.cpp.o -c /home/norlock/Projects/shell/runtime/src/tree/xpath/XPathRuleAnywhereElement.cpp
 
 CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathRuleAnywhereElement.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathRuleAnywhereElement.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/tree/xpath/XPathRuleAnywhereElement.cpp > CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathRuleAnywhereElement.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/tree/xpath/XPathRuleAnywhereElement.cpp > CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathRuleAnywhereElement.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathRuleAnywhereElement.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathRuleAnywhereElement.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/tree/xpath/XPathRuleAnywhereElement.cpp -o CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathRuleAnywhereElement.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/tree/xpath/XPathRuleAnywhereElement.cpp -o CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathRuleAnywhereElement.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathRuleAnywhereElement.cpp.o.requires:
 
@@ -2483,16 +2483,16 @@ CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathRuleAnywhereElement.cpp.o.provi
 
 CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathRuleElement.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathRuleElement.cpp.o: runtime/src/tree/xpath/XPathRuleElement.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building CXX object CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathRuleElement.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathRuleElement.cpp.o -c /home/norlock/Projects/Shell/runtime/src/tree/xpath/XPathRuleElement.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building CXX object CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathRuleElement.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathRuleElement.cpp.o -c /home/norlock/Projects/shell/runtime/src/tree/xpath/XPathRuleElement.cpp
 
 CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathRuleElement.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathRuleElement.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/tree/xpath/XPathRuleElement.cpp > CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathRuleElement.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/tree/xpath/XPathRuleElement.cpp > CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathRuleElement.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathRuleElement.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathRuleElement.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/tree/xpath/XPathRuleElement.cpp -o CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathRuleElement.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/tree/xpath/XPathRuleElement.cpp -o CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathRuleElement.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathRuleElement.cpp.o.requires:
 
@@ -2507,16 +2507,16 @@ CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathRuleElement.cpp.o.provides.buil
 
 CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathTokenAnywhereElement.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathTokenAnywhereElement.cpp.o: runtime/src/tree/xpath/XPathTokenAnywhereElement.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building CXX object CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathTokenAnywhereElement.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathTokenAnywhereElement.cpp.o -c /home/norlock/Projects/Shell/runtime/src/tree/xpath/XPathTokenAnywhereElement.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building CXX object CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathTokenAnywhereElement.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathTokenAnywhereElement.cpp.o -c /home/norlock/Projects/shell/runtime/src/tree/xpath/XPathTokenAnywhereElement.cpp
 
 CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathTokenAnywhereElement.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathTokenAnywhereElement.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/tree/xpath/XPathTokenAnywhereElement.cpp > CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathTokenAnywhereElement.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/tree/xpath/XPathTokenAnywhereElement.cpp > CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathTokenAnywhereElement.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathTokenAnywhereElement.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathTokenAnywhereElement.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/tree/xpath/XPathTokenAnywhereElement.cpp -o CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathTokenAnywhereElement.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/tree/xpath/XPathTokenAnywhereElement.cpp -o CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathTokenAnywhereElement.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathTokenAnywhereElement.cpp.o.requires:
 
@@ -2531,16 +2531,16 @@ CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathTokenAnywhereElement.cpp.o.prov
 
 CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathTokenElement.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathTokenElement.cpp.o: runtime/src/tree/xpath/XPathTokenElement.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building CXX object CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathTokenElement.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathTokenElement.cpp.o -c /home/norlock/Projects/Shell/runtime/src/tree/xpath/XPathTokenElement.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building CXX object CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathTokenElement.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathTokenElement.cpp.o -c /home/norlock/Projects/shell/runtime/src/tree/xpath/XPathTokenElement.cpp
 
 CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathTokenElement.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathTokenElement.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/tree/xpath/XPathTokenElement.cpp > CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathTokenElement.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/tree/xpath/XPathTokenElement.cpp > CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathTokenElement.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathTokenElement.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathTokenElement.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/tree/xpath/XPathTokenElement.cpp -o CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathTokenElement.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/tree/xpath/XPathTokenElement.cpp -o CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathTokenElement.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathTokenElement.cpp.o.requires:
 
@@ -2555,16 +2555,16 @@ CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathTokenElement.cpp.o.provides.bui
 
 CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathWildcardAnywhereElement.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathWildcardAnywhereElement.cpp.o: runtime/src/tree/xpath/XPathWildcardAnywhereElement.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building CXX object CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathWildcardAnywhereElement.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathWildcardAnywhereElement.cpp.o -c /home/norlock/Projects/Shell/runtime/src/tree/xpath/XPathWildcardAnywhereElement.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building CXX object CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathWildcardAnywhereElement.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathWildcardAnywhereElement.cpp.o -c /home/norlock/Projects/shell/runtime/src/tree/xpath/XPathWildcardAnywhereElement.cpp
 
 CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathWildcardAnywhereElement.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathWildcardAnywhereElement.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/tree/xpath/XPathWildcardAnywhereElement.cpp > CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathWildcardAnywhereElement.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/tree/xpath/XPathWildcardAnywhereElement.cpp > CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathWildcardAnywhereElement.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathWildcardAnywhereElement.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathWildcardAnywhereElement.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/tree/xpath/XPathWildcardAnywhereElement.cpp -o CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathWildcardAnywhereElement.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/tree/xpath/XPathWildcardAnywhereElement.cpp -o CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathWildcardAnywhereElement.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathWildcardAnywhereElement.cpp.o.requires:
 
@@ -2579,16 +2579,16 @@ CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathWildcardAnywhereElement.cpp.o.p
 
 CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathWildcardElement.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathWildcardElement.cpp.o: runtime/src/tree/xpath/XPathWildcardElement.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building CXX object CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathWildcardElement.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathWildcardElement.cpp.o -c /home/norlock/Projects/Shell/runtime/src/tree/xpath/XPathWildcardElement.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building CXX object CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathWildcardElement.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathWildcardElement.cpp.o -c /home/norlock/Projects/shell/runtime/src/tree/xpath/XPathWildcardElement.cpp
 
 CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathWildcardElement.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathWildcardElement.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/tree/xpath/XPathWildcardElement.cpp > CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathWildcardElement.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/tree/xpath/XPathWildcardElement.cpp > CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathWildcardElement.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathWildcardElement.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathWildcardElement.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/tree/xpath/XPathWildcardElement.cpp -o CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathWildcardElement.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/tree/xpath/XPathWildcardElement.cpp -o CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathWildcardElement.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathWildcardElement.cpp.o.requires:
 
@@ -2603,16 +2603,16 @@ CMakeFiles/shell.dir/runtime/src/tree/xpath/XPathWildcardElement.cpp.o.provides.
 
 CMakeFiles/shell.dir/runtime/src/tree/ErrorNode.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/tree/ErrorNode.cpp.o: runtime/src/tree/ErrorNode.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building CXX object CMakeFiles/shell.dir/runtime/src/tree/ErrorNode.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/tree/ErrorNode.cpp.o -c /home/norlock/Projects/Shell/runtime/src/tree/ErrorNode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building CXX object CMakeFiles/shell.dir/runtime/src/tree/ErrorNode.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/tree/ErrorNode.cpp.o -c /home/norlock/Projects/shell/runtime/src/tree/ErrorNode.cpp
 
 CMakeFiles/shell.dir/runtime/src/tree/ErrorNode.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/tree/ErrorNode.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/tree/ErrorNode.cpp > CMakeFiles/shell.dir/runtime/src/tree/ErrorNode.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/tree/ErrorNode.cpp > CMakeFiles/shell.dir/runtime/src/tree/ErrorNode.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/tree/ErrorNode.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/tree/ErrorNode.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/tree/ErrorNode.cpp -o CMakeFiles/shell.dir/runtime/src/tree/ErrorNode.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/tree/ErrorNode.cpp -o CMakeFiles/shell.dir/runtime/src/tree/ErrorNode.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/tree/ErrorNode.cpp.o.requires:
 
@@ -2627,16 +2627,16 @@ CMakeFiles/shell.dir/runtime/src/tree/ErrorNode.cpp.o.provides.build: CMakeFiles
 
 CMakeFiles/shell.dir/runtime/src/tree/ErrorNodeImpl.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/tree/ErrorNodeImpl.cpp.o: runtime/src/tree/ErrorNodeImpl.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building CXX object CMakeFiles/shell.dir/runtime/src/tree/ErrorNodeImpl.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/tree/ErrorNodeImpl.cpp.o -c /home/norlock/Projects/Shell/runtime/src/tree/ErrorNodeImpl.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building CXX object CMakeFiles/shell.dir/runtime/src/tree/ErrorNodeImpl.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/tree/ErrorNodeImpl.cpp.o -c /home/norlock/Projects/shell/runtime/src/tree/ErrorNodeImpl.cpp
 
 CMakeFiles/shell.dir/runtime/src/tree/ErrorNodeImpl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/tree/ErrorNodeImpl.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/tree/ErrorNodeImpl.cpp > CMakeFiles/shell.dir/runtime/src/tree/ErrorNodeImpl.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/tree/ErrorNodeImpl.cpp > CMakeFiles/shell.dir/runtime/src/tree/ErrorNodeImpl.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/tree/ErrorNodeImpl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/tree/ErrorNodeImpl.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/tree/ErrorNodeImpl.cpp -o CMakeFiles/shell.dir/runtime/src/tree/ErrorNodeImpl.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/tree/ErrorNodeImpl.cpp -o CMakeFiles/shell.dir/runtime/src/tree/ErrorNodeImpl.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/tree/ErrorNodeImpl.cpp.o.requires:
 
@@ -2651,16 +2651,16 @@ CMakeFiles/shell.dir/runtime/src/tree/ErrorNodeImpl.cpp.o.provides.build: CMakeF
 
 CMakeFiles/shell.dir/runtime/src/tree/IterativeParseTreeWalker.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/tree/IterativeParseTreeWalker.cpp.o: runtime/src/tree/IterativeParseTreeWalker.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building CXX object CMakeFiles/shell.dir/runtime/src/tree/IterativeParseTreeWalker.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/tree/IterativeParseTreeWalker.cpp.o -c /home/norlock/Projects/Shell/runtime/src/tree/IterativeParseTreeWalker.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building CXX object CMakeFiles/shell.dir/runtime/src/tree/IterativeParseTreeWalker.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/tree/IterativeParseTreeWalker.cpp.o -c /home/norlock/Projects/shell/runtime/src/tree/IterativeParseTreeWalker.cpp
 
 CMakeFiles/shell.dir/runtime/src/tree/IterativeParseTreeWalker.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/tree/IterativeParseTreeWalker.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/tree/IterativeParseTreeWalker.cpp > CMakeFiles/shell.dir/runtime/src/tree/IterativeParseTreeWalker.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/tree/IterativeParseTreeWalker.cpp > CMakeFiles/shell.dir/runtime/src/tree/IterativeParseTreeWalker.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/tree/IterativeParseTreeWalker.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/tree/IterativeParseTreeWalker.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/tree/IterativeParseTreeWalker.cpp -o CMakeFiles/shell.dir/runtime/src/tree/IterativeParseTreeWalker.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/tree/IterativeParseTreeWalker.cpp -o CMakeFiles/shell.dir/runtime/src/tree/IterativeParseTreeWalker.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/tree/IterativeParseTreeWalker.cpp.o.requires:
 
@@ -2675,16 +2675,16 @@ CMakeFiles/shell.dir/runtime/src/tree/IterativeParseTreeWalker.cpp.o.provides.bu
 
 CMakeFiles/shell.dir/runtime/src/tree/ParseTree.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/tree/ParseTree.cpp.o: runtime/src/tree/ParseTree.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building CXX object CMakeFiles/shell.dir/runtime/src/tree/ParseTree.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/tree/ParseTree.cpp.o -c /home/norlock/Projects/Shell/runtime/src/tree/ParseTree.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building CXX object CMakeFiles/shell.dir/runtime/src/tree/ParseTree.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/tree/ParseTree.cpp.o -c /home/norlock/Projects/shell/runtime/src/tree/ParseTree.cpp
 
 CMakeFiles/shell.dir/runtime/src/tree/ParseTree.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/tree/ParseTree.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/tree/ParseTree.cpp > CMakeFiles/shell.dir/runtime/src/tree/ParseTree.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/tree/ParseTree.cpp > CMakeFiles/shell.dir/runtime/src/tree/ParseTree.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/tree/ParseTree.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/tree/ParseTree.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/tree/ParseTree.cpp -o CMakeFiles/shell.dir/runtime/src/tree/ParseTree.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/tree/ParseTree.cpp -o CMakeFiles/shell.dir/runtime/src/tree/ParseTree.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/tree/ParseTree.cpp.o.requires:
 
@@ -2699,16 +2699,16 @@ CMakeFiles/shell.dir/runtime/src/tree/ParseTree.cpp.o.provides.build: CMakeFiles
 
 CMakeFiles/shell.dir/runtime/src/tree/ParseTreeListener.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/tree/ParseTreeListener.cpp.o: runtime/src/tree/ParseTreeListener.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building CXX object CMakeFiles/shell.dir/runtime/src/tree/ParseTreeListener.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/tree/ParseTreeListener.cpp.o -c /home/norlock/Projects/Shell/runtime/src/tree/ParseTreeListener.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building CXX object CMakeFiles/shell.dir/runtime/src/tree/ParseTreeListener.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/tree/ParseTreeListener.cpp.o -c /home/norlock/Projects/shell/runtime/src/tree/ParseTreeListener.cpp
 
 CMakeFiles/shell.dir/runtime/src/tree/ParseTreeListener.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/tree/ParseTreeListener.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/tree/ParseTreeListener.cpp > CMakeFiles/shell.dir/runtime/src/tree/ParseTreeListener.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/tree/ParseTreeListener.cpp > CMakeFiles/shell.dir/runtime/src/tree/ParseTreeListener.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/tree/ParseTreeListener.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/tree/ParseTreeListener.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/tree/ParseTreeListener.cpp -o CMakeFiles/shell.dir/runtime/src/tree/ParseTreeListener.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/tree/ParseTreeListener.cpp -o CMakeFiles/shell.dir/runtime/src/tree/ParseTreeListener.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/tree/ParseTreeListener.cpp.o.requires:
 
@@ -2723,16 +2723,16 @@ CMakeFiles/shell.dir/runtime/src/tree/ParseTreeListener.cpp.o.provides.build: CM
 
 CMakeFiles/shell.dir/runtime/src/tree/ParseTreeVisitor.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/tree/ParseTreeVisitor.cpp.o: runtime/src/tree/ParseTreeVisitor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building CXX object CMakeFiles/shell.dir/runtime/src/tree/ParseTreeVisitor.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/tree/ParseTreeVisitor.cpp.o -c /home/norlock/Projects/Shell/runtime/src/tree/ParseTreeVisitor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building CXX object CMakeFiles/shell.dir/runtime/src/tree/ParseTreeVisitor.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/tree/ParseTreeVisitor.cpp.o -c /home/norlock/Projects/shell/runtime/src/tree/ParseTreeVisitor.cpp
 
 CMakeFiles/shell.dir/runtime/src/tree/ParseTreeVisitor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/tree/ParseTreeVisitor.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/tree/ParseTreeVisitor.cpp > CMakeFiles/shell.dir/runtime/src/tree/ParseTreeVisitor.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/tree/ParseTreeVisitor.cpp > CMakeFiles/shell.dir/runtime/src/tree/ParseTreeVisitor.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/tree/ParseTreeVisitor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/tree/ParseTreeVisitor.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/tree/ParseTreeVisitor.cpp -o CMakeFiles/shell.dir/runtime/src/tree/ParseTreeVisitor.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/tree/ParseTreeVisitor.cpp -o CMakeFiles/shell.dir/runtime/src/tree/ParseTreeVisitor.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/tree/ParseTreeVisitor.cpp.o.requires:
 
@@ -2747,16 +2747,16 @@ CMakeFiles/shell.dir/runtime/src/tree/ParseTreeVisitor.cpp.o.provides.build: CMa
 
 CMakeFiles/shell.dir/runtime/src/tree/ParseTreeWalker.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/tree/ParseTreeWalker.cpp.o: runtime/src/tree/ParseTreeWalker.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building CXX object CMakeFiles/shell.dir/runtime/src/tree/ParseTreeWalker.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/tree/ParseTreeWalker.cpp.o -c /home/norlock/Projects/Shell/runtime/src/tree/ParseTreeWalker.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building CXX object CMakeFiles/shell.dir/runtime/src/tree/ParseTreeWalker.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/tree/ParseTreeWalker.cpp.o -c /home/norlock/Projects/shell/runtime/src/tree/ParseTreeWalker.cpp
 
 CMakeFiles/shell.dir/runtime/src/tree/ParseTreeWalker.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/tree/ParseTreeWalker.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/tree/ParseTreeWalker.cpp > CMakeFiles/shell.dir/runtime/src/tree/ParseTreeWalker.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/tree/ParseTreeWalker.cpp > CMakeFiles/shell.dir/runtime/src/tree/ParseTreeWalker.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/tree/ParseTreeWalker.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/tree/ParseTreeWalker.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/tree/ParseTreeWalker.cpp -o CMakeFiles/shell.dir/runtime/src/tree/ParseTreeWalker.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/tree/ParseTreeWalker.cpp -o CMakeFiles/shell.dir/runtime/src/tree/ParseTreeWalker.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/tree/ParseTreeWalker.cpp.o.requires:
 
@@ -2771,16 +2771,16 @@ CMakeFiles/shell.dir/runtime/src/tree/ParseTreeWalker.cpp.o.provides.build: CMak
 
 CMakeFiles/shell.dir/runtime/src/tree/TerminalNode.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/tree/TerminalNode.cpp.o: runtime/src/tree/TerminalNode.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building CXX object CMakeFiles/shell.dir/runtime/src/tree/TerminalNode.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/tree/TerminalNode.cpp.o -c /home/norlock/Projects/Shell/runtime/src/tree/TerminalNode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building CXX object CMakeFiles/shell.dir/runtime/src/tree/TerminalNode.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/tree/TerminalNode.cpp.o -c /home/norlock/Projects/shell/runtime/src/tree/TerminalNode.cpp
 
 CMakeFiles/shell.dir/runtime/src/tree/TerminalNode.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/tree/TerminalNode.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/tree/TerminalNode.cpp > CMakeFiles/shell.dir/runtime/src/tree/TerminalNode.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/tree/TerminalNode.cpp > CMakeFiles/shell.dir/runtime/src/tree/TerminalNode.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/tree/TerminalNode.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/tree/TerminalNode.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/tree/TerminalNode.cpp -o CMakeFiles/shell.dir/runtime/src/tree/TerminalNode.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/tree/TerminalNode.cpp -o CMakeFiles/shell.dir/runtime/src/tree/TerminalNode.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/tree/TerminalNode.cpp.o.requires:
 
@@ -2795,16 +2795,16 @@ CMakeFiles/shell.dir/runtime/src/tree/TerminalNode.cpp.o.provides.build: CMakeFi
 
 CMakeFiles/shell.dir/runtime/src/tree/TerminalNodeImpl.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/tree/TerminalNodeImpl.cpp.o: runtime/src/tree/TerminalNodeImpl.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building CXX object CMakeFiles/shell.dir/runtime/src/tree/TerminalNodeImpl.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/tree/TerminalNodeImpl.cpp.o -c /home/norlock/Projects/Shell/runtime/src/tree/TerminalNodeImpl.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building CXX object CMakeFiles/shell.dir/runtime/src/tree/TerminalNodeImpl.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/tree/TerminalNodeImpl.cpp.o -c /home/norlock/Projects/shell/runtime/src/tree/TerminalNodeImpl.cpp
 
 CMakeFiles/shell.dir/runtime/src/tree/TerminalNodeImpl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/tree/TerminalNodeImpl.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/tree/TerminalNodeImpl.cpp > CMakeFiles/shell.dir/runtime/src/tree/TerminalNodeImpl.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/tree/TerminalNodeImpl.cpp > CMakeFiles/shell.dir/runtime/src/tree/TerminalNodeImpl.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/tree/TerminalNodeImpl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/tree/TerminalNodeImpl.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/tree/TerminalNodeImpl.cpp -o CMakeFiles/shell.dir/runtime/src/tree/TerminalNodeImpl.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/tree/TerminalNodeImpl.cpp -o CMakeFiles/shell.dir/runtime/src/tree/TerminalNodeImpl.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/tree/TerminalNodeImpl.cpp.o.requires:
 
@@ -2819,16 +2819,16 @@ CMakeFiles/shell.dir/runtime/src/tree/TerminalNodeImpl.cpp.o.provides.build: CMa
 
 CMakeFiles/shell.dir/runtime/src/tree/Trees.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/tree/Trees.cpp.o: runtime/src/tree/Trees.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building CXX object CMakeFiles/shell.dir/runtime/src/tree/Trees.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/tree/Trees.cpp.o -c /home/norlock/Projects/Shell/runtime/src/tree/Trees.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building CXX object CMakeFiles/shell.dir/runtime/src/tree/Trees.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/tree/Trees.cpp.o -c /home/norlock/Projects/shell/runtime/src/tree/Trees.cpp
 
 CMakeFiles/shell.dir/runtime/src/tree/Trees.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/tree/Trees.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/tree/Trees.cpp > CMakeFiles/shell.dir/runtime/src/tree/Trees.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/tree/Trees.cpp > CMakeFiles/shell.dir/runtime/src/tree/Trees.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/tree/Trees.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/tree/Trees.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/tree/Trees.cpp -o CMakeFiles/shell.dir/runtime/src/tree/Trees.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/tree/Trees.cpp -o CMakeFiles/shell.dir/runtime/src/tree/Trees.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/tree/Trees.cpp.o.requires:
 
@@ -2843,16 +2843,16 @@ CMakeFiles/shell.dir/runtime/src/tree/Trees.cpp.o.provides.build: CMakeFiles/she
 
 CMakeFiles/shell.dir/runtime/src/ANTLRErrorListener.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/ANTLRErrorListener.cpp.o: runtime/src/ANTLRErrorListener.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building CXX object CMakeFiles/shell.dir/runtime/src/ANTLRErrorListener.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/ANTLRErrorListener.cpp.o -c /home/norlock/Projects/Shell/runtime/src/ANTLRErrorListener.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building CXX object CMakeFiles/shell.dir/runtime/src/ANTLRErrorListener.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/ANTLRErrorListener.cpp.o -c /home/norlock/Projects/shell/runtime/src/ANTLRErrorListener.cpp
 
 CMakeFiles/shell.dir/runtime/src/ANTLRErrorListener.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/ANTLRErrorListener.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/ANTLRErrorListener.cpp > CMakeFiles/shell.dir/runtime/src/ANTLRErrorListener.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/ANTLRErrorListener.cpp > CMakeFiles/shell.dir/runtime/src/ANTLRErrorListener.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/ANTLRErrorListener.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/ANTLRErrorListener.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/ANTLRErrorListener.cpp -o CMakeFiles/shell.dir/runtime/src/ANTLRErrorListener.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/ANTLRErrorListener.cpp -o CMakeFiles/shell.dir/runtime/src/ANTLRErrorListener.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/ANTLRErrorListener.cpp.o.requires:
 
@@ -2867,16 +2867,16 @@ CMakeFiles/shell.dir/runtime/src/ANTLRErrorListener.cpp.o.provides.build: CMakeF
 
 CMakeFiles/shell.dir/runtime/src/ANTLRErrorStrategy.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/ANTLRErrorStrategy.cpp.o: runtime/src/ANTLRErrorStrategy.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building CXX object CMakeFiles/shell.dir/runtime/src/ANTLRErrorStrategy.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/ANTLRErrorStrategy.cpp.o -c /home/norlock/Projects/Shell/runtime/src/ANTLRErrorStrategy.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building CXX object CMakeFiles/shell.dir/runtime/src/ANTLRErrorStrategy.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/ANTLRErrorStrategy.cpp.o -c /home/norlock/Projects/shell/runtime/src/ANTLRErrorStrategy.cpp
 
 CMakeFiles/shell.dir/runtime/src/ANTLRErrorStrategy.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/ANTLRErrorStrategy.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/ANTLRErrorStrategy.cpp > CMakeFiles/shell.dir/runtime/src/ANTLRErrorStrategy.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/ANTLRErrorStrategy.cpp > CMakeFiles/shell.dir/runtime/src/ANTLRErrorStrategy.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/ANTLRErrorStrategy.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/ANTLRErrorStrategy.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/ANTLRErrorStrategy.cpp -o CMakeFiles/shell.dir/runtime/src/ANTLRErrorStrategy.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/ANTLRErrorStrategy.cpp -o CMakeFiles/shell.dir/runtime/src/ANTLRErrorStrategy.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/ANTLRErrorStrategy.cpp.o.requires:
 
@@ -2891,16 +2891,16 @@ CMakeFiles/shell.dir/runtime/src/ANTLRErrorStrategy.cpp.o.provides.build: CMakeF
 
 CMakeFiles/shell.dir/runtime/src/ANTLRFileStream.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/ANTLRFileStream.cpp.o: runtime/src/ANTLRFileStream.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building CXX object CMakeFiles/shell.dir/runtime/src/ANTLRFileStream.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/ANTLRFileStream.cpp.o -c /home/norlock/Projects/Shell/runtime/src/ANTLRFileStream.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building CXX object CMakeFiles/shell.dir/runtime/src/ANTLRFileStream.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/ANTLRFileStream.cpp.o -c /home/norlock/Projects/shell/runtime/src/ANTLRFileStream.cpp
 
 CMakeFiles/shell.dir/runtime/src/ANTLRFileStream.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/ANTLRFileStream.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/ANTLRFileStream.cpp > CMakeFiles/shell.dir/runtime/src/ANTLRFileStream.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/ANTLRFileStream.cpp > CMakeFiles/shell.dir/runtime/src/ANTLRFileStream.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/ANTLRFileStream.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/ANTLRFileStream.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/ANTLRFileStream.cpp -o CMakeFiles/shell.dir/runtime/src/ANTLRFileStream.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/ANTLRFileStream.cpp -o CMakeFiles/shell.dir/runtime/src/ANTLRFileStream.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/ANTLRFileStream.cpp.o.requires:
 
@@ -2915,16 +2915,16 @@ CMakeFiles/shell.dir/runtime/src/ANTLRFileStream.cpp.o.provides.build: CMakeFile
 
 CMakeFiles/shell.dir/runtime/src/ANTLRInputStream.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/ANTLRInputStream.cpp.o: runtime/src/ANTLRInputStream.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building CXX object CMakeFiles/shell.dir/runtime/src/ANTLRInputStream.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/ANTLRInputStream.cpp.o -c /home/norlock/Projects/Shell/runtime/src/ANTLRInputStream.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building CXX object CMakeFiles/shell.dir/runtime/src/ANTLRInputStream.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/ANTLRInputStream.cpp.o -c /home/norlock/Projects/shell/runtime/src/ANTLRInputStream.cpp
 
 CMakeFiles/shell.dir/runtime/src/ANTLRInputStream.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/ANTLRInputStream.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/ANTLRInputStream.cpp > CMakeFiles/shell.dir/runtime/src/ANTLRInputStream.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/ANTLRInputStream.cpp > CMakeFiles/shell.dir/runtime/src/ANTLRInputStream.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/ANTLRInputStream.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/ANTLRInputStream.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/ANTLRInputStream.cpp -o CMakeFiles/shell.dir/runtime/src/ANTLRInputStream.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/ANTLRInputStream.cpp -o CMakeFiles/shell.dir/runtime/src/ANTLRInputStream.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/ANTLRInputStream.cpp.o.requires:
 
@@ -2939,16 +2939,16 @@ CMakeFiles/shell.dir/runtime/src/ANTLRInputStream.cpp.o.provides.build: CMakeFil
 
 CMakeFiles/shell.dir/runtime/src/BailErrorStrategy.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/BailErrorStrategy.cpp.o: runtime/src/BailErrorStrategy.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building CXX object CMakeFiles/shell.dir/runtime/src/BailErrorStrategy.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/BailErrorStrategy.cpp.o -c /home/norlock/Projects/Shell/runtime/src/BailErrorStrategy.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building CXX object CMakeFiles/shell.dir/runtime/src/BailErrorStrategy.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/BailErrorStrategy.cpp.o -c /home/norlock/Projects/shell/runtime/src/BailErrorStrategy.cpp
 
 CMakeFiles/shell.dir/runtime/src/BailErrorStrategy.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/BailErrorStrategy.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/BailErrorStrategy.cpp > CMakeFiles/shell.dir/runtime/src/BailErrorStrategy.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/BailErrorStrategy.cpp > CMakeFiles/shell.dir/runtime/src/BailErrorStrategy.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/BailErrorStrategy.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/BailErrorStrategy.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/BailErrorStrategy.cpp -o CMakeFiles/shell.dir/runtime/src/BailErrorStrategy.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/BailErrorStrategy.cpp -o CMakeFiles/shell.dir/runtime/src/BailErrorStrategy.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/BailErrorStrategy.cpp.o.requires:
 
@@ -2963,16 +2963,16 @@ CMakeFiles/shell.dir/runtime/src/BailErrorStrategy.cpp.o.provides.build: CMakeFi
 
 CMakeFiles/shell.dir/runtime/src/BaseErrorListener.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/BaseErrorListener.cpp.o: runtime/src/BaseErrorListener.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building CXX object CMakeFiles/shell.dir/runtime/src/BaseErrorListener.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/BaseErrorListener.cpp.o -c /home/norlock/Projects/Shell/runtime/src/BaseErrorListener.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building CXX object CMakeFiles/shell.dir/runtime/src/BaseErrorListener.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/BaseErrorListener.cpp.o -c /home/norlock/Projects/shell/runtime/src/BaseErrorListener.cpp
 
 CMakeFiles/shell.dir/runtime/src/BaseErrorListener.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/BaseErrorListener.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/BaseErrorListener.cpp > CMakeFiles/shell.dir/runtime/src/BaseErrorListener.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/BaseErrorListener.cpp > CMakeFiles/shell.dir/runtime/src/BaseErrorListener.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/BaseErrorListener.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/BaseErrorListener.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/BaseErrorListener.cpp -o CMakeFiles/shell.dir/runtime/src/BaseErrorListener.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/BaseErrorListener.cpp -o CMakeFiles/shell.dir/runtime/src/BaseErrorListener.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/BaseErrorListener.cpp.o.requires:
 
@@ -2987,16 +2987,16 @@ CMakeFiles/shell.dir/runtime/src/BaseErrorListener.cpp.o.provides.build: CMakeFi
 
 CMakeFiles/shell.dir/runtime/src/BufferedTokenStream.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/BufferedTokenStream.cpp.o: runtime/src/BufferedTokenStream.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building CXX object CMakeFiles/shell.dir/runtime/src/BufferedTokenStream.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/BufferedTokenStream.cpp.o -c /home/norlock/Projects/Shell/runtime/src/BufferedTokenStream.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building CXX object CMakeFiles/shell.dir/runtime/src/BufferedTokenStream.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/BufferedTokenStream.cpp.o -c /home/norlock/Projects/shell/runtime/src/BufferedTokenStream.cpp
 
 CMakeFiles/shell.dir/runtime/src/BufferedTokenStream.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/BufferedTokenStream.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/BufferedTokenStream.cpp > CMakeFiles/shell.dir/runtime/src/BufferedTokenStream.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/BufferedTokenStream.cpp > CMakeFiles/shell.dir/runtime/src/BufferedTokenStream.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/BufferedTokenStream.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/BufferedTokenStream.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/BufferedTokenStream.cpp -o CMakeFiles/shell.dir/runtime/src/BufferedTokenStream.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/BufferedTokenStream.cpp -o CMakeFiles/shell.dir/runtime/src/BufferedTokenStream.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/BufferedTokenStream.cpp.o.requires:
 
@@ -3011,16 +3011,16 @@ CMakeFiles/shell.dir/runtime/src/BufferedTokenStream.cpp.o.provides.build: CMake
 
 CMakeFiles/shell.dir/runtime/src/CharStream.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/CharStream.cpp.o: runtime/src/CharStream.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building CXX object CMakeFiles/shell.dir/runtime/src/CharStream.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/CharStream.cpp.o -c /home/norlock/Projects/Shell/runtime/src/CharStream.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building CXX object CMakeFiles/shell.dir/runtime/src/CharStream.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/CharStream.cpp.o -c /home/norlock/Projects/shell/runtime/src/CharStream.cpp
 
 CMakeFiles/shell.dir/runtime/src/CharStream.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/CharStream.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/CharStream.cpp > CMakeFiles/shell.dir/runtime/src/CharStream.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/CharStream.cpp > CMakeFiles/shell.dir/runtime/src/CharStream.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/CharStream.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/CharStream.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/CharStream.cpp -o CMakeFiles/shell.dir/runtime/src/CharStream.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/CharStream.cpp -o CMakeFiles/shell.dir/runtime/src/CharStream.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/CharStream.cpp.o.requires:
 
@@ -3035,16 +3035,16 @@ CMakeFiles/shell.dir/runtime/src/CharStream.cpp.o.provides.build: CMakeFiles/she
 
 CMakeFiles/shell.dir/runtime/src/CommonToken.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/CommonToken.cpp.o: runtime/src/CommonToken.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building CXX object CMakeFiles/shell.dir/runtime/src/CommonToken.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/CommonToken.cpp.o -c /home/norlock/Projects/Shell/runtime/src/CommonToken.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building CXX object CMakeFiles/shell.dir/runtime/src/CommonToken.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/CommonToken.cpp.o -c /home/norlock/Projects/shell/runtime/src/CommonToken.cpp
 
 CMakeFiles/shell.dir/runtime/src/CommonToken.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/CommonToken.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/CommonToken.cpp > CMakeFiles/shell.dir/runtime/src/CommonToken.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/CommonToken.cpp > CMakeFiles/shell.dir/runtime/src/CommonToken.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/CommonToken.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/CommonToken.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/CommonToken.cpp -o CMakeFiles/shell.dir/runtime/src/CommonToken.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/CommonToken.cpp -o CMakeFiles/shell.dir/runtime/src/CommonToken.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/CommonToken.cpp.o.requires:
 
@@ -3059,16 +3059,16 @@ CMakeFiles/shell.dir/runtime/src/CommonToken.cpp.o.provides.build: CMakeFiles/sh
 
 CMakeFiles/shell.dir/runtime/src/CommonTokenFactory.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/CommonTokenFactory.cpp.o: runtime/src/CommonTokenFactory.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building CXX object CMakeFiles/shell.dir/runtime/src/CommonTokenFactory.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/CommonTokenFactory.cpp.o -c /home/norlock/Projects/Shell/runtime/src/CommonTokenFactory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building CXX object CMakeFiles/shell.dir/runtime/src/CommonTokenFactory.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/CommonTokenFactory.cpp.o -c /home/norlock/Projects/shell/runtime/src/CommonTokenFactory.cpp
 
 CMakeFiles/shell.dir/runtime/src/CommonTokenFactory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/CommonTokenFactory.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/CommonTokenFactory.cpp > CMakeFiles/shell.dir/runtime/src/CommonTokenFactory.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/CommonTokenFactory.cpp > CMakeFiles/shell.dir/runtime/src/CommonTokenFactory.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/CommonTokenFactory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/CommonTokenFactory.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/CommonTokenFactory.cpp -o CMakeFiles/shell.dir/runtime/src/CommonTokenFactory.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/CommonTokenFactory.cpp -o CMakeFiles/shell.dir/runtime/src/CommonTokenFactory.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/CommonTokenFactory.cpp.o.requires:
 
@@ -3083,16 +3083,16 @@ CMakeFiles/shell.dir/runtime/src/CommonTokenFactory.cpp.o.provides.build: CMakeF
 
 CMakeFiles/shell.dir/runtime/src/CommonTokenStream.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/CommonTokenStream.cpp.o: runtime/src/CommonTokenStream.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building CXX object CMakeFiles/shell.dir/runtime/src/CommonTokenStream.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/CommonTokenStream.cpp.o -c /home/norlock/Projects/Shell/runtime/src/CommonTokenStream.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building CXX object CMakeFiles/shell.dir/runtime/src/CommonTokenStream.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/CommonTokenStream.cpp.o -c /home/norlock/Projects/shell/runtime/src/CommonTokenStream.cpp
 
 CMakeFiles/shell.dir/runtime/src/CommonTokenStream.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/CommonTokenStream.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/CommonTokenStream.cpp > CMakeFiles/shell.dir/runtime/src/CommonTokenStream.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/CommonTokenStream.cpp > CMakeFiles/shell.dir/runtime/src/CommonTokenStream.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/CommonTokenStream.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/CommonTokenStream.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/CommonTokenStream.cpp -o CMakeFiles/shell.dir/runtime/src/CommonTokenStream.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/CommonTokenStream.cpp -o CMakeFiles/shell.dir/runtime/src/CommonTokenStream.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/CommonTokenStream.cpp.o.requires:
 
@@ -3107,16 +3107,16 @@ CMakeFiles/shell.dir/runtime/src/CommonTokenStream.cpp.o.provides.build: CMakeFi
 
 CMakeFiles/shell.dir/runtime/src/ConsoleErrorListener.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/ConsoleErrorListener.cpp.o: runtime/src/ConsoleErrorListener.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building CXX object CMakeFiles/shell.dir/runtime/src/ConsoleErrorListener.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/ConsoleErrorListener.cpp.o -c /home/norlock/Projects/Shell/runtime/src/ConsoleErrorListener.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building CXX object CMakeFiles/shell.dir/runtime/src/ConsoleErrorListener.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/ConsoleErrorListener.cpp.o -c /home/norlock/Projects/shell/runtime/src/ConsoleErrorListener.cpp
 
 CMakeFiles/shell.dir/runtime/src/ConsoleErrorListener.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/ConsoleErrorListener.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/ConsoleErrorListener.cpp > CMakeFiles/shell.dir/runtime/src/ConsoleErrorListener.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/ConsoleErrorListener.cpp > CMakeFiles/shell.dir/runtime/src/ConsoleErrorListener.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/ConsoleErrorListener.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/ConsoleErrorListener.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/ConsoleErrorListener.cpp -o CMakeFiles/shell.dir/runtime/src/ConsoleErrorListener.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/ConsoleErrorListener.cpp -o CMakeFiles/shell.dir/runtime/src/ConsoleErrorListener.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/ConsoleErrorListener.cpp.o.requires:
 
@@ -3131,16 +3131,16 @@ CMakeFiles/shell.dir/runtime/src/ConsoleErrorListener.cpp.o.provides.build: CMak
 
 CMakeFiles/shell.dir/runtime/src/DefaultErrorStrategy.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/DefaultErrorStrategy.cpp.o: runtime/src/DefaultErrorStrategy.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building CXX object CMakeFiles/shell.dir/runtime/src/DefaultErrorStrategy.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/DefaultErrorStrategy.cpp.o -c /home/norlock/Projects/Shell/runtime/src/DefaultErrorStrategy.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building CXX object CMakeFiles/shell.dir/runtime/src/DefaultErrorStrategy.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/DefaultErrorStrategy.cpp.o -c /home/norlock/Projects/shell/runtime/src/DefaultErrorStrategy.cpp
 
 CMakeFiles/shell.dir/runtime/src/DefaultErrorStrategy.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/DefaultErrorStrategy.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/DefaultErrorStrategy.cpp > CMakeFiles/shell.dir/runtime/src/DefaultErrorStrategy.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/DefaultErrorStrategy.cpp > CMakeFiles/shell.dir/runtime/src/DefaultErrorStrategy.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/DefaultErrorStrategy.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/DefaultErrorStrategy.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/DefaultErrorStrategy.cpp -o CMakeFiles/shell.dir/runtime/src/DefaultErrorStrategy.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/DefaultErrorStrategy.cpp -o CMakeFiles/shell.dir/runtime/src/DefaultErrorStrategy.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/DefaultErrorStrategy.cpp.o.requires:
 
@@ -3155,16 +3155,16 @@ CMakeFiles/shell.dir/runtime/src/DefaultErrorStrategy.cpp.o.provides.build: CMak
 
 CMakeFiles/shell.dir/runtime/src/DiagnosticErrorListener.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/DiagnosticErrorListener.cpp.o: runtime/src/DiagnosticErrorListener.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building CXX object CMakeFiles/shell.dir/runtime/src/DiagnosticErrorListener.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/DiagnosticErrorListener.cpp.o -c /home/norlock/Projects/Shell/runtime/src/DiagnosticErrorListener.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building CXX object CMakeFiles/shell.dir/runtime/src/DiagnosticErrorListener.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/DiagnosticErrorListener.cpp.o -c /home/norlock/Projects/shell/runtime/src/DiagnosticErrorListener.cpp
 
 CMakeFiles/shell.dir/runtime/src/DiagnosticErrorListener.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/DiagnosticErrorListener.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/DiagnosticErrorListener.cpp > CMakeFiles/shell.dir/runtime/src/DiagnosticErrorListener.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/DiagnosticErrorListener.cpp > CMakeFiles/shell.dir/runtime/src/DiagnosticErrorListener.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/DiagnosticErrorListener.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/DiagnosticErrorListener.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/DiagnosticErrorListener.cpp -o CMakeFiles/shell.dir/runtime/src/DiagnosticErrorListener.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/DiagnosticErrorListener.cpp -o CMakeFiles/shell.dir/runtime/src/DiagnosticErrorListener.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/DiagnosticErrorListener.cpp.o.requires:
 
@@ -3179,16 +3179,16 @@ CMakeFiles/shell.dir/runtime/src/DiagnosticErrorListener.cpp.o.provides.build: C
 
 CMakeFiles/shell.dir/runtime/src/Exceptions.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/Exceptions.cpp.o: runtime/src/Exceptions.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building CXX object CMakeFiles/shell.dir/runtime/src/Exceptions.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/Exceptions.cpp.o -c /home/norlock/Projects/Shell/runtime/src/Exceptions.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building CXX object CMakeFiles/shell.dir/runtime/src/Exceptions.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/Exceptions.cpp.o -c /home/norlock/Projects/shell/runtime/src/Exceptions.cpp
 
 CMakeFiles/shell.dir/runtime/src/Exceptions.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/Exceptions.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/Exceptions.cpp > CMakeFiles/shell.dir/runtime/src/Exceptions.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/Exceptions.cpp > CMakeFiles/shell.dir/runtime/src/Exceptions.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/Exceptions.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/Exceptions.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/Exceptions.cpp -o CMakeFiles/shell.dir/runtime/src/Exceptions.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/Exceptions.cpp -o CMakeFiles/shell.dir/runtime/src/Exceptions.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/Exceptions.cpp.o.requires:
 
@@ -3203,16 +3203,16 @@ CMakeFiles/shell.dir/runtime/src/Exceptions.cpp.o.provides.build: CMakeFiles/she
 
 CMakeFiles/shell.dir/runtime/src/FailedPredicateException.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/FailedPredicateException.cpp.o: runtime/src/FailedPredicateException.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building CXX object CMakeFiles/shell.dir/runtime/src/FailedPredicateException.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/FailedPredicateException.cpp.o -c /home/norlock/Projects/Shell/runtime/src/FailedPredicateException.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building CXX object CMakeFiles/shell.dir/runtime/src/FailedPredicateException.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/FailedPredicateException.cpp.o -c /home/norlock/Projects/shell/runtime/src/FailedPredicateException.cpp
 
 CMakeFiles/shell.dir/runtime/src/FailedPredicateException.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/FailedPredicateException.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/FailedPredicateException.cpp > CMakeFiles/shell.dir/runtime/src/FailedPredicateException.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/FailedPredicateException.cpp > CMakeFiles/shell.dir/runtime/src/FailedPredicateException.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/FailedPredicateException.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/FailedPredicateException.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/FailedPredicateException.cpp -o CMakeFiles/shell.dir/runtime/src/FailedPredicateException.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/FailedPredicateException.cpp -o CMakeFiles/shell.dir/runtime/src/FailedPredicateException.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/FailedPredicateException.cpp.o.requires:
 
@@ -3227,16 +3227,16 @@ CMakeFiles/shell.dir/runtime/src/FailedPredicateException.cpp.o.provides.build: 
 
 CMakeFiles/shell.dir/runtime/src/InputMismatchException.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/InputMismatchException.cpp.o: runtime/src/InputMismatchException.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building CXX object CMakeFiles/shell.dir/runtime/src/InputMismatchException.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/InputMismatchException.cpp.o -c /home/norlock/Projects/Shell/runtime/src/InputMismatchException.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building CXX object CMakeFiles/shell.dir/runtime/src/InputMismatchException.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/InputMismatchException.cpp.o -c /home/norlock/Projects/shell/runtime/src/InputMismatchException.cpp
 
 CMakeFiles/shell.dir/runtime/src/InputMismatchException.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/InputMismatchException.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/InputMismatchException.cpp > CMakeFiles/shell.dir/runtime/src/InputMismatchException.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/InputMismatchException.cpp > CMakeFiles/shell.dir/runtime/src/InputMismatchException.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/InputMismatchException.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/InputMismatchException.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/InputMismatchException.cpp -o CMakeFiles/shell.dir/runtime/src/InputMismatchException.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/InputMismatchException.cpp -o CMakeFiles/shell.dir/runtime/src/InputMismatchException.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/InputMismatchException.cpp.o.requires:
 
@@ -3251,16 +3251,16 @@ CMakeFiles/shell.dir/runtime/src/InputMismatchException.cpp.o.provides.build: CM
 
 CMakeFiles/shell.dir/runtime/src/InterpreterRuleContext.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/InterpreterRuleContext.cpp.o: runtime/src/InterpreterRuleContext.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building CXX object CMakeFiles/shell.dir/runtime/src/InterpreterRuleContext.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/InterpreterRuleContext.cpp.o -c /home/norlock/Projects/Shell/runtime/src/InterpreterRuleContext.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building CXX object CMakeFiles/shell.dir/runtime/src/InterpreterRuleContext.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/InterpreterRuleContext.cpp.o -c /home/norlock/Projects/shell/runtime/src/InterpreterRuleContext.cpp
 
 CMakeFiles/shell.dir/runtime/src/InterpreterRuleContext.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/InterpreterRuleContext.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/InterpreterRuleContext.cpp > CMakeFiles/shell.dir/runtime/src/InterpreterRuleContext.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/InterpreterRuleContext.cpp > CMakeFiles/shell.dir/runtime/src/InterpreterRuleContext.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/InterpreterRuleContext.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/InterpreterRuleContext.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/InterpreterRuleContext.cpp -o CMakeFiles/shell.dir/runtime/src/InterpreterRuleContext.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/InterpreterRuleContext.cpp -o CMakeFiles/shell.dir/runtime/src/InterpreterRuleContext.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/InterpreterRuleContext.cpp.o.requires:
 
@@ -3275,16 +3275,16 @@ CMakeFiles/shell.dir/runtime/src/InterpreterRuleContext.cpp.o.provides.build: CM
 
 CMakeFiles/shell.dir/runtime/src/IntStream.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/IntStream.cpp.o: runtime/src/IntStream.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building CXX object CMakeFiles/shell.dir/runtime/src/IntStream.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/IntStream.cpp.o -c /home/norlock/Projects/Shell/runtime/src/IntStream.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building CXX object CMakeFiles/shell.dir/runtime/src/IntStream.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/IntStream.cpp.o -c /home/norlock/Projects/shell/runtime/src/IntStream.cpp
 
 CMakeFiles/shell.dir/runtime/src/IntStream.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/IntStream.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/IntStream.cpp > CMakeFiles/shell.dir/runtime/src/IntStream.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/IntStream.cpp > CMakeFiles/shell.dir/runtime/src/IntStream.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/IntStream.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/IntStream.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/IntStream.cpp -o CMakeFiles/shell.dir/runtime/src/IntStream.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/IntStream.cpp -o CMakeFiles/shell.dir/runtime/src/IntStream.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/IntStream.cpp.o.requires:
 
@@ -3299,16 +3299,16 @@ CMakeFiles/shell.dir/runtime/src/IntStream.cpp.o.provides.build: CMakeFiles/shel
 
 CMakeFiles/shell.dir/runtime/src/Lexer.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/Lexer.cpp.o: runtime/src/Lexer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building CXX object CMakeFiles/shell.dir/runtime/src/Lexer.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/Lexer.cpp.o -c /home/norlock/Projects/Shell/runtime/src/Lexer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building CXX object CMakeFiles/shell.dir/runtime/src/Lexer.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/Lexer.cpp.o -c /home/norlock/Projects/shell/runtime/src/Lexer.cpp
 
 CMakeFiles/shell.dir/runtime/src/Lexer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/Lexer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/Lexer.cpp > CMakeFiles/shell.dir/runtime/src/Lexer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/Lexer.cpp > CMakeFiles/shell.dir/runtime/src/Lexer.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/Lexer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/Lexer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/Lexer.cpp -o CMakeFiles/shell.dir/runtime/src/Lexer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/Lexer.cpp -o CMakeFiles/shell.dir/runtime/src/Lexer.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/Lexer.cpp.o.requires:
 
@@ -3323,16 +3323,16 @@ CMakeFiles/shell.dir/runtime/src/Lexer.cpp.o.provides.build: CMakeFiles/shell.di
 
 CMakeFiles/shell.dir/runtime/src/LexerInterpreter.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/LexerInterpreter.cpp.o: runtime/src/LexerInterpreter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building CXX object CMakeFiles/shell.dir/runtime/src/LexerInterpreter.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/LexerInterpreter.cpp.o -c /home/norlock/Projects/Shell/runtime/src/LexerInterpreter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building CXX object CMakeFiles/shell.dir/runtime/src/LexerInterpreter.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/LexerInterpreter.cpp.o -c /home/norlock/Projects/shell/runtime/src/LexerInterpreter.cpp
 
 CMakeFiles/shell.dir/runtime/src/LexerInterpreter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/LexerInterpreter.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/LexerInterpreter.cpp > CMakeFiles/shell.dir/runtime/src/LexerInterpreter.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/LexerInterpreter.cpp > CMakeFiles/shell.dir/runtime/src/LexerInterpreter.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/LexerInterpreter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/LexerInterpreter.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/LexerInterpreter.cpp -o CMakeFiles/shell.dir/runtime/src/LexerInterpreter.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/LexerInterpreter.cpp -o CMakeFiles/shell.dir/runtime/src/LexerInterpreter.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/LexerInterpreter.cpp.o.requires:
 
@@ -3347,16 +3347,16 @@ CMakeFiles/shell.dir/runtime/src/LexerInterpreter.cpp.o.provides.build: CMakeFil
 
 CMakeFiles/shell.dir/runtime/src/LexerNoViableAltException.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/LexerNoViableAltException.cpp.o: runtime/src/LexerNoViableAltException.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building CXX object CMakeFiles/shell.dir/runtime/src/LexerNoViableAltException.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/LexerNoViableAltException.cpp.o -c /home/norlock/Projects/Shell/runtime/src/LexerNoViableAltException.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building CXX object CMakeFiles/shell.dir/runtime/src/LexerNoViableAltException.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/LexerNoViableAltException.cpp.o -c /home/norlock/Projects/shell/runtime/src/LexerNoViableAltException.cpp
 
 CMakeFiles/shell.dir/runtime/src/LexerNoViableAltException.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/LexerNoViableAltException.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/LexerNoViableAltException.cpp > CMakeFiles/shell.dir/runtime/src/LexerNoViableAltException.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/LexerNoViableAltException.cpp > CMakeFiles/shell.dir/runtime/src/LexerNoViableAltException.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/LexerNoViableAltException.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/LexerNoViableAltException.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/LexerNoViableAltException.cpp -o CMakeFiles/shell.dir/runtime/src/LexerNoViableAltException.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/LexerNoViableAltException.cpp -o CMakeFiles/shell.dir/runtime/src/LexerNoViableAltException.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/LexerNoViableAltException.cpp.o.requires:
 
@@ -3371,16 +3371,16 @@ CMakeFiles/shell.dir/runtime/src/LexerNoViableAltException.cpp.o.provides.build:
 
 CMakeFiles/shell.dir/runtime/src/ListTokenSource.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/ListTokenSource.cpp.o: runtime/src/ListTokenSource.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building CXX object CMakeFiles/shell.dir/runtime/src/ListTokenSource.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/ListTokenSource.cpp.o -c /home/norlock/Projects/Shell/runtime/src/ListTokenSource.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building CXX object CMakeFiles/shell.dir/runtime/src/ListTokenSource.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/ListTokenSource.cpp.o -c /home/norlock/Projects/shell/runtime/src/ListTokenSource.cpp
 
 CMakeFiles/shell.dir/runtime/src/ListTokenSource.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/ListTokenSource.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/ListTokenSource.cpp > CMakeFiles/shell.dir/runtime/src/ListTokenSource.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/ListTokenSource.cpp > CMakeFiles/shell.dir/runtime/src/ListTokenSource.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/ListTokenSource.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/ListTokenSource.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/ListTokenSource.cpp -o CMakeFiles/shell.dir/runtime/src/ListTokenSource.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/ListTokenSource.cpp -o CMakeFiles/shell.dir/runtime/src/ListTokenSource.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/ListTokenSource.cpp.o.requires:
 
@@ -3395,16 +3395,16 @@ CMakeFiles/shell.dir/runtime/src/ListTokenSource.cpp.o.provides.build: CMakeFile
 
 CMakeFiles/shell.dir/runtime/src/NoViableAltException.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/NoViableAltException.cpp.o: runtime/src/NoViableAltException.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building CXX object CMakeFiles/shell.dir/runtime/src/NoViableAltException.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/NoViableAltException.cpp.o -c /home/norlock/Projects/Shell/runtime/src/NoViableAltException.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building CXX object CMakeFiles/shell.dir/runtime/src/NoViableAltException.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/NoViableAltException.cpp.o -c /home/norlock/Projects/shell/runtime/src/NoViableAltException.cpp
 
 CMakeFiles/shell.dir/runtime/src/NoViableAltException.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/NoViableAltException.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/NoViableAltException.cpp > CMakeFiles/shell.dir/runtime/src/NoViableAltException.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/NoViableAltException.cpp > CMakeFiles/shell.dir/runtime/src/NoViableAltException.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/NoViableAltException.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/NoViableAltException.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/NoViableAltException.cpp -o CMakeFiles/shell.dir/runtime/src/NoViableAltException.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/NoViableAltException.cpp -o CMakeFiles/shell.dir/runtime/src/NoViableAltException.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/NoViableAltException.cpp.o.requires:
 
@@ -3419,16 +3419,16 @@ CMakeFiles/shell.dir/runtime/src/NoViableAltException.cpp.o.provides.build: CMak
 
 CMakeFiles/shell.dir/runtime/src/Parser.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/Parser.cpp.o: runtime/src/Parser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building CXX object CMakeFiles/shell.dir/runtime/src/Parser.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/Parser.cpp.o -c /home/norlock/Projects/Shell/runtime/src/Parser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building CXX object CMakeFiles/shell.dir/runtime/src/Parser.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/Parser.cpp.o -c /home/norlock/Projects/shell/runtime/src/Parser.cpp
 
 CMakeFiles/shell.dir/runtime/src/Parser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/Parser.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/Parser.cpp > CMakeFiles/shell.dir/runtime/src/Parser.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/Parser.cpp > CMakeFiles/shell.dir/runtime/src/Parser.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/Parser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/Parser.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/Parser.cpp -o CMakeFiles/shell.dir/runtime/src/Parser.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/Parser.cpp -o CMakeFiles/shell.dir/runtime/src/Parser.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/Parser.cpp.o.requires:
 
@@ -3443,16 +3443,16 @@ CMakeFiles/shell.dir/runtime/src/Parser.cpp.o.provides.build: CMakeFiles/shell.d
 
 CMakeFiles/shell.dir/runtime/src/ParserInterpreter.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/ParserInterpreter.cpp.o: runtime/src/ParserInterpreter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building CXX object CMakeFiles/shell.dir/runtime/src/ParserInterpreter.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/ParserInterpreter.cpp.o -c /home/norlock/Projects/Shell/runtime/src/ParserInterpreter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building CXX object CMakeFiles/shell.dir/runtime/src/ParserInterpreter.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/ParserInterpreter.cpp.o -c /home/norlock/Projects/shell/runtime/src/ParserInterpreter.cpp
 
 CMakeFiles/shell.dir/runtime/src/ParserInterpreter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/ParserInterpreter.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/ParserInterpreter.cpp > CMakeFiles/shell.dir/runtime/src/ParserInterpreter.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/ParserInterpreter.cpp > CMakeFiles/shell.dir/runtime/src/ParserInterpreter.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/ParserInterpreter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/ParserInterpreter.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/ParserInterpreter.cpp -o CMakeFiles/shell.dir/runtime/src/ParserInterpreter.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/ParserInterpreter.cpp -o CMakeFiles/shell.dir/runtime/src/ParserInterpreter.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/ParserInterpreter.cpp.o.requires:
 
@@ -3467,16 +3467,16 @@ CMakeFiles/shell.dir/runtime/src/ParserInterpreter.cpp.o.provides.build: CMakeFi
 
 CMakeFiles/shell.dir/runtime/src/ParserRuleContext.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/ParserRuleContext.cpp.o: runtime/src/ParserRuleContext.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building CXX object CMakeFiles/shell.dir/runtime/src/ParserRuleContext.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/ParserRuleContext.cpp.o -c /home/norlock/Projects/Shell/runtime/src/ParserRuleContext.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building CXX object CMakeFiles/shell.dir/runtime/src/ParserRuleContext.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/ParserRuleContext.cpp.o -c /home/norlock/Projects/shell/runtime/src/ParserRuleContext.cpp
 
 CMakeFiles/shell.dir/runtime/src/ParserRuleContext.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/ParserRuleContext.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/ParserRuleContext.cpp > CMakeFiles/shell.dir/runtime/src/ParserRuleContext.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/ParserRuleContext.cpp > CMakeFiles/shell.dir/runtime/src/ParserRuleContext.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/ParserRuleContext.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/ParserRuleContext.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/ParserRuleContext.cpp -o CMakeFiles/shell.dir/runtime/src/ParserRuleContext.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/ParserRuleContext.cpp -o CMakeFiles/shell.dir/runtime/src/ParserRuleContext.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/ParserRuleContext.cpp.o.requires:
 
@@ -3491,16 +3491,16 @@ CMakeFiles/shell.dir/runtime/src/ParserRuleContext.cpp.o.provides.build: CMakeFi
 
 CMakeFiles/shell.dir/runtime/src/ProxyErrorListener.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/ProxyErrorListener.cpp.o: runtime/src/ProxyErrorListener.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building CXX object CMakeFiles/shell.dir/runtime/src/ProxyErrorListener.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/ProxyErrorListener.cpp.o -c /home/norlock/Projects/Shell/runtime/src/ProxyErrorListener.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building CXX object CMakeFiles/shell.dir/runtime/src/ProxyErrorListener.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/ProxyErrorListener.cpp.o -c /home/norlock/Projects/shell/runtime/src/ProxyErrorListener.cpp
 
 CMakeFiles/shell.dir/runtime/src/ProxyErrorListener.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/ProxyErrorListener.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/ProxyErrorListener.cpp > CMakeFiles/shell.dir/runtime/src/ProxyErrorListener.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/ProxyErrorListener.cpp > CMakeFiles/shell.dir/runtime/src/ProxyErrorListener.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/ProxyErrorListener.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/ProxyErrorListener.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/ProxyErrorListener.cpp -o CMakeFiles/shell.dir/runtime/src/ProxyErrorListener.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/ProxyErrorListener.cpp -o CMakeFiles/shell.dir/runtime/src/ProxyErrorListener.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/ProxyErrorListener.cpp.o.requires:
 
@@ -3515,16 +3515,16 @@ CMakeFiles/shell.dir/runtime/src/ProxyErrorListener.cpp.o.provides.build: CMakeF
 
 CMakeFiles/shell.dir/runtime/src/RecognitionException.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/RecognitionException.cpp.o: runtime/src/RecognitionException.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building CXX object CMakeFiles/shell.dir/runtime/src/RecognitionException.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/RecognitionException.cpp.o -c /home/norlock/Projects/Shell/runtime/src/RecognitionException.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building CXX object CMakeFiles/shell.dir/runtime/src/RecognitionException.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/RecognitionException.cpp.o -c /home/norlock/Projects/shell/runtime/src/RecognitionException.cpp
 
 CMakeFiles/shell.dir/runtime/src/RecognitionException.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/RecognitionException.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/RecognitionException.cpp > CMakeFiles/shell.dir/runtime/src/RecognitionException.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/RecognitionException.cpp > CMakeFiles/shell.dir/runtime/src/RecognitionException.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/RecognitionException.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/RecognitionException.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/RecognitionException.cpp -o CMakeFiles/shell.dir/runtime/src/RecognitionException.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/RecognitionException.cpp -o CMakeFiles/shell.dir/runtime/src/RecognitionException.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/RecognitionException.cpp.o.requires:
 
@@ -3539,16 +3539,16 @@ CMakeFiles/shell.dir/runtime/src/RecognitionException.cpp.o.provides.build: CMak
 
 CMakeFiles/shell.dir/runtime/src/Recognizer.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/Recognizer.cpp.o: runtime/src/Recognizer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building CXX object CMakeFiles/shell.dir/runtime/src/Recognizer.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/Recognizer.cpp.o -c /home/norlock/Projects/Shell/runtime/src/Recognizer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building CXX object CMakeFiles/shell.dir/runtime/src/Recognizer.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/Recognizer.cpp.o -c /home/norlock/Projects/shell/runtime/src/Recognizer.cpp
 
 CMakeFiles/shell.dir/runtime/src/Recognizer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/Recognizer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/Recognizer.cpp > CMakeFiles/shell.dir/runtime/src/Recognizer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/Recognizer.cpp > CMakeFiles/shell.dir/runtime/src/Recognizer.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/Recognizer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/Recognizer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/Recognizer.cpp -o CMakeFiles/shell.dir/runtime/src/Recognizer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/Recognizer.cpp -o CMakeFiles/shell.dir/runtime/src/Recognizer.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/Recognizer.cpp.o.requires:
 
@@ -3563,16 +3563,16 @@ CMakeFiles/shell.dir/runtime/src/Recognizer.cpp.o.provides.build: CMakeFiles/she
 
 CMakeFiles/shell.dir/runtime/src/RuleContext.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/RuleContext.cpp.o: runtime/src/RuleContext.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building CXX object CMakeFiles/shell.dir/runtime/src/RuleContext.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/RuleContext.cpp.o -c /home/norlock/Projects/Shell/runtime/src/RuleContext.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building CXX object CMakeFiles/shell.dir/runtime/src/RuleContext.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/RuleContext.cpp.o -c /home/norlock/Projects/shell/runtime/src/RuleContext.cpp
 
 CMakeFiles/shell.dir/runtime/src/RuleContext.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/RuleContext.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/RuleContext.cpp > CMakeFiles/shell.dir/runtime/src/RuleContext.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/RuleContext.cpp > CMakeFiles/shell.dir/runtime/src/RuleContext.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/RuleContext.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/RuleContext.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/RuleContext.cpp -o CMakeFiles/shell.dir/runtime/src/RuleContext.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/RuleContext.cpp -o CMakeFiles/shell.dir/runtime/src/RuleContext.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/RuleContext.cpp.o.requires:
 
@@ -3587,16 +3587,16 @@ CMakeFiles/shell.dir/runtime/src/RuleContext.cpp.o.provides.build: CMakeFiles/sh
 
 CMakeFiles/shell.dir/runtime/src/RuleContextWithAltNum.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/RuleContextWithAltNum.cpp.o: runtime/src/RuleContextWithAltNum.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building CXX object CMakeFiles/shell.dir/runtime/src/RuleContextWithAltNum.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/RuleContextWithAltNum.cpp.o -c /home/norlock/Projects/Shell/runtime/src/RuleContextWithAltNum.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building CXX object CMakeFiles/shell.dir/runtime/src/RuleContextWithAltNum.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/RuleContextWithAltNum.cpp.o -c /home/norlock/Projects/shell/runtime/src/RuleContextWithAltNum.cpp
 
 CMakeFiles/shell.dir/runtime/src/RuleContextWithAltNum.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/RuleContextWithAltNum.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/RuleContextWithAltNum.cpp > CMakeFiles/shell.dir/runtime/src/RuleContextWithAltNum.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/RuleContextWithAltNum.cpp > CMakeFiles/shell.dir/runtime/src/RuleContextWithAltNum.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/RuleContextWithAltNum.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/RuleContextWithAltNum.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/RuleContextWithAltNum.cpp -o CMakeFiles/shell.dir/runtime/src/RuleContextWithAltNum.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/RuleContextWithAltNum.cpp -o CMakeFiles/shell.dir/runtime/src/RuleContextWithAltNum.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/RuleContextWithAltNum.cpp.o.requires:
 
@@ -3611,16 +3611,16 @@ CMakeFiles/shell.dir/runtime/src/RuleContextWithAltNum.cpp.o.provides.build: CMa
 
 CMakeFiles/shell.dir/runtime/src/RuntimeMetaData.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/RuntimeMetaData.cpp.o: runtime/src/RuntimeMetaData.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building CXX object CMakeFiles/shell.dir/runtime/src/RuntimeMetaData.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/RuntimeMetaData.cpp.o -c /home/norlock/Projects/Shell/runtime/src/RuntimeMetaData.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building CXX object CMakeFiles/shell.dir/runtime/src/RuntimeMetaData.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/RuntimeMetaData.cpp.o -c /home/norlock/Projects/shell/runtime/src/RuntimeMetaData.cpp
 
 CMakeFiles/shell.dir/runtime/src/RuntimeMetaData.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/RuntimeMetaData.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/RuntimeMetaData.cpp > CMakeFiles/shell.dir/runtime/src/RuntimeMetaData.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/RuntimeMetaData.cpp > CMakeFiles/shell.dir/runtime/src/RuntimeMetaData.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/RuntimeMetaData.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/RuntimeMetaData.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/RuntimeMetaData.cpp -o CMakeFiles/shell.dir/runtime/src/RuntimeMetaData.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/RuntimeMetaData.cpp -o CMakeFiles/shell.dir/runtime/src/RuntimeMetaData.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/RuntimeMetaData.cpp.o.requires:
 
@@ -3635,16 +3635,16 @@ CMakeFiles/shell.dir/runtime/src/RuntimeMetaData.cpp.o.provides.build: CMakeFile
 
 CMakeFiles/shell.dir/runtime/src/Token.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/Token.cpp.o: runtime/src/Token.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building CXX object CMakeFiles/shell.dir/runtime/src/Token.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/Token.cpp.o -c /home/norlock/Projects/Shell/runtime/src/Token.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building CXX object CMakeFiles/shell.dir/runtime/src/Token.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/Token.cpp.o -c /home/norlock/Projects/shell/runtime/src/Token.cpp
 
 CMakeFiles/shell.dir/runtime/src/Token.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/Token.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/Token.cpp > CMakeFiles/shell.dir/runtime/src/Token.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/Token.cpp > CMakeFiles/shell.dir/runtime/src/Token.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/Token.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/Token.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/Token.cpp -o CMakeFiles/shell.dir/runtime/src/Token.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/Token.cpp -o CMakeFiles/shell.dir/runtime/src/Token.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/Token.cpp.o.requires:
 
@@ -3659,16 +3659,16 @@ CMakeFiles/shell.dir/runtime/src/Token.cpp.o.provides.build: CMakeFiles/shell.di
 
 CMakeFiles/shell.dir/runtime/src/TokenSource.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/TokenSource.cpp.o: runtime/src/TokenSource.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building CXX object CMakeFiles/shell.dir/runtime/src/TokenSource.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/TokenSource.cpp.o -c /home/norlock/Projects/Shell/runtime/src/TokenSource.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building CXX object CMakeFiles/shell.dir/runtime/src/TokenSource.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/TokenSource.cpp.o -c /home/norlock/Projects/shell/runtime/src/TokenSource.cpp
 
 CMakeFiles/shell.dir/runtime/src/TokenSource.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/TokenSource.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/TokenSource.cpp > CMakeFiles/shell.dir/runtime/src/TokenSource.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/TokenSource.cpp > CMakeFiles/shell.dir/runtime/src/TokenSource.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/TokenSource.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/TokenSource.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/TokenSource.cpp -o CMakeFiles/shell.dir/runtime/src/TokenSource.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/TokenSource.cpp -o CMakeFiles/shell.dir/runtime/src/TokenSource.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/TokenSource.cpp.o.requires:
 
@@ -3683,16 +3683,16 @@ CMakeFiles/shell.dir/runtime/src/TokenSource.cpp.o.provides.build: CMakeFiles/sh
 
 CMakeFiles/shell.dir/runtime/src/TokenStream.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/TokenStream.cpp.o: runtime/src/TokenStream.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building CXX object CMakeFiles/shell.dir/runtime/src/TokenStream.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/TokenStream.cpp.o -c /home/norlock/Projects/Shell/runtime/src/TokenStream.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building CXX object CMakeFiles/shell.dir/runtime/src/TokenStream.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/TokenStream.cpp.o -c /home/norlock/Projects/shell/runtime/src/TokenStream.cpp
 
 CMakeFiles/shell.dir/runtime/src/TokenStream.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/TokenStream.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/TokenStream.cpp > CMakeFiles/shell.dir/runtime/src/TokenStream.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/TokenStream.cpp > CMakeFiles/shell.dir/runtime/src/TokenStream.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/TokenStream.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/TokenStream.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/TokenStream.cpp -o CMakeFiles/shell.dir/runtime/src/TokenStream.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/TokenStream.cpp -o CMakeFiles/shell.dir/runtime/src/TokenStream.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/TokenStream.cpp.o.requires:
 
@@ -3707,16 +3707,16 @@ CMakeFiles/shell.dir/runtime/src/TokenStream.cpp.o.provides.build: CMakeFiles/sh
 
 CMakeFiles/shell.dir/runtime/src/TokenStreamRewriter.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/TokenStreamRewriter.cpp.o: runtime/src/TokenStreamRewriter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Building CXX object CMakeFiles/shell.dir/runtime/src/TokenStreamRewriter.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/TokenStreamRewriter.cpp.o -c /home/norlock/Projects/Shell/runtime/src/TokenStreamRewriter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Building CXX object CMakeFiles/shell.dir/runtime/src/TokenStreamRewriter.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/TokenStreamRewriter.cpp.o -c /home/norlock/Projects/shell/runtime/src/TokenStreamRewriter.cpp
 
 CMakeFiles/shell.dir/runtime/src/TokenStreamRewriter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/TokenStreamRewriter.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/TokenStreamRewriter.cpp > CMakeFiles/shell.dir/runtime/src/TokenStreamRewriter.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/TokenStreamRewriter.cpp > CMakeFiles/shell.dir/runtime/src/TokenStreamRewriter.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/TokenStreamRewriter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/TokenStreamRewriter.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/TokenStreamRewriter.cpp -o CMakeFiles/shell.dir/runtime/src/TokenStreamRewriter.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/TokenStreamRewriter.cpp -o CMakeFiles/shell.dir/runtime/src/TokenStreamRewriter.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/TokenStreamRewriter.cpp.o.requires:
 
@@ -3731,16 +3731,16 @@ CMakeFiles/shell.dir/runtime/src/TokenStreamRewriter.cpp.o.provides.build: CMake
 
 CMakeFiles/shell.dir/runtime/src/UnbufferedCharStream.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/UnbufferedCharStream.cpp.o: runtime/src/UnbufferedCharStream.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Building CXX object CMakeFiles/shell.dir/runtime/src/UnbufferedCharStream.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/UnbufferedCharStream.cpp.o -c /home/norlock/Projects/Shell/runtime/src/UnbufferedCharStream.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Building CXX object CMakeFiles/shell.dir/runtime/src/UnbufferedCharStream.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/UnbufferedCharStream.cpp.o -c /home/norlock/Projects/shell/runtime/src/UnbufferedCharStream.cpp
 
 CMakeFiles/shell.dir/runtime/src/UnbufferedCharStream.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/UnbufferedCharStream.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/UnbufferedCharStream.cpp > CMakeFiles/shell.dir/runtime/src/UnbufferedCharStream.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/UnbufferedCharStream.cpp > CMakeFiles/shell.dir/runtime/src/UnbufferedCharStream.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/UnbufferedCharStream.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/UnbufferedCharStream.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/UnbufferedCharStream.cpp -o CMakeFiles/shell.dir/runtime/src/UnbufferedCharStream.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/UnbufferedCharStream.cpp -o CMakeFiles/shell.dir/runtime/src/UnbufferedCharStream.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/UnbufferedCharStream.cpp.o.requires:
 
@@ -3755,16 +3755,16 @@ CMakeFiles/shell.dir/runtime/src/UnbufferedCharStream.cpp.o.provides.build: CMak
 
 CMakeFiles/shell.dir/runtime/src/UnbufferedTokenStream.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/UnbufferedTokenStream.cpp.o: runtime/src/UnbufferedTokenStream.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Building CXX object CMakeFiles/shell.dir/runtime/src/UnbufferedTokenStream.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/UnbufferedTokenStream.cpp.o -c /home/norlock/Projects/Shell/runtime/src/UnbufferedTokenStream.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Building CXX object CMakeFiles/shell.dir/runtime/src/UnbufferedTokenStream.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/UnbufferedTokenStream.cpp.o -c /home/norlock/Projects/shell/runtime/src/UnbufferedTokenStream.cpp
 
 CMakeFiles/shell.dir/runtime/src/UnbufferedTokenStream.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/UnbufferedTokenStream.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/UnbufferedTokenStream.cpp > CMakeFiles/shell.dir/runtime/src/UnbufferedTokenStream.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/UnbufferedTokenStream.cpp > CMakeFiles/shell.dir/runtime/src/UnbufferedTokenStream.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/UnbufferedTokenStream.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/UnbufferedTokenStream.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/UnbufferedTokenStream.cpp -o CMakeFiles/shell.dir/runtime/src/UnbufferedTokenStream.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/UnbufferedTokenStream.cpp -o CMakeFiles/shell.dir/runtime/src/UnbufferedTokenStream.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/UnbufferedTokenStream.cpp.o.requires:
 
@@ -3779,16 +3779,16 @@ CMakeFiles/shell.dir/runtime/src/UnbufferedTokenStream.cpp.o.provides.build: CMa
 
 CMakeFiles/shell.dir/runtime/src/Vocabulary.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/Vocabulary.cpp.o: runtime/src/Vocabulary.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Building CXX object CMakeFiles/shell.dir/runtime/src/Vocabulary.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/Vocabulary.cpp.o -c /home/norlock/Projects/Shell/runtime/src/Vocabulary.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Building CXX object CMakeFiles/shell.dir/runtime/src/Vocabulary.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/Vocabulary.cpp.o -c /home/norlock/Projects/shell/runtime/src/Vocabulary.cpp
 
 CMakeFiles/shell.dir/runtime/src/Vocabulary.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/Vocabulary.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/Vocabulary.cpp > CMakeFiles/shell.dir/runtime/src/Vocabulary.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/Vocabulary.cpp > CMakeFiles/shell.dir/runtime/src/Vocabulary.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/Vocabulary.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/Vocabulary.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/Vocabulary.cpp -o CMakeFiles/shell.dir/runtime/src/Vocabulary.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/Vocabulary.cpp -o CMakeFiles/shell.dir/runtime/src/Vocabulary.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/Vocabulary.cpp.o.requires:
 
@@ -3803,16 +3803,16 @@ CMakeFiles/shell.dir/runtime/src/Vocabulary.cpp.o.provides.build: CMakeFiles/she
 
 CMakeFiles/shell.dir/runtime/src/WritableToken.cpp.o: CMakeFiles/shell.dir/flags.make
 CMakeFiles/shell.dir/runtime/src/WritableToken.cpp.o: runtime/src/WritableToken.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_157) "Building CXX object CMakeFiles/shell.dir/runtime/src/WritableToken.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/WritableToken.cpp.o -c /home/norlock/Projects/Shell/runtime/src/WritableToken.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_157) "Building CXX object CMakeFiles/shell.dir/runtime/src/WritableToken.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/shell.dir/runtime/src/WritableToken.cpp.o -c /home/norlock/Projects/shell/runtime/src/WritableToken.cpp
 
 CMakeFiles/shell.dir/runtime/src/WritableToken.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/shell.dir/runtime/src/WritableToken.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/Shell/runtime/src/WritableToken.cpp > CMakeFiles/shell.dir/runtime/src/WritableToken.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/norlock/Projects/shell/runtime/src/WritableToken.cpp > CMakeFiles/shell.dir/runtime/src/WritableToken.cpp.i
 
 CMakeFiles/shell.dir/runtime/src/WritableToken.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/shell.dir/runtime/src/WritableToken.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/Shell/runtime/src/WritableToken.cpp -o CMakeFiles/shell.dir/runtime/src/WritableToken.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/norlock/Projects/shell/runtime/src/WritableToken.cpp -o CMakeFiles/shell.dir/runtime/src/WritableToken.cpp.s
 
 CMakeFiles/shell.dir/runtime/src/WritableToken.cpp.o.requires:
 
@@ -4147,7 +4147,7 @@ shell: CMakeFiles/shell.dir/runtime/src/Vocabulary.cpp.o
 shell: CMakeFiles/shell.dir/runtime/src/WritableToken.cpp.o
 shell: CMakeFiles/shell.dir/build.make
 shell: CMakeFiles/shell.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/norlock/Projects/Shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_158) "Linking CXX executable shell"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/norlock/Projects/shell/CMakeFiles --progress-num=$(CMAKE_PROGRESS_158) "Linking CXX executable shell"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/shell.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -4320,6 +4320,6 @@ CMakeFiles/shell.dir/clean:
 .PHONY : CMakeFiles/shell.dir/clean
 
 CMakeFiles/shell.dir/depend:
-	cd /home/norlock/Projects/Shell && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/norlock/Projects/Shell /home/norlock/Projects/Shell /home/norlock/Projects/Shell /home/norlock/Projects/Shell /home/norlock/Projects/Shell/CMakeFiles/shell.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/norlock/Projects/shell && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/norlock/Projects/shell /home/norlock/Projects/shell /home/norlock/Projects/shell /home/norlock/Projects/shell /home/norlock/Projects/shell/CMakeFiles/shell.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/shell.dir/depend
 

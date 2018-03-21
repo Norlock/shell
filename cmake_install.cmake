@@ -1,4 +1,4 @@
-# Install script for directory: /home/norlock/Projects/Shell
+# Install script for directory: /home/norlock/Projects/shell
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/norlock/Projects/Shell/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/norlock/Projects/shell/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -1,4 +1,5 @@
 #include <iostream>
+#include <fstream>      // std::ifstream
 #include "SimpleCommand.h"
 #include <sys/types.h>
 #include <unistd.h>
@@ -8,6 +9,8 @@
 #include "string.h"
 #include <sys/types.h> 
 #include <sys/wait.h>
+#include <sys/stat.h> 
+#include <fcntl.h>
 
 void SimpleCommand::execute() {
 
@@ -33,34 +36,70 @@ void SimpleCommand::execute() {
 	}
 	parmList[argumentsArraySize - 1] = NULL; 
 
-	for(std::vector<int>::size_type i = 0; i != redirects.size(); i++) {
-		int redirectType = redirects[i].getType();
-		std::string filePath = redirects[i].getNewFile();
+	if(redirects.size() > 0) {
+		for(std::vector<int>::size_type i = 0; i != redirects.size(); i++) {
+			int redirectType = redirects[i].getType();
+			std::string filePath = redirects[i].getNewFile();
 
-		std::cout << filePath << std::endl;
+			if(redirectType == IORedirect::OUTPUT) {
+				std::cout << "Is output" << std::endl; 
 
-		if(redirectType == IORedirect::OUTPUT) {
-			std::cout << "Is output" << std::endl; 
+				int fd = open(filePath.c_str(), O_WRONLY);
+				if(fd == IORedirect::STDFILE) {
+					execRedirect(IORedirect::STDOUT, IORedirect::STDFILE, parmList);
+				}
+				else {
+					std::ofstream outfile (filePath); // Create file if doesn't exist as in bash or fish
+					execRedirect(IORedirect::STDOUT, IORedirect::STDFILE, parmList);
+					outfile.close();
+				}
+			}
+			else if (redirectType == IORedirect::INPUT) {
+				std::cout << "Is input" << std::endl; 
 
+				const int fd = open(filePath.c_str(), O_RDONLY);
+				if(fd == IORedirect::STDFILE) {
+					execRedirect(IORedirect::STDFILE, IORedirect::STDIN, parmList);
+				}
+				else {
+					std::cout << "File not found" << std::endl;
+				}
+			}
+			else if (redirectType == IORedirect::APPEND) {
+				std::cout << "Is append" << std::endl; 
+
+			}
 		}
-		else if (redirectType == IORedirect::INPUT) {
-			std::cout << "Is output" << std::endl; 
-
-		}
-		else if (redirectType == IORedirect::APPEND) {
-			std::cout << "Is output" << std::endl; 
-
-		}
-		
 	}
+	else {
 
-	pid_t pid;
-	if ((pid = fork()) == -1)
-		perror("fork() error");
+		if ((pid = fork()) == -1)
+			perror("fork() error");
+		else if (pid == 0) {
+			execvp(command.c_str(), parmList);
+			std::cerr << "Return not expected. Process failed." << std::endl;
+		}
+		waitpid(pid, NULL, 0); // Don't write to stdout before child process is finished.
+	}
+}
+
+void SimpleCommand::execRedirect(const int stdFrom, const int stdTo, char* parmList[]) {
+	if ((pid = fork()) == -1) {
+		std::cerr << "Error fork failed" << std::endl;
+		return;
+	}
 	else if (pid == 0) {
-		execvp(command.c_str(), parmList);
-		std::cerr << "Return not expected. Process failed." << std::endl;
+		const int dupReturn = dup2(stdTo, stdFrom);
+		if(dupReturn == -1) {
+			std::cerr << "Redirect failed, make sure you have permissions." << std::endl;
+			return;
+		}	
+		else {
+			execvp(command.c_str(), parmList);
+			std::cerr << "Return not expected. Process failed." << std::endl;
+		}
 	}
-
 	waitpid(pid, NULL, 0); // Don't write to stdout before child process is finished.
+	dup2(stdFrom, stdTo); // reset input
+	std::cout << "Klaar met wachten" << std::endl;
 }

@@ -6,5 +6,5 @@ CXX_FLAGS =   -std=gnu++11
 
 CXX_DEFINES = -DANTLR4CPP_STATIC
 
-CXX_INCLUDES = -I/home/norlock/Projects/Shell/runtime/src -I/home/norlock/Projects/Shell/src 
+CXX_INCLUDES = -I/home/norlock/Projects/shell/runtime/src -I/home/norlock/Projects/shell/src 
 

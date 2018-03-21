@@ -20,6 +20,9 @@ class SimpleCommand {
 		std::string              command;
 		std::vector<std::string> arguments;
 		std::vector<IORedirect>  redirects;
+		pid_t pid;
+
+		void execRedirect(const int stdFrom, const int stdTo, char* parmList[]);
 
 	public:
 		SimpleCommand( std::string const &cmd )

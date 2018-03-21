@@ -7,6 +7,7 @@ class IORedirect
 {
 	public:
 		enum Type { OUTPUT, APPEND, INPUT };
+		enum Fd { STDIN = 0, STDOUT = 1, STDERR = 2, STDFILE = 3 };
 
 	private:
 		int oldFileDesc;      //< The file descriptor that is subject of redirection.
