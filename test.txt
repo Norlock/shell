@@ -1,0 +1,15 @@
+CMakeCache.txt
+CMakeFiles
+cmake_install.cmake
+CMakeLists.txt
+gen
+Makefile
+nieuw
+nieuw_file.txt
+README.md
+runtime
+shell
+ShellGrammar.g4
+src
+tags
+test.txt

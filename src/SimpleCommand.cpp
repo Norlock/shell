@@ -44,25 +44,24 @@ void SimpleCommand::execute() {
 			if(redirectType == IORedirect::OUTPUT) {
 				std::cout << "Is output" << std::endl; 
 
-				int fd = open(filePath.c_str(), O_WRONLY);
-				if(fd == IORedirect::STDFILE) {
-					execRedirect(IORedirect::STDOUT, IORedirect::STDFILE, parmList);
-				}
-				else {
-					std::ofstream outfile (filePath); // Create file if doesn't exist as in bash or fish
-					execRedirect(IORedirect::STDOUT, IORedirect::STDFILE, parmList);
-					outfile.close();
+				const int fileDescriptor = open(filePath.c_str(), O_WRONLY | O_TRUNC | O_CREAT, 0644);
+				std::cout << "fileDescriptor: " << fileDescriptor << std::endl;
+
+				if(fileDescriptor != -1) { // Does File exist?
+					execRedirect(IORedirect::STDOUT, fileDescriptor, parmList);
 				}
 			}
 			else if (redirectType == IORedirect::INPUT) {
 				std::cout << "Is input" << std::endl; 
 
-				const int fd = open(filePath.c_str(), O_RDONLY);
-				if(fd == IORedirect::STDFILE) {
-					execRedirect(IORedirect::STDFILE, IORedirect::STDIN, parmList);
+				const int fileDescriptor = open(filePath.c_str(), O_RDONLY);
+				std::cout << "fileDescriptor: " << fileDescriptor << std::endl;
+
+				if(fileDescriptor != -1) {
+					execRedirect(IORedirect::STDIN, fileDescriptor, parmList);
 				}
 				else {
-					std::cout << "File not found" << std::endl;
+					std::cerr << "File not found" << std::endl;
 				}
 			}
 			else if (redirectType == IORedirect::APPEND) {
@@ -100,6 +99,7 @@ void SimpleCommand::execRedirect(const int stdFrom, const int stdTo, char* parmL
 		}
 	}
 	waitpid(pid, NULL, 0); // Don't write to stdout before child process is finished.
-	dup2(stdFrom, stdTo); // reset input
+	close(stdTo);
+
 	std::cout << "Klaar met wachten" << std::endl;
 }
