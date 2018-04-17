@@ -67,6 +67,12 @@ void SimpleCommand::execute() {
 			else if (redirectType == IORedirect::APPEND) {
 				std::cout << "Is append" << std::endl; 
 
+				const int fileDescriptor = open(filePath.c_str(), O_WRONLY | O_APPEND);
+				std::cout << "fileDescriptor: " << fileDescriptor << std::endl;
+
+				if(fileDescriptor != -1) { // Does File exist?
+					execRedirect(IORedirect::STDOUT, fileDescriptor, parmList);
+				}
 			}
 		}
 	}
@@ -82,13 +88,13 @@ void SimpleCommand::execute() {
 	}
 }
 
-void SimpleCommand::execRedirect(const int stdFrom, const int stdTo, char* parmList[]) {
+void SimpleCommand::execRedirect(const int fdFrom, const int fdTo, char* parmList[]) {
 	if ((pid = fork()) == -1) {
 		std::cerr << "Error fork failed" << std::endl;
 		return;
 	}
 	else if (pid == 0) {
-		const int dupReturn = dup2(stdTo, stdFrom);
+		const int dupReturn = dup2(fdTo, fdFrom);
 		if(dupReturn == -1) {
 			std::cerr << "Redirect failed, make sure you have permissions." << std::endl;
 			return;
@@ -99,7 +105,4 @@ void SimpleCommand::execRedirect(const int stdFrom, const int stdTo, char* parmL
 		}
 	}
 	waitpid(pid, NULL, 0); // Don't write to stdout before child process is finished.
-	close(stdTo);
-
-	std::cout << "Klaar met wachten" << std::endl;
 }

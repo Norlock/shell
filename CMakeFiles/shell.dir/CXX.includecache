@@ -2207,6 +2207,10 @@ Pipeline.h
 /home/norlock/Projects/shell/src/Pipeline.h
 SimpleCommand.h
 /home/norlock/Projects/shell/src/SimpleCommand.h
+unistd.h
+-
+sys/wait.h
+-
 
 /home/norlock/Projects/shell/src/Pipeline.h
 vector
