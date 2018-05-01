@@ -21,42 +21,67 @@ void Pipeline::execute() {
 		return;
 	}
 
-	int pipeIndex = 0;
+	int status;
+	int commandIndex = 0;
 	const int pipeSize = commands.size() - 1;
-	std::cout << "Number of pipes: " << pipeSize << std::endl;
-	
-	while (pipeIndex < pipeSize) {
-		int fd[2];
-		pipe(fd);
-		pid_t pid = fork();
+	int pipeFdsOld[2], pipeFdsNew[2];
 
-		if (pid == 0) {
-			// does the ls -li | ... part
-			dup2( fd[1], 1 ); // connect 1 to pipe
-			close(fd[0]);
-			close(fd[1]);
-			commands[pipeIndex]->execute();
-			exit(1);
-		} else if (0 < pid) {
-			// does the ... | more part
-			// Look if more pipes needed?
-			pid = fork();
-			if(pid == 0) { 
-				dup2( fd[0], 0); // connect 0 to pipe
-				close(fd[1]);
-				close(fd[0]);
-				commands[pipeIndex + 1]->execute();
-				exit(1);
+	while (commands[commandIndex]) {
+		bool hasNextCommand = commandIndex < pipeSize;
+		bool hasPreviousCommand = 0 < commandIndex;
+
+		if(hasNextCommand) {
+			if(pipe(pipeFdsNew) < 0) {
+				perror("Pipe error 4");
+				exit(EXIT_FAILURE);
 			}
-			else {
-				int status;
-				close(fd[0]);
-				close(fd[1]);
-				waitpid(pid, &status, 0);
-				pipeIndex++;
-			}
-		} else {
-			std::cerr << "Pipe failed" << std::endl;
 		}
+
+		pid_t pid = fork();
+		if (pid == 0) {
+
+			if(hasPreviousCommand) {
+				if(dup2(pipeFdsOld[0], 0) < 0) {
+					perror("Pipe error 3");
+					exit(EXIT_FAILURE);
+				}
+				close(pipeFdsOld[0]);
+				close(pipeFdsOld[1]);
+			}
+
+			if(hasNextCommand) {
+				close(pipeFdsNew[0]);
+				if(dup2(pipeFdsNew[1], 1) < 0) {
+					perror("Pipe error 2");
+					exit(EXIT_FAILURE);
+				}
+				close(pipeFdsNew[1]);
+			}
+
+			commands[commandIndex]->execute();
+			exit(EXIT_FAILURE);
+		} else if (pid < 0) {
+			perror("Pipe error 1");
+			exit(EXIT_FAILURE);
+		} else {
+			if(hasPreviousCommand) {
+				close(pipeFdsOld[0]);
+				close(pipeFdsOld[1]);
+			}
+
+			if(hasNextCommand) {
+				pipeFdsOld[0] = pipeFdsNew[0];
+				pipeFdsOld[1] = pipeFdsNew[1];
+			}
+		}
+
+		commandIndex++;
 	}
+
+	// Parent closes all of its copies
+	close(pipeFdsOld[0]);
+	close(pipeFdsOld[1]);
+
+	for(int i = 0; i < pipeSize + 2; i++)
+		wait(&status);
 }
