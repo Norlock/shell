@@ -15,7 +15,6 @@ class Pipeline {
 		std::vector<SimpleCommand *> commands; //< The commands to execute
 		bool async;                            //< True if this the sequence does not need to wait for the
 		                                       //  pipeline to finish.
-		bool hasMorePipes(const int currentIndex);
 	public:
 		Pipeline()
 				: commands()
