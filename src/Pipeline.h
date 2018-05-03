@@ -27,7 +27,6 @@ class Pipeline {
 		void setAsync( bool b ) { async = b; }
 
 		void addCommand( SimpleCommand *cmd ) { commands.push_back(cmd); }
-		std::vector<SimpleCommand *> getSimpleCommands(); 
 		void execute();
 };
 

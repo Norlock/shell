@@ -84,7 +84,3 @@ void Pipeline::execute() {
 	for(int i = 0; i < pipeSize + 1; i++)
 		wait(&status);
 }
-
-std::vector<SimpleCommand *> Pipeline::getSimpleCommands() {
-	  return commands;
-}
