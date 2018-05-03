@@ -2132,7 +2132,7 @@ exception	runtime/src/antlr4-common.h	/^  class ANTLR4CPP_PUBLIC std::exception;
 execATN	runtime/src/atn/LexerATNSimulator.cpp	/^size_t LexerATNSimulator::execATN(CharStream *input, dfa::DFAState *ds0) {$/;"	f	class:LexerATNSimulator
 execATN	runtime/src/atn/ParserATNSimulator.cpp	/^size_t ParserATNSimulator::execATN(dfa::DFA &dfa, dfa::DFAState *s0, TokenStream *input, size_t startIndex,$/;"	f	class:ParserATNSimulator
 execATNWithFullContext	runtime/src/atn/ParserATNSimulator.cpp	/^size_t ParserATNSimulator::execATNWithFullContext(dfa::DFA &dfa, dfa::DFAState *D, ATNConfigSet *s0,$/;"	f	class:ParserATNSimulator
-execRedirect	src/SimpleCommand.cpp	/^void SimpleCommand::execRedirect(const int stdFrom, const int stdTo, char* parmList[]) {$/;"	f	class:SimpleCommand
+execRedirect	src/SimpleCommand.cpp	/^void SimpleCommand::execRedirect(const int fdFrom, const int fdTo, char* parmList[]) {$/;"	f	class:SimpleCommand
 execute	runtime/src/TokenStreamRewriter.cpp	/^size_t TokenStreamRewriter::InsertBeforeOp::execute(std::string *buf) {$/;"	f	class:TokenStreamRewriter::InsertBeforeOp
 execute	runtime/src/TokenStreamRewriter.cpp	/^size_t TokenStreamRewriter::ReplaceOp::execute(std::string *buf) {$/;"	f	class:TokenStreamRewriter::ReplaceOp
 execute	runtime/src/TokenStreamRewriter.cpp	/^size_t TokenStreamRewriter::RewriteOperation::execute(std::string * \/*buf*\/) {$/;"	f	class:TokenStreamRewriter::RewriteOperation
@@ -2445,6 +2445,7 @@ getSerializedATN	runtime/src/Recognizer.h	/^    virtual const std::vector<uint16
 getSerializedATN	runtime/src/tree/xpath/XPathLexer.cpp	/^const std::vector<uint16_t> XPathLexer::getSerializedATN() const {$/;"	f	class:XPathLexer
 getSerializedAsString	runtime/src/atn/ATNSerializer.cpp	/^std::wstring ATNSerializer::getSerializedAsString(ATN *atn) {$/;"	f	class:ATNSerializer
 getSharedContextCache	runtime/src/atn/ATNSimulator.cpp	/^PredictionContextCache& ATNSimulator::getSharedContextCache() {$/;"	f	class:ATNSimulator
+getSimpleCommands	src/Pipeline.h	/^		std::vector<SimpleCommand *> getSimpleCommands() {$/;"	f	class:Pipeline
 getSingleElement	runtime/src/misc/IntervalSet.cpp	/^ssize_t IntervalSet::getSingleElement() const {$/;"	f	class:IntervalSet
 getSingleViableAlt	runtime/src/atn/PredictionMode.cpp	/^size_t PredictionModeClass::getSingleViableAlt(const std::vector<antlrcpp::BitSet>& altsets) {$/;"	f	class:PredictionModeClass
 getSourceInterval	runtime/src/ParserRuleContext.cpp	/^misc::Interval ParserRuleContext::getSourceInterval() {$/;"	f	class:ParserRuleContext

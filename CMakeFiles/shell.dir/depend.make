@@ -3668,9 +3668,11 @@ CMakeFiles/shell.dir/src/Pipeline.cpp.o: src/Pipeline.cpp
 CMakeFiles/shell.dir/src/Pipeline.cpp.o: src/Pipeline.h
 CMakeFiles/shell.dir/src/Pipeline.cpp.o: src/SimpleCommand.h
 
+CMakeFiles/shell.dir/src/Sequence.cpp.o: src/IORedirect.h
 CMakeFiles/shell.dir/src/Sequence.cpp.o: src/Pipeline.h
 CMakeFiles/shell.dir/src/Sequence.cpp.o: src/Sequence.cpp
 CMakeFiles/shell.dir/src/Sequence.cpp.o: src/Sequence.h
+CMakeFiles/shell.dir/src/Sequence.cpp.o: src/SimpleCommand.h
 
 CMakeFiles/shell.dir/src/SimpleCommand.cpp.o: src/IORedirect.h
 CMakeFiles/shell.dir/src/SimpleCommand.cpp.o: src/SimpleCommand.cpp

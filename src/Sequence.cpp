@@ -1,6 +1,7 @@
 #include <iostream>
 #include "Sequence.h"
 #include "Pipeline.h"
+#include "SimpleCommand.h"
 
 /**
  * Destructor.
@@ -15,10 +16,13 @@ Sequence::~Sequence() {
  * was used - waits for execution to be finished or not.
  */
 void Sequence::execute() {
-	std::cout << "FIXME: You should change Sequence::execute()" << std::endl;
 
 	for( Pipeline *p : pipelines ) {
-		// FIXME: More code needed?
+		if(p->isAsync()) {
+			std::cout << "Is async" << std::endl;
+		} else {
+			std::cout << "Is not async" << std::endl;	  
+		}
 		p->execute();
 	}
 }

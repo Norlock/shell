@@ -21,8 +21,7 @@ void Pipeline::execute() {
 		return;
 	}
 
-	int status;
-	int commandIndex = 0;
+	int status, commandIndex = 0;
 	const int pipeSize = commands.size() - 1;
 	int pipeFdsOld[2], pipeFdsNew[2];
 
@@ -41,7 +40,7 @@ void Pipeline::execute() {
 		if (pid == 0) {
 
 			if(hasPreviousCommand) {
-				if(dup2(pipeFdsOld[0], 0) < 0) {
+				if(dup2(pipeFdsOld[0], STDIN_FILENO) < 0) {
 					perror("Pipe error 3");
 					exit(EXIT_FAILURE);
 				}
@@ -51,7 +50,7 @@ void Pipeline::execute() {
 
 			if(hasNextCommand) {
 				close(pipeFdsNew[0]);
-				if(dup2(pipeFdsNew[1], 1) < 0) {
+				if(dup2(pipeFdsNew[1], STDOUT_FILENO) < 0) {
 					perror("Pipe error 2");
 					exit(EXIT_FAILURE);
 				}
@@ -82,6 +81,10 @@ void Pipeline::execute() {
 	close(pipeFdsOld[0]);
 	close(pipeFdsOld[1]);
 
-	for(int i = 0; i < pipeSize + 2; i++)
+	for(int i = 0; i < pipeSize + 1; i++)
 		wait(&status);
+}
+
+std::vector<SimpleCommand *> Pipeline::getSimpleCommands() {
+	  return commands;
 }

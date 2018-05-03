@@ -3669,9 +3669,11 @@ CMakeFiles/shell.dir/src/Pipeline.cpp.o
  /home/norlock/Projects/shell/src/Pipeline.h
  /home/norlock/Projects/shell/src/SimpleCommand.h
 CMakeFiles/shell.dir/src/Sequence.cpp.o
+ /home/norlock/Projects/shell/src/IORedirect.h
  /home/norlock/Projects/shell/src/Pipeline.h
  /home/norlock/Projects/shell/src/Sequence.cpp
  /home/norlock/Projects/shell/src/Sequence.h
+ /home/norlock/Projects/shell/src/SimpleCommand.h
 CMakeFiles/shell.dir/src/SimpleCommand.cpp.o
  /home/norlock/Projects/shell/src/IORedirect.h
  /home/norlock/Projects/shell/src/SimpleCommand.cpp

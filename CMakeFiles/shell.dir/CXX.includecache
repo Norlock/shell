@@ -2223,6 +2223,8 @@ Sequence.h
 /home/norlock/Projects/shell/src/Sequence.h
 Pipeline.h
 /home/norlock/Projects/shell/src/Pipeline.h
+SimpleCommand.h
+/home/norlock/Projects/shell/src/SimpleCommand.h
 
 /home/norlock/Projects/shell/src/Sequence.h
 vector

@@ -19,6 +19,7 @@ class SimpleCommand {
 	private:
 		std::vector<std::string> arguments;
 		std::vector<IORedirect>  redirects;
+		std::string command;
 		pid_t pid;
 
 		void execRedirect(const int stdFrom, const int stdTo, char* parmList[]);
@@ -28,7 +29,6 @@ class SimpleCommand {
 				: command(cmd)
 		{}
 
-		std::string              command;
 		void addArgument( std::string const &s ) { arguments.push_back(s); }
 		void addIORedirect( int fd, IORedirect::Type t, std::string const &s ) {
 			redirects.emplace_back(fd, t, s);
