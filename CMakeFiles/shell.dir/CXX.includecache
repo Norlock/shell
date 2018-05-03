@@ -2225,6 +2225,8 @@ Pipeline.h
 /home/norlock/Projects/shell/src/Pipeline.h
 SimpleCommand.h
 /home/norlock/Projects/shell/src/SimpleCommand.h
+unistd.h
+-
 
 /home/norlock/Projects/shell/src/Sequence.h
 vector

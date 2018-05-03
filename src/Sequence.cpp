@@ -2,7 +2,7 @@
 #include "Sequence.h"
 #include "Pipeline.h"
 #include "SimpleCommand.h"
-
+#include <unistd.h>
 /**
  * Destructor.
  */
@@ -19,10 +19,16 @@ void Sequence::execute() {
 
 	for( Pipeline *p : pipelines ) {
 		if(p->isAsync()) {
-			std::cout << "Is async" << std::endl;
+			pid_t pid = fork();
+			if(pid == 0) { // Child process
+				std::cout << "Runs background process with id: " << getpid() << std::endl;
+				p->execute();
+				exit(EXIT_FAILURE);
+			} else if (pid < 0) {
+				std::cerr << "Command failed, can't create child process" << std::endl;
+			}
 		} else {
-			std::cout << "Is not async" << std::endl;	  
+			p->execute();
 		}
-		p->execute();
 	}
 }
