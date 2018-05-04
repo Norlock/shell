@@ -21,17 +21,18 @@ void Pipeline::execute() {
 		return;
 	}
 
-	int status, commandIndex = 0;
-	const int pipeSize = commands.size() - 1;
+	int status, commandIndex = 0; 
+	const int commandsSize = commands.size();
+	const int pipeSize = commandsSize - 1;
 	int pipeFdsOld[2], pipeFdsNew[2];
 
-	while (commands[commandIndex]) {
+	while (commandIndex < commandsSize) {
 		bool hasNextCommand = commandIndex < pipeSize;
 		bool hasPreviousCommand = 0 < commandIndex;
 
 		if(hasNextCommand) {
 			if(pipe(pipeFdsNew) < 0) {
-				perror("Pipe error 4");
+				perror("Pipe error");
 				exit(EXIT_FAILURE);
 			}
 		}
@@ -41,7 +42,7 @@ void Pipeline::execute() {
 
 			if(hasPreviousCommand) {
 				if(dup2(pipeFdsOld[0], STDIN_FILENO) < 0) {
-					perror("Pipe error 3");
+					perror("Pipe error");
 					exit(EXIT_FAILURE);
 				}
 				close(pipeFdsOld[0]);
@@ -51,7 +52,7 @@ void Pipeline::execute() {
 			if(hasNextCommand) {
 				close(pipeFdsNew[0]);
 				if(dup2(pipeFdsNew[1], STDOUT_FILENO) < 0) {
-					perror("Pipe error 2");
+					perror("Pipe error");
 					exit(EXIT_FAILURE);
 				}
 				close(pipeFdsNew[1]);
