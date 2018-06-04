@@ -11,17 +11,3 @@ ShellGrammar.g4
 src
 tags
 test.txt
-total 4208
--rw-r--r-- 1 norlock users   12657 Apr  3 14:53 CMakeCache.txt
-drwxr-xr-x 6 norlock users    4096 Apr 17 13:26 CMakeFiles
--rw-r--r-- 1 norlock users    1502 Apr  3 00:55 cmake_install.cmake
--rw-r--r-- 1 norlock users   12708 Apr  3 00:55 CMakeLists.txt
-drwxr-xr-x 2 norlock users    4096 Apr  3 00:55 gen
--rw-r--r-- 1 norlock users  186934 Apr  3 14:53 Makefile
--rw-r--r-- 1 norlock users       7 Apr  3 00:55 README.md
-drwxr-xr-x 3 norlock users    4096 Apr  3 00:55 runtime
--rwxr-xr-x 1 norlock users 3587240 Apr 17 13:26 shell
--rw-r--r-- 1 norlock users     841 Apr  3 00:55 ShellGrammar.g4
-drwxr-xr-x 2 norlock users    4096 Apr 17 13:26 src
--rw-r--r-- 1 norlock users  463783 Apr 13 22:42 tags
--rw-r--r-- 1 norlock users     132 Apr 17 13:26 test.txt

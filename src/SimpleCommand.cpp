@@ -42,36 +42,33 @@ void SimpleCommand::execute() {
 			std::string filePath = redirects[i].getNewFile();
 
 			if(redirectType == IORedirect::OUTPUT) {
-				std::cout << "Is output" << std::endl; 
-
 				const int fileDescriptor = open(filePath.c_str(), O_WRONLY | O_TRUNC | O_CREAT, 0644);
-				std::cout << "fileDescriptor: " << fileDescriptor << std::endl;
 
-				if(fileDescriptor != -1) { // Does File exist?
+				if(fileDescriptor != -1) { // File created succesfully?
 					execRedirect(IORedirect::STDOUT, fileDescriptor, parmList);
+				}
+				else {
+					  std::cerr << "Error creating file." << std::endl;
 				}
 			}
 			else if (redirectType == IORedirect::INPUT) {
-				std::cout << "Is input" << std::endl; 
-
 				const int fileDescriptor = open(filePath.c_str(), O_RDONLY);
-				std::cout << "fileDescriptor: " << fileDescriptor << std::endl;
 
 				if(fileDescriptor != -1) {
 					execRedirect(IORedirect::STDIN, fileDescriptor, parmList);
 				}
 				else {
-					std::cerr << "File not found" << std::endl;
+					std::cerr << "File not found." << std::endl;
 				}
 			}
 			else if (redirectType == IORedirect::APPEND) {
-				std::cout << "Is append" << std::endl; 
-
 				const int fileDescriptor = open(filePath.c_str(), O_WRONLY | O_APPEND);
-				std::cout << "fileDescriptor: " << fileDescriptor << std::endl;
 
 				if(fileDescriptor != -1) { // Does File exist?
 					execRedirect(IORedirect::STDOUT, fileDescriptor, parmList);
+				}
+				else {
+					  std::cerr << "File not found." << std::endl;
 				}
 			}
 		}
