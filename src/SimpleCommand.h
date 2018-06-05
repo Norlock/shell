@@ -22,7 +22,7 @@ class SimpleCommand {
 		std::string command;
 		pid_t pid;
 
-		void execRedirect(const int stdFrom, const int stdTo, char* parmList[]);
+		void execRedirect(const int fdFrom, const int fdTo, char* parmList[]);
 
 	public:
 		SimpleCommand( std::string const &cmd )

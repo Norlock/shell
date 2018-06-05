@@ -1,11 +1,40 @@
-<h1>Shell</h1>
-<h2>Compilers en Operating Systems</h2>
+<style type="text/css">
+	#img-main-page {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 40%;
+	}
 
-<img style="width: 300px;" src="http://icons.iconarchive.com/icons/alecive/flatwoken/512/Apps-Terminal-Pc-104-icon.png">
+	#title {
+		color: #222;
+		display:block;
+		width: 100%;
+		text-align: center;
+		font-size: 36px;
+	}
+
+	#sub-title {
+		color: #333;
+		display:block;
+		width: 100%;
+		text-align: center;
+		font-size: 26px;
+	}
+</style>
+
+<span id="title">Shell</span>
+<span id="sub-title">Compilers en Operating Systems</span>
+
+<img id="img-main-page" src="http://icons.iconarchive.com/icons/alecive/flatwoken/512/Apps-Terminal-Pc-104-icon.png">
+
+<br>
 
 Gemaakt door: Joris Willems<br>
 Student nummer: 349672<br>
 Datum: 3-6-2018<br>
+
+---
 
 # Inhoudsopgave
 1. [Inleiding](#Inleiding)
@@ -15,21 +44,30 @@ Datum: 3-6-2018<br>
 # Inleiding <a name="Inleiding"></a>
 
 Een shell is een command-line interpreteerder. Via commando's kunnen programma's worden uitgevoerd. Een voorbeeld is het 
-programma ls(list directory contents), die een weergave geeft van de files en directories binnen het
-opgegeven pad. Behalve het starten van deze programma's kunnen ze ook de invoer en uitvoer veranderen van bron. Zo kan
-het ls programma bijvoorbeeld naar een bestand worden geschreven:
+programma ls(**l**ist **d**irectory **c**ontents), die een weergave geeft van de bestanden en folders binnen het
+opgegeven pad. Behalve dat een shell programma's kan starten, kan een shell ook de invoer en uitvoer omleiden. Zo kan
+het ls programma bijvoorbeeld op verschillende manieren worden omgeleid:
 
 ```sh
-ls > test.txt # Schrijft de uitvoer van het programma ls naar bestand test.txt
-cat < test.txt # Gebruikt het bestand test.txt als invoer
-ls >> test.txt # Voegt de uitvoer van het programma ls toe aan het einde van bestand test.txt
+ls > test.txt # Schrijft de uitvoer van het programma ls naar bestand test.txt (Redirect output)
+cat < test.txt # Gebruikt het bestand test.txt als invoer (Redirect input)
+ls >> test.txt # Voegt de uitvoer van het programma ls toe aan het einde van bestand test.txt (Redirect append)
 ```
-Uiteindelijk maakt een shell gebruik van drie hoofd file descriptors:
-* Invoer (staat gelijk aan index leiding 0).
-* Uitvoer (staat gelijk aan index leiding 1).
-* Uitvoer voor fouten (staat gelijk aan index 2).
 
-En de file descriptors voor bestanden zijn van index 3 en hoger.
+File descriptors(fd) zijn abstracte indicatoren voor bronnen zoals bestanden of invoer/uitvoer. Deze file descriptors
+zijn onderdeel van de POSIX API. POSIX is een familie van standaarden die ervoor moeten zorgen dat er compatibiteit is
+tussen besturingssystemen. Deze standaarden wordt gebruikt door alle UNIX OS varianten (Linux / Apple).
+
+Deze bronnen (invoer/uitvoer/append/bestanden...) worden uiteindelijk allemaal een nummer in de file descriptors table.
+Elk proces binnen een shell heeft drie standaard file descriptors:
+
+| Integer value | Name | <unistd.h> symbolic constant[1] | <stdio.h> file stream[2] |
+|:-------------:|------|---------------------------------|--------------------------|
+| 0 | Standard input | STDIN_FILENO | stdin |
+| 1 | Standard output | STDOUT_FILENO | stdout |
+| 2 | Standard error | STDERR_FILENO | stderr |
+
+De file descriptors voor bestanden (e.g. test.txt als invoer) zijn vanaf integer 3 en hoger.
 
 # Uitvoeren van commando's <a name="commando"></a>
 De code voor het starten van programma's met de meegegeven parameters staat in het bestand SimpleCommand.cpp. Waar eerst
@@ -52,7 +90,7 @@ Als de directory niet bestaat zal er een foutmelding worden gegeven. In UNIX is 
 falen een -1 terug geven. Wanneer het opgegeven commando niet gelijk is aan cd, wordt er gekeken of er redirects opgegeven zijn.
 Als er geen redirects aanwezig zijn wordt het commando uitgevoerd:
 
-```c++
+```c++ <a name="commando-code"></a>
 if ((pid = fork()) == -1)
 	perror("fork() error");
 else if (pid == 0) {
@@ -73,7 +111,7 @@ int execvp(const char *file, char *const argv[]);
 ```
 
 Het eerste argument is het commando / binary file, zoals ls of pwd. Het tweede argument is een array waarin het eerste
-argument de commando / binary file is, vervolgens alle argumenten (-l -a, etc), tenslotte wordt de array wordt afgesloten met een null waarden. 
+argument de commando ofwel de binary file is, vervolgens wordt de array gevuld alle argumenten (-l -a, etc) en uiteindelijk afgesloten met een NULL waarden. 
 
 ```c++
 parmList[0] = (char*)command.c_str();
@@ -88,8 +126,9 @@ parmList[argumentsArraySize - 1] = NULL;
 
 # Omleiden van I/O <a name="redirects"></a>
 
-Wanneer er redirects aanwezig zijn wordt er gekeken of deze redirect een invoer,
+Wanneer er omleidingen zijn meegegeven wordt er gekeken of deze omleiding een invoer,
 uitvoer of toevoeging betreft.
+
 ```c++
 if(redirects.size() > 0) {
 	for(std::vector<int>::size_type i = 0; i != redirects.size(); i++) {
@@ -131,6 +170,13 @@ if(redirects.size() > 0) {
 ```
 
 Wanneer de redirect naar een output geschreven wordt (e.g. ls > test.txt), zal het opgegeven bestand geopend worden met de
-open() methode. Aan deze methode kunnen een aantal opties worden meegegeven, zoals bijvoorbeeld O_TRUNC dat in
+open() methode. Aan deze methode kunnen een aantal eigenschappen worden meegegeven, zoals bijvoorbeeld O_TRUNC dat in
 het voorbeeld hierboven te zien is. O_TRUNC geeft aan dat een nieuw bestand aangemaakt moet worden mits deze nog niet
-bestaat. De execRedirect() is een methode die het aangeroepen programma start en de uitvoer of invoer redirect.  
+bestaat. Verder kunnen er ook schrijf rechten worden meegegeven als het bestand nog niet zou bestaan. De execRedirect()
+is een methode die het aangeroepen programma start en de uitvoer of invoer omleid.  
+
+```
+void execRedirect(const int stdFrom, const int stdTo, char* parmList[]);
+```
+
+Deze methode 
