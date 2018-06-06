@@ -176,7 +176,8 @@ bestaat. Verder kunnen er ook schrijf rechten worden meegegeven als het bestand 
 is een methode die het aangeroepen programma start en de uitvoer of invoer omleid.  
 
 ```
-void execRedirect(const int stdFrom, const int stdTo, char* parmList[]);
+void execRedirect(const int fdFrom, const int fdTo, char* parmList[]);
 ```
 
-Deze methode 
+Deze methode heeft twee file descriptors nodig: van en naar. bij ls > test.txt wordt de fd van output omgeleid naar de
+fd van test.txt. 
