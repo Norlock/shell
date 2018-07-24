@@ -40,6 +40,8 @@ Datum: 3-6-2018<br>
 1. [Inleiding](#Inleiding)
 2. [Uitvoeren van commando's](#commando)
 3. [Omleiden van I/O](#redirects)
+4. [Aanleggen van pipes](#pipes)
+5. [Asynchroon aanroepen van processen](#async)
 
 # Inleiding <a name="Inleiding"></a>
 
@@ -175,9 +177,176 @@ het voorbeeld hierboven te zien is. O_TRUNC geeft aan dat een nieuw bestand aang
 bestaat. Verder kunnen er ook schrijf rechten worden meegegeven als het bestand nog niet zou bestaan. De execRedirect()
 is een methode die het aangeroepen programma start en de uitvoer of invoer omleid.  
 
-```
+```c++
 void execRedirect(const int fdFrom, const int fdTo, char* parmList[]);
 ```
 
-Deze methode heeft twee file descriptors nodig: van en naar. bij ls > test.txt wordt de fd van output omgeleid naar de
+Deze methode heeft twee file descriptors nodig: van en naar. Bij ls > test.txt wordt de fd van output omgeleid naar de
 fd van test.txt. 
+
+# Aanleggen van pipes <a name="pipes"></a>
+
+Met een UNIX shell is het ook mogelijk om twee processen met elkaar te verbinden. Dit kan door middel van de file
+descriptors met elkaar te verbinden. De shell weet dat met de "|" karakter een pipe moet worden aangelegd.  
+
+```sh
+ls | grep s 
+```
+
+Als het ls commando in de project folder wordt uitgevoerd zal de uitvoer als volgt zijn:
+
+```
+CMakeCache.txt  CMakeFiles  CMakeLists.txt  Makefile  README.md  ShellGrammar.g4  cmake_install.cmake  gen  runtime  shell  src  tags  test.txt
+```
+
+De uitvoer van dit commando kan vervolgens worden gegeven aan het volgende commando "grep s" en de uitvoer zal dan als
+volgt zijn:
+
+```
+CMakeFiles
+CMakeLists.txt
+cmake_install.cmake
+shell
+src
+tags
+test.txt
+```
+
+Van de oorspronkelijk uitvoer blijven alleen de resultaten die een **s** bevatten over.
+
+In de klasse Pipeline.cpp worden deze verbindingen gemaakt, eerst wordt er gekeken of er meerdere commando's
+(processen/programma's) zijn aangeroepen. Als er meerdere commando's zijn opgegeven binnen een pipeline betekend dat
+deze gekoppeld moeten worden, anders zal het commando direct worden uitgevoerd. 
+
+```c++
+int pipeFdsOld[2], pipeFdsNew[2];
+
+while (commandIndex < commandsSize) {
+	bool hasNextCommand = commandIndex < pipeSize;
+	bool hasPreviousCommand = 0 < commandIndex;
+
+	if(hasNextCommand) {
+		if(pipe(pipeFdsNew) < 0) {
+			perror("Pipe error");
+			exit(EXIT_FAILURE);
+		}
+	}
+	...
+}
+```
+
+Deze while loop wordt gebruikt om alle pipes te koppelen. Om te bepalen welke pipes gekoppeld moet worden, wordt er
+eerst gekeken of er een volgend commando aanwezig is. Wanneer een volgend commando aanwezig is zal er een
+pipe worden gemaakt. De pipe methode heeft als parameter een integer array nodig die twee elementen bevat. De pipe methode zal deze
+array vullen met een file descriptor voor lezen en een file descriptor voor schrijven. 
+
+```
+pid_t pid = fork();
+if (pid == 0) {
+
+	if(hasPreviousCommand) {
+		if(dup2(pipeFdsOld[0], STDIN_FILENO) < 0) {
+			perror("Pipe error");
+			exit(EXIT_FAILURE);
+		}
+		close(pipeFdsOld[0]);
+		close(pipeFdsOld[1]);
+	}
+
+	if(hasNextCommand) {
+		close(pipeFdsNew[0]);
+		if(dup2(pipeFdsNew[1], STDOUT_FILENO) < 0) {
+			perror("Pipe error");
+			exit(EXIT_FAILURE);
+		}
+		close(pipeFdsNew[1]);
+	}
+
+	commands[commandIndex]->execute();
+	exit(EXIT_FAILURE);
+} ... 
+```
+
+Nu deze pipes zijn aangelegd betekend nog niet dat de omleidingen zijn aangelegd. Dit zal in het kind proces gebeuren.
+Het kind proces zal wanneer er een vorige commando is deze file descriptors omleiden (van standaard invoer naar
+pipeFdsOld[0]). De file descriptors die omgeleid worden zijn door de pipe methode van het vorige voorbeeld gevuld. 
+
+Als deze omleiding zijn aangelegd wordt het commando uitgevoerd. In het geval dat het volgende commando is opgegeven:
+
+```sh
+ls | grep s | grep c
+```
+
+Is nu "ls" uitgevoerd door het kindproces. Pas in de volgende iteratie wordt het volgende commando uitgevoerd. 
+
+```c++
+} else if (pid < 0) {
+	perror("Pipe error 1");
+	exit(EXIT_FAILURE);
+} else {
+	if(hasPreviousCommand) {
+		close(pipeFdsOld[0]);
+		close(pipeFdsOld[1]);
+	}
+
+	if(hasNextCommand) {
+		pipeFdsOld[0] = pipeFdsNew[0];
+		pipeFdsOld[1] = pipeFdsNew[1];
+	}
+}
+
+commandIndex++;
+```
+
+De verbinding is gemaakt voor dit proces maar wordt voor het volgende kindproces al klaar gezet. Het volgende kind
+process "grep s" kan de old file descriptors gebruiken voor zijn invoer.
+
+```c++
+// Parent closes all of its copies
+close(pipeFdsOld[0]);
+close(pipeFdsOld[1]);
+
+for(int i = 0; i < pipeSize + 1; i++)
+	wait(&status);
+```
+
+Wanneer alle commands zijn geweest. sluit de parent zijn file descriptor kopieen. Vervolgens wacht de shell op alle
+childs. 
+
+# Asynchroon aanroepen van processen <a name="async"></a>
+
+In shells is het mogelijk om processen op de achtergrond te laten draaien, zodat dit programma de shell niet blokeerd.
+Deze processen draaien asynchroon op de achtergrond, een unix shell weet dat een proces asynchroon is wanneer een
+commando eindigt met een "&" teken. Een voorbeeld hiervan is:
+
+```sh
+firefox &
+```
+
+Firefox zal nu op de achtergrond gestart worden.
+
+```c++
+for( Pipeline *p : pipelines ) {
+	if(p->isAsync()) {
+		pid_t pid = fork();
+		if(pid == 0) { // Child process
+			std::cout << "Runs background process with id: " << getpid() << std::endl;
+			p->execute();
+			exit(EXIT_FAILURE);
+		} else if (pid < 0) {
+			std::cerr << "Command failed, can't create child process" << std::endl;
+		}
+	} else {
+		p->execute();
+	}
+}
+```
+
+Wanneer het proces asynchroon is, wordt het gestart door een kindproces. De shell zal aangeven welk process id dit
+programma heeft. Om dit process te stoppen kan doormiddel van het commando kill met het nummer van process. 
+
+```sh 
+kill 3469
+```
+
+
